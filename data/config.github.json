@@ -227,38 +227,16 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": 40,
+    "max_items": null,
     "profile_order": [
       "tech-news",
       "tech-blog",
       "finance-news",
       "ai-creator"
     ],
-    "category_groups": {
-      "games": {
-        "name": "游戏资讯",
-        "limit": 6,
-        "categories": [
-          "games"
-        ]
-      },
-      "movies": {
-        "name": "电影情报",
-        "limit": 6,
-        "categories": [
-          "movies"
-        ]
-      },
-      "zhejiang": {
-        "name": "浙江/杭州",
-        "limit": 6,
-        "categories": [
-          "zhejiang"
-        ]
-      }
-    },
-    "default_group": "其他",
-    "default_group_limit": 8
+    "category_groups": {},
+    "default_group": "other",
+    "default_group_limit": null
   },
   "webhook": {
     "enabled": false
