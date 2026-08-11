@@ -48,6 +48,36 @@ jobs:
       - name: Set current date as environment variable
         run: echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_ENV
 
+
+      - name: Push to WeChat (WxPusher)
+        env:
+          WXPUSHER_APP_TOKEN: ${{ secrets.WXPUSHER_APP_TOKEN }}
+          WXPUSHER_UID: ${{ secrets.WXPUSHER_UID }}
+        run: |
+          python - <<'PY'
+          import glob, os, json, urllib.request
+          files = sorted(glob.glob('docs/_posts/*-zh.md'), reverse=True)
+          if not files:
+              print('未找到中文日报，跳过推送'); exit(0)
+          lines = open(files[0], encoding='utf-8').read().splitlines()
+          title = next((l.lstrip('# ') for l in lines if l.startswith('# ')), 'Horizon 日报')
+          body = '
+'.join(lines[1:])
+          content = '## ' + title + '
+
+' + body[:4000]
+          content += '
+
+[📰 查看完整日报](https://zuoser.github.io/Horizon/)'
+          payload = {'appToken': os.environ['WXPUSHER_APP_TOKEN'],
+                     'content': content, 'contentType': 3,
+                     'uids': [os.environ['WXPUSHER_UID']]}
+          req = urllib.request.Request('https://wxpusher.zjiecode.com/api/send/message',
+              data=json.dumps(payload).encode(), headers={'Content-Type': 'application/json'})
+          resp = urllib.request.urlopen(req, timeout=30)
+          print('WxPusher响应:', resp.read().decode()[:300])
+          PY
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
         with:
