@@ -7,7 +7,10 @@
     "temperature": 0.3,
     "max_tokens": 8192,
     "throttle_sec": 1,
-    "languages": ["zh", "en"],
+    "languages": [
+      "zh",
+      "en"
+    ],
     "analysis_concurrency": 5,
     "enrichment_concurrency": 5
   },
@@ -15,54 +18,254 @@
     "profiles_dir": "profiles",
     "default_profile": "tech-news",
     "profile_settings": {
-      "tech-news": {"threshold": 7.0, "topic_dedup": true},
-      "tech-blog": {"threshold": 4.0, "topic_dedup": false},
-      "finance-news": {"threshold": 7.0, "topic_dedup": true},
-      "ai-creator": {"threshold": 7.0, "topic_dedup": true}
+      "tech-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      },
+      "tech-blog": {
+        "threshold": 4.0,
+        "topic_dedup": false
+      },
+      "finance-news": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      },
+      "ai-creator": {
+        "threshold": 7.0,
+        "topic_dedup": true
+      }
     }
   },
   "sources": {
     "github": [
-      {"type": "repo_releases", "owner": "espressif", "repo": "esp-idf", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "zephyrproject-rtos", "repo": "zephyr", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "KiCad", "repo": "kicad-source-mirror", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "platformio", "repo": "platformio-core", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "OpenEMS", "repo": "openems", "enabled": true, "profile": "tech-news"},
-      {"type": "repo_releases", "owner": "home-assistant", "repo": "core", "enabled": true, "profile": "tech-news"}
+      {
+        "type": "repo_releases",
+        "owner": "espressif",
+        "repo": "esp-idf",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "zephyrproject-rtos",
+        "repo": "zephyr",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "KiCad",
+        "repo": "kicad-source-mirror",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "platformio",
+        "repo": "platformio-core",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "OpenEMS",
+        "repo": "openems",
+        "enabled": true,
+        "profile": "tech-news"
+      },
+      {
+        "type": "repo_releases",
+        "owner": "home-assistant",
+        "repo": "core",
+        "enabled": true,
+        "profile": "tech-news"
+      }
     ],
-    "hackernews": {"enabled": true, "fetch_top_stories": 30, "min_score": 150, "profile": "tech-news"},
+    "hackernews": {
+      "enabled": true,
+      "fetch_top_stories": 30,
+      "min_score": 150,
+      "profile": "tech-news"
+    },
     "rss": [
-      {"name": "BBC World", "url": "http://feeds.bbci.co.uk/news/world/rss.xml", "enabled": true, "category": "world", "profile": "tech-news", "content_extractor": "trafilatura"},
-      {"name": "BBC中文", "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml", "enabled": true, "category": "world", "profile": "tech-news"},
-      {"name": "The Guardian International", "url": "https://www.theguardian.com/international/rss", "enabled": true, "category": "world", "profile": "tech-news"},
-      {"name": "CNBC Finance", "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664", "enabled": true, "category": "finance", "profile": "finance-news", "content_extractor": "trafilatura"},
-      {"name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "enabled": true, "category": "ai-tools", "profile": "tech-news"},
-      {"name": "SemiAnalysis", "url": "https://newsletter.semianalysis.com/feed", "enabled": true, "category": "semiconductors", "profile": "tech-news"},
-      {"name": "EE Times", "url": "https://www.eetimes.com/feed/", "enabled": true, "category": "electronics", "profile": "tech-news"},
-      {"name": "Embedded.com", "url": "https://www.embedded.com/feed/", "enabled": true, "category": "embedded", "profile": "tech-blog"},
-      {"name": "36氪", "url": "https://36kr.com/feed", "enabled": true, "category": "china-tech", "profile": "tech-news"},
-      {"name": "少数派 sspai", "url": "https://sspai.com/feed", "enabled": true, "category": "china-digital", "profile": "tech-blog"},
-      {"name": "GitHub Trending - Daily", "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml", "enabled": true, "category": "github-trending", "profile": "tech-news"}
+      {
+        "name": "BBC World",
+        "url": "http://feeds.bbci.co.uk/news/world/rss.xml",
+        "enabled": true,
+        "category": "world",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "BBC中文",
+        "url": "https://feeds.bbci.co.uk/zhongwen/simp/rss.xml",
+        "enabled": true,
+        "category": "world",
+        "profile": "tech-news"
+      },
+      {
+        "name": "The Guardian International",
+        "url": "https://www.theguardian.com/international/rss",
+        "enabled": true,
+        "category": "world",
+        "profile": "tech-news"
+      },
+      {
+        "name": "CNBC Finance",
+        "url": "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664",
+        "enabled": true,
+        "category": "finance",
+        "profile": "finance-news",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "Simon Willison",
+        "url": "https://simonwillison.net/atom/everything/",
+        "enabled": true,
+        "category": "ai-tools",
+        "profile": "tech-news"
+      },
+      {
+        "name": "SemiAnalysis",
+        "url": "https://newsletter.semianalysis.com/feed",
+        "enabled": true,
+        "category": "semiconductors",
+        "profile": "tech-news"
+      },
+      {
+        "name": "EE Times",
+        "url": "https://www.eetimes.com/feed/",
+        "enabled": true,
+        "category": "electronics",
+        "profile": "tech-news"
+      },
+      {
+        "name": "Embedded.com",
+        "url": "https://www.embedded.com/feed/",
+        "enabled": true,
+        "category": "embedded",
+        "profile": "tech-blog"
+      },
+      {
+        "name": "36氪",
+        "url": "https://36kr.com/feed",
+        "enabled": true,
+        "category": "china-tech",
+        "profile": "tech-news"
+      },
+      {
+        "name": "少数派 sspai",
+        "url": "https://sspai.com/feed",
+        "enabled": true,
+        "category": "china-digital",
+        "profile": "tech-blog"
+      },
+      {
+        "name": "GitHub Trending - Daily",
+        "url": "https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+        "enabled": true,
+        "category": "github-trending",
+        "profile": "tech-news"
+      },
+      {
+        "name": "豆瓣电影本周口碑榜",
+        "url": "https://rsshub.app/douban/movie/weekly",
+        "enabled": true,
+        "category": "movies",
+        "profile": "tech-news",
+        "content_extractor": "trafilatura"
+      },
+      {
+        "name": "豆瓣正在上映",
+        "url": "https://rsshub.app/douban/movie/nowplaying/上海",
+        "enabled": true,
+        "category": "movies",
+        "profile": "tech-news"
+      },
+      {
+        "name": "机核GCORES游戏资讯",
+        "url": "https://rsshub.app/gcores/news",
+        "enabled": true,
+        "category": "games",
+        "profile": "tech-news"
+      },
+      {
+        "name": "游研社",
+        "url": "https://www.yystv.cn/rss/feed",
+        "enabled": true,
+        "category": "games",
+        "profile": "tech-news"
+      },
+      {
+        "name": "浙江在线",
+        "url": "https://rsshub.app/zjol/news",
+        "enabled": true,
+        "category": "zhejiang",
+        "profile": "tech-news"
+      },
+      {
+        "name": "杭州网",
+        "url": "http://www.hangzhou.com.cn/rss/hzw.xml",
+        "enabled": true,
+        "category": "zhejiang",
+        "profile": "tech-news"
+      }
     ],
     "reddit": {
       "enabled": true,
       "subreddits": [
-        {"subreddit": "MachineLearning", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 10, "min_score": 60, "profile": "tech-news"},
-        {"subreddit": "embedded", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 10, "min_score": 30, "profile": "tech-news"},
-        {"subreddit": "semiconductors", "enabled": true, "sort": "hot", "time_filter": "day", "fetch_limit": 10, "min_score": 30, "profile": "tech-news"}
+        {
+          "subreddit": "MachineLearning",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 60,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "embedded",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-news"
+        },
+        {
+          "subreddit": "semiconductors",
+          "enabled": true,
+          "sort": "hot",
+          "time_filter": "day",
+          "fetch_limit": 10,
+          "min_score": 30,
+          "profile": "tech-news"
+        }
       ],
       "users": [],
       "fetch_comments": 5
     },
-    "telegram": {"enabled": false, "channels": []}
+    "telegram": {
+      "enabled": false,
+      "channels": []
+    }
   },
-  "collection": {"time_window_hours": 24},
+  "collection": {
+    "time_window_hours": 24
+  },
   "digest": {
     "max_items": null,
-    "profile_order": ["tech-news", "tech-blog", "finance-news", "ai-creator"],
+    "profile_order": [
+      "tech-news",
+      "tech-blog",
+      "finance-news",
+      "ai-creator"
+    ],
     "category_groups": {},
     "default_group": "other",
     "default_group_limit": null
   },
-  "webhook": {"enabled": false}
+  "webhook": {
+    "enabled": false
+  }
 }
