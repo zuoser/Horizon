@@ -227,16 +227,22 @@
     "time_window_hours": 24
   },
   "digest": {
-    "max_items": null,
+    "max_items": 40,
     "profile_order": [
       "tech-news",
       "tech-blog",
       "finance-news",
       "ai-creator"
     ],
-    "category_groups": {},
-    "default_group": "other",
-    "default_group_limit": null
+    "category_groups": {
+      "games": "游戏资讯",
+      "movies": "电影情报",
+      "zhejiang": "浙江/杭州",
+      "world": "时政国际",
+      "finance": "财经"
+    },
+    "default_group": "其他",
+    "default_group_limit": 8
   },
   "webhook": {
     "enabled": false
