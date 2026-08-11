@@ -10,250 +10,263 @@ lang: en
 ---
 
 **Technology News**
-1. [AI Search and the Web’s Disappearing Collective Memory](#item-tech-news-1) ⭐️ 8.0/10
-2. [Muse Glimmer: Meta&\#x27;s 30B Open-Agentic Model for Local Workflows](#item-tech-news-2) ⭐️ 8.0/10
-3. [SMM Exploit Uses Extremely Long Instruction to Break Firmware](#item-tech-news-3) ⭐️ 8.0/10
-4. [Nvidia and Wall Street Raise $500bn for AI Infrastructure](#item-tech-news-4) ⭐️ 8.0/10
-5. [Hand-Crafted Transformer Weights Solve Multiplication with 100% Accuracy](#item-tech-news-5) ⭐️ 8.0/10
-6. [H3-metal brings native MiniMax-H3 inference to Apple Silicon](#item-tech-news-6) ⭐️ 7.0/10
-7. [CHICKEN Scheme 6.0 Released with Crunch Support](#item-tech-news-7) ⭐️ 7.0/10
-8. [Zuckerberg attacks &\#x27;closed&\#x27; AI rivals as Meta returns to open models](#item-tech-news-8) ⭐️ 7.0/10
-9. [UK Child-Safety ID Measures Are Reshaping US Anonymity Law](#item-tech-news-9) ⭐️ 7.0/10
-10. [Rust SIMD Meets GPU Programming](#item-tech-news-10) ⭐️ 7.0/10
-11. [What&\#x27;s the best programming language for coding agents?](#item-tech-news-11) ⭐️ 7.0/10
-12. [Anthropic examines Claude&\#x27;s math via Riemann zeta](#item-tech-news-12) ⭐️ 7.0/10
-13. [Sanders Urges Meta, OpenAI, Anthropic to Pause AI Development](#item-tech-news-13) ⭐️ 7.0/10
-14. [Fru: Rust-Based Random Forest with Fast Python and R Bindings](#item-tech-news-14) ⭐️ 7.0/10
+1. [Claude makes progress on Riemann zeta lower bound](#item-tech-news-1) ⭐️ 9.0/10
+2. [CHICKEN Scheme 6.0 adds support for statically typed Crunch](#item-tech-news-2) ⭐️ 8.0/10
+3. [Zuckerberg attacks closed AI rivals as Meta returns to open models](#item-tech-news-3) ⭐️ 8.0/10
+4. [Meta Unveils Muse Glimmer 30B for Local Agent Workflows](#item-tech-news-4) ⭐️ 8.0/10
+5. [PoC Exploits System Management Mode via Extremely Long Interrupt](#item-tech-news-5) ⭐️ 8.0/10
+6. [Wall Street giants back Nvidia&\#x27;s $500bn AI infrastructure push](#item-tech-news-6) ⭐️ 8.0/10
+7. [Hand-set Phi-3 weights multiply with 100% accuracy after zero training](#item-tech-news-7) ⭐️ 8.0/10
+8. [As AI erodes search and the web&\#x27;s collective memory](#item-tech-news-8) ⭐️ 7.0/10
+9. [UK-style age verification and digital ID push reaches US](#item-tech-news-9) ⭐️ 7.0/10
+10. [Rust SIMD on GPUs: Portability and Nightly Tooling Debate](#item-tech-news-10) ⭐️ 7.0/10
+11. [Token Efficiency of Programming Languages for LLM Coding Agents](#item-tech-news-11) ⭐️ 7.0/10
+12. [Bernie Sanders urges Meta, OpenAI, Anthropic to pause AI development](#item-tech-news-12) ⭐️ 7.0/10
+13. [Fru: Fast Rust Random Forest with Python and R Bindings](#item-tech-news-13) ⭐️ 7.0/10
 
 **Financial News**
-1. [Nvidia and six Wall Street firms launch $500 billion AI chip financing push](#item-finance-news-1) ⭐️ 8.0/10
-2. [Premarket Movers: Intel’s $15B Stock Offering, Verisk Acquisition Ruling, GameStop Bid Report](#item-finance-news-2) ⭐️ 8.0/10
+1. [Nvidia and Wall Street giants target $500 billion to finance AI compute](#item-finance-news-1) ⭐️ 8.0/10
+2. [Stocks making midday moves: M&amp;A deals, Intel offering, Apple downgrade](#item-finance-news-2) ⭐️ 7.0/10
+3. [Premarket Movers: Intel Offering, Verisk Ruling, Berkshire Earnings, Archer Deal](#item-finance-news-3) ⭐️ 7.0/10
 
 ---
 
 ## Technology News
 
 <a id="item-tech-news-1"></a>
-### [AI Search and the Web’s Disappearing Collective Memory](https://thewalrus.ca/google-search-is-dying/) ⭐️ 8.0/10
+### [Claude makes progress on Riemann zeta lower bound](https://www.anthropic.com/research/riemann-zeta) ⭐️ 9.0/10
 
-An article in The Walrus, titled “Google Search Is Dying,” argues that AI-powered search and content generation are causing the internet’s historical record to disappear. It examines how AI systems both reshape search results and accelerate the creation of low-quality or synthetic content, making it harder for users to find and preserve genuine web history. The piece also discusses the role of intermediaries such as Google and the Internet Archive in deciding what survives online, and warns that recent legal and financial pressures may further restrict archival efforts. Although the article focuses on the declining quality and memory of Google Search, the discussion has broad implications for software engineers, AI systems, and information preservation efforts across the web.
+Anthropic has published research describing how its Claude model made meaningful progress on a lower bound related to the Riemann zeta function, a mathematical object connected to the Riemann hypothesis. The project is notable because the human researcher&\#x27;s role was mostly limited to sending Claude encouragement messages, such as “keep going” and “believe in yourself,” which reportedly helped the model overcome initial skepticism about its own progress. Anthropic presents this work as a demonstration of advanced AI mathematical reasoning and research capability. Community commentators treated the result as a significant milestone, with one noting that an AI improving a lower bound on the Riemann hypothesis did not even make the front page of Hacker News.
 
-hackernews · awnird · Aug 10, 22:36 · [Discussion](https://news.ycombinator.com/item?id=49250836)
+hackernews · tosh · Aug 10, 17:41 · [Discussion](https://news.ycombinator.com/item?id=49247070)
 
-**「Background」** Google Search and other traditional web intermediaries have long shaped what content survives online; the Wayback Machine, run by the Internet Archive, is described as the closest thing the web has to a fail-safe backup memory. In recent years the web has been polluted by &\#x27;AI slop&\#x27;—mass-produced, AI-written content that looks finished but says little—which Merriam-Webster made its Word of the Year. This context explains the article&\#x27;s argument that AI-generated answers and degraded search results are eroding the internet&\#x27;s collective memory and straining archival systems.
+**「Background」** The Riemann hypothesis, a famous open problem in mathematics, concerns the zeros of the Riemann zeta function and states that all nontrivial zeros lie on the critical line where the real part equals 1/2. Mathematicians have long worked on proving what fraction of those zeros can be shown to lie on the critical line; this is a weaker but important question. Anthropic&\#x27;s research describes how an unreleased version of Claude improved the proven lower bound on that fraction from 41.6% to 67.2%, the largest single improvement, without solving the full hypothesis.
 
-**「Impact」** The Internet Archive’s legal defeat in the publishers’ lending lawsuit threatens its ability to maintain the digital collections that serve as a key safety net for the web’s disappearing history; the court found its scanning and lending constituted unauthorized copying, and the resulting financial exposure could undermine the nonprofit’s archival operations.
-
-**「Community Discussion」** Hacker News commenters echoed the article’s concerns, with one noting that Google searches now feel “horrible” and that recent history appears to be missing, especially on non-US sites. Another commenter pushed back on the article’s framing of intermediaries as unavoidable, while several highlighted the Internet Archive’s legal defeat in a publishers’ lawsuit over digital lending, with one summing it up as “building the world’s largest library and then locking the doors, letting the bots photocopy everything before the lights go out.”
+**「Community Discussion」** Commenters expressed amusement and amazement at the encouragement-only prompting approach, with one jokingly suggesting a PUA plugin that detects when an AI is about to give up and automatically harasses it with encouragement until it reaches a solution. Another commenter recalled a prior anecdote where Claude independently worked out the multiplicative complexity k=7 for Conway&\#x27;s Game of Life, and others noted how bizarre the current timeline feels when AI makes mathematical headway.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thewalrus.ca/google-search-is-dying/">As AI eats the web , the internet ’s collective memory is disappearing</a></li>
-<li><a href="https://decrypt.co/352369/merriam-webster-declares-slop-word-year-ai-eats-web">Merriam-Webster Declares &#x27;Slop&#x27; the Word of the Year as AI Eats the ...</a></li>
-<li><a href="https://www.linkedin.com/posts/anilpandit_googlezero-aioverviews-adtech-activity-7350726191336607745-RmQj">&quot; Google Zero: The End of SEO as We Know It&quot; | LinkedIn</a></li>
-<li><a href="https://arstechnica.com/tech-policy/2020/06/publishers-sue-internet-archive-over-massive-digital-lending-program/">Lawsuit over online book lending could bankrupt Internet Archive</a></li>
+<li><a href="https://www.anthropic.com/research/riemann-zeta">Learning more about Claude &#x27;s mathematical capabilities \ Anthropic</a></li>
+<li><a href="https://runtimewire.com/article/anthropic-claude-riemann-hypothesis-zeta-zero-bound">Anthropic says unreleased Claude raised a Riemann -related lower ...</a></li>
+<li><a href="https://cryptobriefing.com/claude-riemann-zeta-lower-bound-67-percent/">Claude advances lower bound for Riemann zeta function to 67%</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#web memory`, `#AI search`, `#Internet Archive`, `#Google Search`, `#information preservation`
+**Tags**: `#AI research`, `#mathematical reasoning`, `#Claude`, `#Riemann hypothesis`, `#machine learning`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Muse Glimmer: Meta&\#x27;s 30B Open-Agentic Model for Local Workflows](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) ⭐️ 8.0/10
+### [CHICKEN Scheme 6.0 adds support for statically typed Crunch](https://code.call-cc.org/releases/6.0.0/NEWS) ⭐️ 8.0/10
 
-Meta has introduced Muse Glimmer, a 30B-parameter open-agentic model optimized for always-on local agent workflows, and said it will also release Muse Spark 1.2 weights. The release targets developers who want capable local, self-hosted AI agents rather than relying on remote services. Early practical reports show Muse Glimmer can run on consumer machines such as a 32GB Mac Mini via Ollama, though it is slow. Quantized GGUF versions from Unsloth are already available.
+CHICKEN Scheme 6.0 has been released, adding support for Crunch, a compiler for a statically typed subset of Scheme R7RS, although Crunch itself remains at version 0.993 rather than 1.0. CHICKEN is a Scheme-to-C compiler that can produce standalone executables via a C compiler, and it also provides an interpreter for scripting and testing. The release is part of the project&\#x27;s evolution as a mature Scheme implementation with an active ecosystem. Users have been anticipating the transition from version 5 to version 6 while experimenting with the current release.
 
-hackernews · riordan · Aug 10, 10:10 · [Discussion](https://news.ycombinator.com/item?id=49241679)
+hackernews · eatonphil · Aug 11, 00:24 · [Discussion](https://news.ycombinator.com/item?id=49251702)
 
-**「Background」** Meta&\#x27;s Muse family includes frontier models like Muse Spark, which powers an agentic coding harness, and smaller open-weight models. Muse Glimmer is a 30-billion-parameter agentic model released under Apache 2.0, designed to run locally on a Mac or PC with a single consumer GPU for always-on agent workflows. Meta also plans to release weights for Muse Spark 1.2, its latest foundation model, which the community sees as strategically significant for open-weights self-hosting.
+**「Background」** CHICKEN is a Scheme compiler that translates Scheme source code into C, which can then be compiled into a standalone executable; it also offers an interpreter for scripting and testing. Crunch is a compiler targeting a statically typed subset of Scheme R7RS and can be used as a batch compiler from Scheme to standalone C programs or to compile embedded Scheme fragments with generated glue code for use from CHICKEN.
 
-**「Impact」** For self-hosters and local-AI developers, the release provides a directly usable 30B agentic model, with community tests showing it works on 32GB Mac Minis and quantized versions available for smaller setups.
+**「Impact」** CHICKEN developers now have a new option in the 6.0 toolchain to compile statically typed R7RS Scheme code through Crunch, though Crunch has not yet been declared stable.
 
-**「Community Discussion」** Commenters are comparing Muse Glimmer with Qwen3.8 27B and are especially interested in the planned Muse Spark 1.2 open weights; a user reports good but slow local results on an old 32GB Mac Mini running Ollama and the pi coding harness.
+**「Community Discussion」** Commenters welcomed Crunch support and shared practical uses, including building a CHICKEN wrapper around makemkvcon for DVD ripping with TVDB-based naming. Others asked how CHICKEN compares with Gambit, citing its egg ecosystem as a possible reason for choosing it.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.linkedin.com/news/story/meta-unveils-open-source-ai-model-that-runs-on-devices-7482540/">Meta unveils open -source AI model that runs on devices | LinkedIn</a></li>
-<li><a href="https://www.phoronix.com/news/Meta-Muse-Glimmer">Meta Publishes Muse Glimmer As 30 B Open Agentic Model - Phoronix</a></li>
-<li><a href="https://www.neowin.net/news/meta-releases-muse-glimmer-a-30b-open-agentic-ai-model-that-runs-locally-on-pcs/">Meta releases Muse Glimmer , a 30 B open agentic AI model that...</a></li>
+<li><a href="https://www.more-magic.net/posts/crunch.html">Let&#x27;s CRUNCH ! | More magic</a></li>
+<li><a href="https://www.youtube.com/watch?v=NESX4B1BemE">200+ BLOCKS MASS CRUSHES | nothing but crunch - YouTube</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta AI`, `#LLM`, `#local AI`, `#agentic model`, `#open weights`
+**Tags**: `#Scheme`, `#Chicken Scheme`, `#compiler`, `#Lisp`, `#open source`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [SMM Exploit Uses Extremely Long Instruction to Break Firmware](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) ⭐️ 8.0/10
+### [Zuckerberg attacks closed AI rivals as Meta returns to open models](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) ⭐️ 8.0/10
 
-A security researcher published a proof-of-concept repository, smiiiiiiiiiiiiiiii, demonstrating a technique to exploit System Management Mode \(SMM\) by using an extremely long instruction to trigger a timeout condition. The attack targets the boundary between normal execution and SMM, which firmware designers expect vendors to handle by choosing appropriate timeout values. The repository is related to the author&\#x27;s Assembly Hall of Shame project, which catalogs instructions with the slowest single-instruction performance. The technique requires root privileges, and community commenters framed it as &\#x27;taking back control of your hardware&\#x27; rather than a typical vulnerability.
+Mark Zuckerberg is publicly attacking &\#x27;closed&\#x27; AI rivals and reaffirming Meta&\#x27;s commitment to open-source AI, arguing that open development is safer and more beneficial. His commentary, published on Meta&\#x27;s &\#x27;thefutureisforeveryone&\#x27; page, frames open models as the antidote to concentrated AI power. Community members point out that Meta&\#x27;s 2023 release of LLaMA helped start the open-weight AI race, though the company has also shipped closed endpoints in the past. This stance matters because Meta is one of the largest players developing foundation models, and its open-release strategy directly affects developers&\#x27; access to alternatives.
 
-hackernews · WhiteDawn · Aug 10, 16:03 · [Discussion](https://news.ycombinator.com/item?id=49245491)
+hackernews · root-parent · Aug 10, 14:06 · [Discussion](https://news.ycombinator.com/item?id=49243880)
 
-**「Background」** System Management Mode \(SMM\), sometimes called ring -2, is a highly privileged x86 CPU operating mode that suspends all normal execution, including the operating system, to run firmware-level code such as power management or vendor-specific handlers. It is triggered by a System Management Interrupt \(SMI\), and firmware designers typically rely on the assumption that instructions execute quickly enough for SMM handling to complete within a set timeout. This research exploits that assumption by using an unusually long-running machine instruction to break SMM&\#x27;s expected behavior, an approach related to the author&\#x27;s prior work on identifying extremely slow assembly instructions.
+**「Background」** Open-source AI models make their weights publicly available for anyone to use, modify, and build on, in contrast to closed models sold through APIs. Meta helped ignite the current open-source race in 2023 with its Llama models, and in August 2026 it launched a new open-source family called Muse Glimmer alongside a lengthy Zuckerberg essay arguing that U.S. open-source AI is needed to counter fast-moving Chinese rivals and avoid centralized control. This renewed push comes after criticism that Meta sometimes releases models as open only after failing to sell closed access.
 
-**「Impact」** The technique gives a root-level user a way to interfere with or potentially take control of SMM on affected systems, which matters because SMM normally operates outside the operating system and user visibility. Practical real-world impact remains unclear because root access is already required and vendor-specific timeout choices vary.
+**「Impact」** For developers and organizations, Meta&\#x27;s renewed open-model commitment strengthens the availability of open-weight AI alternatives to closed API platforms, though skepticism about the company&\#x27;s motivations remains.
 
-**「Community Discussion」** Commenters noted that firmware designers explicitly punt the timeout decision to platform implementors, debated whether requiring root makes this a vulnerability or a hardware-liberation technique, and appreciated both the related asm-hall-of-shame repository and the readme&\#x27;s deliberately long code illustration.
+**「Community discussion」** Some commenters praise the move as a net good, crediting Meta with kickstarting the open-weight race through LLaMA in 2023. Others are skeptical, alleging Meta only &\#x27;open sourced&\#x27; a model after its closed endpoint failed to sell, and see the stance as a losing player trying to change the rules.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/System_Management_Mode">System Management Mode - Wikipedia</a></li>
-<li><a href="https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii">GitHub - xoreaxeaxeax/smiiiiiiiiiiiiiiii: A very very very very very very very long interrupt · GitHub</a></li>
-<li><a href="https://github.com/xoreaxeaxeax/asm-hall-of-shame">GitHub - xoreaxeaxeax/asm-hall-of-shame: Racing to the bottom of CPU performance · GitHub</a></li>
+<li><a href="https://fortune.com/2026/08/10/meta-brandishes-open-source-ai-models-again-as-zuckerberg-media-blitz-emphasizes-battle-against-chinese-rivals/">Mark Zuckerberg makes his case for American open - source AI over...</a></li>
+<li><a href="https://news.ycombinator.com/item?id=49243880">Mark Zuckerberg attacks &#x27; closed &#x27; AI rivals as Meta returns to open ...</a></li>
+<li><a href="https://invezz.com/news/2026/08/10/zuckerberg-wants-more-open-source-ai-heres-how-closed-models-differ-from-open-ones/">Zuckerberg wants more open - source AI : here&#x27;s how closed models...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#security`, `#SMM`, `#exploit`, `#firmware`, `#hardware`
+**Tags**: `#open-source`, `#AI`, `#Meta`, `#LLaMA`, `#industry-politics`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Nvidia and Wall Street Raise $500bn for AI Infrastructure](https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
+### [Meta Unveils Muse Glimmer 30B for Local Agent Workflows](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) ⭐️ 8.0/10
 
-Nvidia announced a partnership with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to raise more than $500bn \(£370bn\) for AI infrastructure, marking the first time major investors are treating compute as an asset class. The capital will support Nvidia&\#x27;s own projects and partner-led data centers and chip factories, with Nvidia able to backstop up to $125bn, or 25% of potential deals. CEO Jensen Huang said &\#x27;In AI, compute is revenue&\#x27; and described the effort as creating &\#x27;AI factories.&\#x27; The announcement follows over $1tn in collective AI spending by major technology companies in three years and comes amid surging demand for Nvidia GPUs from firms like Google, Meta, Amazon, Microsoft, OpenAI and Anthropic.
+Meta has introduced Muse Glimmer, a 30B-parameter model optimized for always-on local agent workflows, alongside plans to release open weights for its Muse Spark 1.2 foundation model. The release pushes toward efficient, on-device AI and self-hosted agent deployments, reducing reliance on large server infrastructure. Community members have already run Muse Glimmer locally via Ollama on a 32GB Mac mini, though with slow performance, and Unsloth has published quantized GGUF versions. The move is seen as strategically significant for open-weight AI, with comparisons expected against other dense 30B-class models such as the upcoming Qwen3.8 27B.
 
-rss · BBC World · Aug 10, 22:31
+hackernews · riordan · Aug 10, 10:10 · [Discussion](https://news.ycombinator.com/item?id=49241679)
 
-**「Background」** Nvidia&\#x27;s GPUs are the dominant processors used to train and run AI models, and demand from major technology companies has driven its stock up roughly fivefold in three years. As AI spending has topped $1tn, investors are beginning to view data centers and compute capacity not just as operating costs but as long-term investable infrastructure assets.
+**「Background」** Muse Glimmer is a 30-billion-parameter open-agentic AI model released by Meta Superintelligence Labs, with weights available under the Apache 2.0 license. It is designed for always-on local agent workflows, running directly on PCs, and uses speculative decoding — a smaller drafter model proposes tokens that the main model verifies in parallel — to accelerate generation without sacrificing output quality. The release continues Meta&\#x27;s pattern of publishing open-weight models, following earlier models like Muse Spark 1.2.
 
-**「Impact」** The financing could accelerate construction of AI data centers and chip manufacturing capacity, improving GPU availability for AI developers and companies while giving institutional investors a new infrastructure asset class to fund.
+**「Impact」** The Apache 2.0 release lets self-hosting developers run Meta&\#x27;s 30B agentic model on a single GPU, enabling local agent, code-assistant, and tool-use workloads without a data-center back end, while Meta&\#x27;s planned Muse Spark 1.2 weights further consolidate its open-weights position.
 
-**Tags**: `#Nvidia`, `#AI infrastructure`, `#data centers`, `#investment`, `#compute`
+**「Community Discussion」** Commenters are broadly enthusiastic about the open-weights releases and local deployment, with some viewing the Muse Spark 1.2 weight release as even more significant than Muse Glimmer itself and strategically beneficial for Meta as the leading American open-weights model provider. Hands-on reports describe Muse Glimmer giving good results on local hardware but running slowly, while others anticipate head-to-head comparisons with Qwen3.8 27B and question the long-term need for massive data-center buildouts.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.phoronix.com/news/Meta-Muse-Glimmer">Meta Publishes Muse Glimmer As 30B Open Agentic Model - Phoronix</a></li>
+<li><a href="https://www.neowin.net/news/meta-releases-muse-glimmer-a-30b-open-agentic-ai-model-that-runs-locally-on-pcs/">Meta releases Muse Glimmer, a 30B open agentic AI model that runs locally on PCs - Neowin</a></li>
+<li><a href="https://huggingface.co/meta-models/Muse-Glimmer-30B">meta-models/Muse-Glimmer-30B · Hugging Face</a></li>
+<li><a href="https://explainx.ai/blog/meta-muse-glimmer-open-weight-30b-agentic-model-2026">Muse Glimmer : Meta&#x27;s 30B Open Model Runs on 24GB... | explainx. ai</a></li>
+<li><a href="https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666">Zuck rekindles open weights Llama drama with Muse Glimmer</a></li>
+<li><a href="https://www.poniaktimes.com/meta-muse-glimmer-open-weight-ai/">Meta Launches Muse Glimmer as It Returns to Open - Weight AI</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#Meta`, `#local AI`, `#agent workflows`, `#open weights`, `#efficient inference`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [Hand-Crafted Transformer Weights Solve Multiplication with 100% Accuracy](https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/) ⭐️ 8.0/10
+### [PoC Exploits System Management Mode via Extremely Long Interrupt](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) ⭐️ 8.0/10
 
-A developer compiled the grade-school multiplication algorithm directly into the weights of a standard Phi-3 transformer using a custom compiler called Torchwright, with no training. The resulting three-digit calculator answers all 3,000,000 supported expressions correctly, and published checkpoints handle multiplication up to 12 digits by 12 digits. In comparisons with six frontier models used without reasoning, accuracy fell sharply as input length grew: at seven digits, five models scored 0/500, while the weight-compiled transformer stayed at 100%. Four versions were built—grade-school, hardware-style, scratchpad, and brute-force memorization—which compute the same function but differ greatly in layers, width, generated tokens, and parameters. The write-up, repository, and checkpoints are publicly available, demonstrating that exact arithmetic can be embedded into an off-the-shelf transformer architecture without gradient-based training.
+Security researcher xoreaxeaxeax published a GitHub proof-of-concept that exploits System Management Mode \(SMM\) by triggering a system management interrupt with an unusually long instruction, allowing code to execute at the CPU&\#x27;s most privileged level. The technique requires root access and targets the SMM timeout mechanism that expects every instruction to complete between interrupts. Because SMM memory and execution are hidden from the operating system, the PoC demonstrates a path from ring 0 to persistent, firmware-level code execution. The repository includes a long-form readme and is associated with the author&\#x27;s related &\#x27;asm-hall-of-shame&\#x27; work on instruction latency.
 
-reddit · r/MachineLearning · /u/notforrob · Aug 10, 17:37
+hackernews · WhiteDawn · Aug 10, 16:03 · [Discussion](https://news.ycombinator.com/item?id=49245491)
 
-**「Background」** Transformers are generally poor at exact arithmetic because their learned representations are approximate and they lack a native mechanism for carrying digits or applying procedural algorithms. Instead of training or fine-tuning, this work directly assigns the weights by compiling a computation graph into a transformer checkpoint, a technique known as weight programming or weight compilation, which is unusual because most transformer capabilities emerge from learning rather than manual construction.
+**「Background」** System Management Mode \(SMM\) is an x86 CPU execution mode used by firmware for low-level platform management; it is an ultra-privileged, largely invisible environment entered through a System Management Interrupt \(SMI\). This GitHub proof-of-concept from security researcher xoreaxeaxeax demonstrates that an unusually long interrupt or long-running instruction can break SMM, violating the timeout assumptions that SMM handlers rely on and exposing the secure firmware environment. The repository presents the technique as an exploit demonstration rather than a vendor-disclosed vulnerability, highlighting SMM&\#x27;s lack of user control and inspection.
 
-**「Impact」** This result shows that a stock transformer can perform exact, generalizable arithmetic when its weights are deliberately compiled, providing a practical path to guaranteed-correct operations in models that normally fail on longer digit lengths and outperforming frontier models on the tested seven-digit benchmark. It also offers a concrete tool—Torchwright—that the ML community can use to embed other algorithms into transformer checkpoints without training.
+**「Impact」** For security researchers and system programmers, the PoC provides a practical demonstration that a root adversary can break out of the OS into SMM, potentially enabling firmware-level implants that survive OS reinstallation and evade security tools.
 
-**Tags**: `#transformers`, `#arithmetic`, `#weight compilation`, `#interpretability`, `#machine learning`
+**「Community Discussion」** Commenters note that the attack requires root, with one arguing it is better described as &\#x27;taking back control of your hardware&\#x27; than as a vulnerability. Others discuss the SMM timeout mechanism, point to the related asm-hall-of-shame repository, and express amusement at the readme&\#x27;s deliberate use of a very long code block.
+
+<details><summary>References</summary>
+<ul>
+<li><a href="https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii?ref=upstract.com">GitHub - xoreaxeaxeax / smiiiiiiiiiiiiiiii at upstract.com · GitHub</a></li>
+<li><a href="https://upstract.com/x/8f17aec87a9747c0">Exploiting System Management Mode with a very long interrupt</a></li>
+<li><a href="https://eucloudservers.com/security-encryption/exploiting-system-management-mode-with-a-very-long-interrupt/">Exploiting System Management Mode With A Very Long Interrupt</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#system management mode`, `#security`, `#exploit`, `#hardware`, `#privileged mode`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [H3-metal brings native MiniMax-H3 inference to Apple Silicon](https://github.com/antirez/h3.c) ⭐️ 7.0/10
+### [Wall Street giants back Nvidia&\#x27;s $500bn AI infrastructure push](https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
 
-H3-metal is a native Metal implementation for MiniMax-H3 inference targeting Apple Silicon, enabling local video generation on Mac hardware instead of relying on cloud GPUs. Community usage reports show it works through ComfyUI, often with GGUF quantized models such as Q5\_K\_M or Q8\_0 to fit unified memory; a roughly 9-second 480x864 clip at 20 steps took over an hour on an M5 Pro 64GB, and a 15-second 480p clip took about 90 minutes on an M4 Max Mac Studio. The developer is exploring a --sparse-attention optional mode after MiniMax mentioned sparse attention could provide a major speedup, but no confirmed release or benchmark is available yet.
+Nvidia has partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to raise more than $500bn \(£370bn\) for AI infrastructure, marking the first time major investors are treating AI hardware and data-centre capacity, aka &\#x27;compute&\#x27;, as an asset class. The financing will support Nvidia&\#x27;s own projects and those of partners, including new data centres and chip factories. Nvidia can optionally backstop up to $125bn, or 25%, of potential deals, according to CEO Jensen Huang. Huang said &\#x27;In AI, compute is revenue,&\#x27; and KKR&\#x27;s co-CEOs noted that &\#x27;delivery, not ambition, is the hard part.&\#x27; Major tech firms such as Google, Meta, Amazon, Microsoft, OpenAI and Anthropic rely on Nvidia GPUs, and have collectively spent over $1tn on AI in just three years.
 
-hackernews · swyx · Aug 11, 01:22 · [Discussion](https://news.ycombinator.com/item?id=49252179)
+rss · BBC World · Aug 10, 22:31
 
-**「Background」** MiniMax-H3 is a 33B-parameter joint video-and-audio generation model originally distributed for CUDA-based systems. The h3.c project by antirez is a native Metal inference engine that runs H3 on Apple Silicon Macs, implemented as a sequence of working vertical slices \(model metadata, Metal block parity, prompt encoding, and generation\). This fills a practical gap by enabling local video generation on Mac hardware without Nvidia GPUs, and related community ports have explored MLX-based approaches as well.
+**「Background」** Nvidia designs graphics processing units \(GPUs\) that have become the dominant hardware for training and running AI models. AI data centres stack thousands of these chips, requiring huge capital for construction, power and cooling. Until now, such infrastructure was mainly funded by tech companies themselves; this partnership introduces large financial institutions as long-term investors in &\#x27;compute&\#x27; as an independent asset class.
 
-**「Impact」** Apple Silicon users can now run MiniMax-H3 video generation locally through ComfyUI using quantized models, but current speeds make it practical only for short, infrequent experiments and not for iterative or production video work.
+**「Impact」** The $500bn pool gives Nvidia and its partners a substantial new source of capital to expand data-centre and chip-manufacturing capacity, potentially easing compute shortages and reinforcing Nvidia&\#x27;s central role in the AI boom.
 
-**「Community discussion」** Users report that H3 works on Apple Silicon with ComfyUI and GGUF quantizations, but the main concern is speed, with multiple people citing an hour or more per short clip. One commenter notes that GPU-focused systems like the DGX Spark are better suited to diffusion workloads, while the developer says they are testing sparse attention to improve throughput.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/antirez/h3.c">GitHub - antirez/h3.c: MiniMax H3 inference engine for Mac computers · GitHub</a></li>
-<li><a href="https://x.com/ivanfioravanti/status/2084633339282026622">Ivan Fioravanti ᯅ on X: &quot;Look at this detailed repo: MiniMax-H3-MLX by @AIBizarrothe full of great details on the conversion! https://t.co/8WfnGUuDLL&quot; / X</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Apple Silicon`, `#Metal`, `#MiniMax-H3`, `#video generation`, `#inference`
+**Tags**: `#Nvidia`, `#AI infrastructure`, `#data centers`, `#finance`, `#hardware`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [CHICKEN Scheme 6.0 Released with Crunch Support](https://code.call-cc.org/releases/6.0.0/NEWS) ⭐️ 7.0/10
+### [Hand-set Phi-3 weights multiply with 100% accuracy after zero training](https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/) ⭐️ 8.0/10
 
-CHICKEN Scheme 6.0 has been released, marking a major update to the long-running open-source Scheme-to-C compiler and interpreter. The release adds support for Crunch, a compiler for a statically typed subset of Scheme R7RS, although Crunch itself is not yet at 1.0 status and is currently around version 0.993. CHICKEN compiles Scheme source files into C, which can then be compiled into standalone executables, and it also includes an interpreter for scripting and testing. This is a major version release, so existing users should review the NEWS file at code.call-cc.org/releases/6.0.0/NEWS for details on new features and any migration considerations from the 5.x series.
+A developer manually compiled grade-school multiplication into the weights of a stock Phi-3 transformer using a custom compiler called Torchwright, achieving 100% accuracy on all 3,000,000 supported three-digit expressions and publishing checkpoints that handle up to 12-digit by 12-digit multiplication. This contrasts with frontier models, which scored 0/500 at seven digits in the author&\#x27;s tests. Four versions \(grade-school, hardware-style, scratchpad, brute-force memorization\) compute the same function with different tradeoffs in layers, width, generated tokens, and parameters. The work demonstrates that exact arithmetic can be embedded into a standard transformer architecture without training, offering a concrete resource for interpretability and algorithmic weight compilation research.
 
-hackernews · eatonphil · Aug 11, 00:24 · [Discussion](https://news.ycombinator.com/item?id=49251702)
+reddit · r/MachineLearning · /u/notforrob · Aug 10, 17:37
 
-**「Background」** CHICKEN is a mature open-source compiler and interpreter for the Scheme programming language that compiles Scheme source code to standard C, allowing standalone executables to be built with a C compiler. The 6.0 release moves the core system to provide all modules specified by the R7RS small language and switches the internal string representation to UTF-8, making strings fully Unicode-capable. These changes are part of the project&\#x27;s roadmap leading to 6.0.0 and represent a major step for the ecosystem.
+**「Background」** Transformers normally acquire mathematical abilities through training, with their weights adjusted via backpropagation. In this project, the author uses a compiler called Torchwright to directly set the weights of a Phi-3 transformer to implement multiplication, skipping training entirely. This contrasts with standard approaches where transformer weights are learned from data rather than manually constructed.
 
-**「Impact」** Developers who use CHICKEN to build standalone executables now have access to Crunch support, which broadens the ecosystem toward statically typed R7RS Scheme development and may require planning for a 5.x-to-6.x upgrade.
-
-**「Community Discussion」** Commenters highlighted the new Crunch support and shared positive hands-on experiences, including building a CHICKEN wrapper around makemkvcon for DVD ripping. Others asked how CHICKEN compares with alternatives like Gambit and what makes it a preferred Lisp, with one noting the appeal of its larger egg ecosystem.
+**「Impact」** Researchers and developers working on transformer interpretability and algorithmic reasoning can use the public checkpoints and open-source Torchwright compiler to embed exact arithmetic directly into stock models without training. However, these models do not generalize beyond the compiled digit range, so they are not replacements for learned arithmetic in general-purpose systems.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/Chicken_%28Scheme_implementation%29">Chicken (Scheme implementation) - Wikipedia</a></li>
-<li><a href="https://www.xela.au/saas/chicken-scheme-60-released-0167e9">Chicken Scheme 6.0 Released · Xela</a></li>
+<li><a href="https://data-today.net/transformer-compiler-no-training/">A compiler that skips training and writes transformer weights</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#scheme`, `#compiler`, `#lisp`, `#open-source`, `#chicken-scheme`
+**Tags**: `#transformers`, `#interpretability`, `#arithmetic`, `#weight compilation`, `#machine learning`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [Zuckerberg attacks &\#x27;closed&\#x27; AI rivals as Meta returns to open models](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) ⭐️ 7.0/10
+### [As AI erodes search and the web&\#x27;s collective memory](https://thewalrus.ca/google-search-is-dying/) ⭐️ 7.0/10
 
-Mark Zuckerberg is publicly criticizing &\#x27;closed&\#x27; AI rivals and reaffirming Meta&\#x27;s commitment to open models, according to the Financial Times. The piece points to Meta&\#x27;s &\#x27;the future is for everyone&\#x27; positioning and argues the open approach is preferable for AI development. Community reaction is divided: open-source advocates credit Meta&\#x27;s Llama release in 2023 with starting the open-weights race, while skeptics dismiss the move as self-interested, noting Meta&\#x27;s earlier closed launch and limited adoption. The debate highlights tension between openness and commercial control in the AI industry.
+An essay in The Walrus argues that AI-generated content and declining search quality are eroding the internet&\#x27;s collective memory, with Google search increasingly exhibiting &\#x27;amnesia&\#x27; and losing recent history, especially on non-US sites. The piece examines how intermediaries shape what survives online, advocates for better-protected preservation institutions, and notes legal constraints such as the Internet Archive lending lawsuit. User responses largely corroborate a drop in search reliability, though one commenter stresses that the Internet Archive case ended with a court finding of unauthorized copying, not just an allegation. The essay frames digital preservation as a collective problem as AI reshapes the web.
 
-hackernews · root-parent · Aug 10, 14:06 · [Discussion](https://news.ycombinator.com/item?id=49243880)
+hackernews · awnird · Aug 10, 22:36 · [Discussion](https://news.ycombinator.com/item?id=49250836)
 
-**「Background」** The item reflects the long-running divide in AI development between open-weight models, which allow researchers and developers to inspect, modify, and fine-tune them, and closed proprietary models where access is limited to paid APIs. Meta kicked off a major open-model push with the Llama series, but reportedly experimented with a more closed approach before Zuckerberg&\#x27;s recent remarks recommitted the company to open models and cast OpenAI and Anthropic as closed rivals.
+**「Background」** Search engines have long acted as intermediaries that decide what content gets indexed, ranked, and preserved, shaping what people can find and remember online. The Walrus article argues that as AI-generated summaries and chatbot answers replace conventional search result pages, traffic and ad revenue flow away from original publishers, weakening the incentives to maintain and archive the web. It also references disputes such as the Internet Archive&\#x27;s legal defeat over digital lending, which illustrates how copyright litigation further limits what can be preserved.
 
-**「Community discussion」** Commenters are split. Some credit Meta with kickstarting the open-source LLM race via Llama in 2023 and view the move as net positive, while skeptics argue Meta only &\#x27;open sourced&\#x27; after its closed model failed to gain traction, with one calling it &\#x27;losing so I think we should change the rules.&\#x27;
+**「Impact」** The most immediate consequence is that users—especially those seeking recent or non-US information—already struggle to find it through Google, and the essay argues this will worsen as AI-generated content proliferates.
+
+**「Community Discussion」** Commenters broadly agreed that Google&\#x27;s search quality has declined, with one reporting recent history &\#x27;just gone&\#x27; on non-US sites and another noting Gemini can usefully aggregate documentation without ads, though its AI answers feel aggressive. Others pushed back on the article&\#x27;s framing: one wished it explored alternatives to gatekeepers, and another corrected the Internet Archive lawsuit depiction, noting the court found unauthorized copying and major writers&\#x27; groups opposed the archive.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://cryptobriefing.com/zuckerberg-criticizes-closed-ai-meta-open-models/">Mark Zuckerberg criticizes closed AI rivals as Meta returns to open models</a></li>
+<li><a href="https://thewalrus.ca/google-search-is-dying/">Google Search Is Dying. What Comes Next Is Worse | The Walrus</a></li>
+<li><a href="https://thewalrus.ca/">The Walrus | Canada&#x27;s Conversation</a></li>
+<li><a href="https://medium.com/@anandvlinkedin/the-memory-web-how-ai-will-remember-the-internet-so-you-dont-have-to-7d7c77daf6e2">The Memory Web: How AI Will Remember the Internet So You Don’t Have To | by Tech Horizon With Anand Vemula | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta`, `#open source`, `#AI`, `#LLM`, `#technology industry`
+**Tags**: `#ai`, `#web-search`, `#internet-history`, `#google`, `#digital-preservation`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [UK Child-Safety ID Measures Are Reshaping US Anonymity Law](https://www.effort.news/uk-lobby) ⭐️ 7.0/10
+### [UK-style age verification and digital ID push reaches US](https://www.effort.news/uk-lobby) ⭐️ 7.0/10
 
-A new analysis from Effort News argues that the UK&\#x27;s child-safety-inspired digital identity and anonymity restrictions are migrating to the United States, with California&\#x27;s AB 2273 cited as a concrete example. The article says the legislation draws on the UK&\#x27;s Age Appropriate Design Code \(AADC\) and that such measures threaten to end anonymous adult internet use while potentially criminalizing open-source software developers. The trend matters because state-level bills framed as child protection are being used to introduce age assurance and digital ID requirements, raising significant privacy and free-expression concerns. The analysis highlights that open-source software could face new legal exposure even when the stated goal is regulating Big Tech. The piece frames this as a deliberate strategy by NGOs to use child-safety rhetoric to advance restrictions on anonymity.
+The article reports that the UK&\#x27;s push for digital identity and age verification is being imported into US legislation under the guise of child safety, potentially restricting anonymous internet use for adults. It cites a joint statement by Buffy Wicks and Jordan Cunningham, authors of California&\#x27;s AB 2273, and the 5Rights Foundation, which explicitly draws on the UK&\#x27;s Age Appropriate Design Code. The piece also highlights Wicks&\#x27; related bills, AB 1043 and AB 1856, which were intended to protect children online but critics say could unintentionally criminalize open source software. The central claim is that NGOs and lawmakers have converged on a strategy of using child-safety rhetoric to advocate for digital ID laws that would end anonymous online activity.
 
 hackernews · slowin · Aug 10, 23:45 · [Discussion](https://news.ycombinator.com/item?id=49251411)
 
-**「Background」** The UK Age Appropriate Design Code \(AADC\) is a data protection framework that requires online services likely to be accessed by children to assess and mitigate privacy risks, including default privacy settings and strict data use limits. California&\#x27;s AB 2273, the California Age-Appropriate Design Code Act, is explicitly modeled on the UK code and, like it, pushes platforms to adopt age assurance and design changes to protect minors. Critics argue these measures create pressure to verify identity and restrict anonymous access online, extending UK-style anonymity limits to US law.
+**「Background」** The UK&\#x27;s Age Appropriate Design Code \(AADC\), introduced in 2020, set out data protection standards for online services likely to be accessed by children, and it has become a template for legislation in other countries. California&\#x27;s Age-Appropriate Design Code Act \(AB 2273\), authored by Assemblymember Buffy Wicks and introduced in 2021, explicitly drew on the UK AADC and was the first U.S. law of its kind to focus on children&\#x27;s privacy and safety by design. Subsequent California proposals such as the Digital Age Assurance Act \(AB 1856\) have aimed to extend similar protections, sometimes by requiring age assurance, which critics argue could have unintended consequences for open-source software and anonymous online activity.
 
-**「Impact」** Open-source developers and users in California face a partial reprieve under proposed AB 1856, which would exempt open-source operating systems from age-verification rules taking effect January 1, 2027, though EFF warns the underlying regime still threatens users&\#x27; speech, privacy, and security.
+**「Impact」** California&\#x27;s Digital Age Assurance Act \(AB 1043\), a UK-style age-assurance measure, takes effect July 1, 2026, requiring operating system providers to collect age information and transmit age-bracket signals to application developers, and the follow-up AB 1856—while exempting open source—expands age-gating in ways that civil-liberties groups say threaten anonymity and lawful speech.
 
-**「Community Discussion」** Commenters were broadly skeptical, with one calling the bill&\#x27;s lead author gullible and alleging dark-money sponsorship, while another suspected hidden political agendas behind such legislation. Others argued that child protection should be left to parents and guardians rather than through anonymity-eroding digital ID laws, and dismissed child-safety rhetoric as a manipulation tactic to reduce online freedom.
+**「Community Discussion」** Commenters are broadly skeptical: one alleges hidden political agendas and dark money sponsorship behind the legislation, another dismisses child-safety rhetoric as manipulation, and one argues that parents and guardians, not the state, are the right people to protect children. A counterpoint notes that a large constituency genuinely wants to protect children and that tech companies polluting the commons have fueled this push, so dismissing those concerns outright may be counterproductive.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://trustarc.com/resource/california-age-appropriate-design-code-act/">Understanding the California Age-Appropriate Design Code Act (AB-2273) | TrustArc</a></li>
-<li><a href="https://leginfo.legislature.ca.gov/faces/billCompareClient.xhtml?bill_id=202120220AB2273&amp;showamends=false">Today&#x27;s Law As Amended - AB-2273 The California Age-Appropriate Design Code Act.</a></li>
-<li><a href="https://5rightsfoundation.com/resource/california-age-appropriate-design-code/">California Age Appropriate Design Code - 5rights</a></li>
-<li><a href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">One Step Forward, Two Steps Back: CA&#x27;s AB 1856 Exempts Open ...</a></li>
-<li><a href="https://www.ghacks.net/2026/05/27/california-wants-to-exclude-linux-and-other-open-source-systems-from-new-age-checks/">California Wants To Exclude Linux and Other Open Source ...</a></li>
+<li><a href="https://www.etcentric.org/tag/buffy-wicks/">Buffy Wicks Archives - ETCentric</a></li>
+<li><a href="https://twitter.com/BuffyWicks/status/1494162229012287491">&quot;The California Age Appropriate Design Code that we introduced...&quot;</a></li>
+<li><a href="https://wicks.asmdc.org/press-releases/20250325-assemblymember-buffy-wicks-and-senator-tom-umberg-join-forces-digital-age">Assemblymember Buffy Wicks and Senator Tom Umberg Join Forces...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/California_Digital_Age_Assurance_Act">California Digital Age Assurance Act - Wikipedia</a></li>
+<li><a href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">One Step Forward, Two Steps Back: CA&#x27;s AB 1856 Exempts Open Source But Expands Age-Gating | Electronic Frontier Foundation</a></li>
+<li><a href="https://www.techdirt.com/2026/06/02/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-but-expands-age-gating/">One Step Forward, Two Steps Back: CA’s AB 1856 Exempts Open Source But Expands Age-Gating | Techdirt</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#tech policy`, `#digital identity`, `#anonymity`, `#open source`, `#legislation`
+**Tags**: `#privacy`, `#anonymity`, `#digital-id`, `#child-safety`, `#legislation`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [Rust SIMD Meets GPU Programming](https://www.vectorware.com/blog/simd-on-gpu/) ⭐️ 7.0/10
+### [Rust SIMD on GPUs: Portability and Nightly Tooling Debate](https://www.vectorware.com/blog/simd-on-gpu/) ⭐️ 7.0/10
 
-The Vectorware blog post &\#x27;Rust SIMD on the GPU&\#x27; explores using Rust&\#x27;s portable SIMD abstractions for GPU programming, presenting a cross-domain approach to data-parallel code. The discussion centers on Rust&\#x27;s portable SIMD library, std::simd, which is currently gated behind nightly Rust, limiting its use in stable projects. Practical comments note that stable alternatives such as fearless\_simd exist, while another commenter argues that fixed SIMD widths in examples undermine true performance portability. The post also drew surprise that SIMD concepts apply to GPUs, and a desire for a mature open-source Rust SIMD library comparable to Google&\#x27;s Highway. No benchmark data was included in the supplied item, so concrete performance comparisons remain absent.
+A Vectorware blog post, &quot;SIMD on the GPU,&quot; discusses applying Rust&\#x27;s SIMD abstractions to GPU programming. The full article text is not available, but the surrounding discussion indicates it focuses on Rust&\#x27;s portable SIMD library, std::simd, which is currently only available on nightly Rust. One commenter reported that their FFT crate had to switch to the stable-compatible fearless\_simd crate because of this limitation. Commenters also challenged the portability of portable SIMD because examples typically specify a constant SIMD width, and they asked for complex GPU algorithms with competitive performance, such as radix sort.
 
 hackernews · sagacity · Aug 10, 18:12 · [Discussion](https://news.ycombinator.com/item?id=49247477)
 
-**「Background」** Rust&\#x27;s portable SIMD \(core::simd\) lets developers write SIMD code once and have the compiler lower it to the vector instructions available on the target CPU, but it previously did not work on GPUs. VectorWare, a startup building native GPU software, demonstrated running the same portable SIMD Rust code on both CPUs and GPUs by treating the GPU as just another piece of vector hardware, with the code compiling to a vector instruction on x86-64 and running unchanged on GPU warps. However, the standard portable SIMD library is still only available on Rust nightly, which has led some developers to use alternatives for stable Rust.
+**「Background」** Rust&\#x27;s portable SIMD library \(core::simd\) lets developers write a single Simd type that the compiler lowers to vector instructions for the target CPU, but until now it did not run on GPUs. VectorWare has demonstrated compiling the same portable SIMD function unchanged to both CPU instructions \(e.g., vpaddw\) and GPU warp instructions \(e.g., add.s16 on PTX\), treating the GPU as another piece of vector hardware. The approach requires nightly Rust for core::simd, though community members have noted that stable alternatives like fearless\_simd exist, and the technique may face portability challenges because SIMD widths are typically fixed.
 
-**「Impact」** For Rust developers working on GPU or highly parallel code, the article highlights a possible unified SIMD abstraction across CPU and GPU, but the current nightly-only status of std::simd is a practical barrier to adoption. Until portable SIMD stabilizes or third-party crates like fearless\_simd mature, teams targeting stable Rust may need to weigh portability against performance portability.
+**「Impact」** Rust developers exploring SIMD on GPUs face a tooling split: they must either rely on nightly-only std::simd or adopt stable alternatives like fearless\_simd, while performance portability remains uncertain when SIMD width is fixed rather than adaptive.
 
-**「Community Discussion」** Commenters focused on portability and tooling: one noted that std::simd is nightly-only and that their FFT crate had to use fearless\_simd for stable support, while another argued that examples fixing a constant SIMD width are not performance-portable. Others asked for a Rust SIMD library with the maturity of Google&\#x27;s Highway and requested concrete GPU benchmark examples such as radix sort.
+**「Community Discussion」** Commenters highlighted that std::simd is nightly-only, prompting one FFT crate maintainer to move to fearless\_simd for stable support; another argued that constant-width SIMD examples are not actually performance portable. Others expressed surprise that SIMD could apply to GPUs, wished for an open-source Rust library with the maturity of Google Highway, and requested concrete GPU benchmarks like radix sort.
 
 <details><summary>References</summary>
 <ul>
@@ -264,127 +277,112 @@ hackernews · sagacity · Aug 10, 18:12 · [Discussion](https://news.ycombinator
 </ul>
 </details>
 
-**Tags**: `#rust`, `#simd`, `#gpu`, `#performance`, `#systems-programming`
+**Tags**: `#Rust`, `#SIMD`, `#GPU`, `#parallel computing`, `#programming languages`
 
 ---
 
 <a id="item-tech-news-11"></a>
-### [What&\#x27;s the best programming language for coding agents?](http://danluu.com/pl-tokens/) ⭐️ 7.0/10
+### [Token Efficiency of Programming Languages for LLM Coding Agents](http://danluu.com/pl-tokens/) ⭐️ 7.0/10
 
-A Hacker News discussion linked to Dan Luu&\#x27;s January 2026 analysis &\#x27;Which programming languages are most token-efficient?&\#x27; weighs whether some languages are inherently better for LLM-based coding agents. The thread cites a finding that Rust used about 70 tokens on average versus Clojure&\#x27;s 109, though one commenter says calling that &\#x27;nearly half of Clojure&\#x27; is misleading. Go is repeatedly praised because it generally offers one idiomatic way to do things and has consistent training data; one developer reports surprisingly good results with Gleam despite having almost no code in training corpora. The discussion also argues that agents that can search the web and inspect library source code perform better than air-gapped evaluations suggest, so token efficiency is only one factor in agent performance.
+Dan Luu&\#x27;s technical analysis evaluates which programming languages are most token-efficient for LLM-based coding agents, finding that Go averages around 70 tokens compared to Clojure&\#x27;s 109 and concluding that token efficiency varies significantly by language. The analysis suggests that choosing a language with consistent idioms, such as Go, can reduce token usage and improve cost-efficiency for AI-assisted development. The Hacker News discussion challenges the methodology&\#x27;s trustworthiness, with commenters noting that replicating well-known software may not be a reliable signal and that factors like training data consistency and tool access are also important. Despite disagreements, the analysis highlights how language choice can affect agent performance and cost in practical AI coding workflows.
 
 hackernews · chaychoong · Aug 10, 16:28 · [Discussion](https://news.ycombinator.com/item?id=49245936)
 
-**「Background」** Coding agents use large language models \(LLMs\) to generate or modify code, and their effectiveness can be affected by the programming language they are asked to work with, including how many tokens the model needs to produce a working solution. A widely discussed claim has been that dynamic languages like Clojure are more token-efficient than static languages like Rust, but Dan Luu&\#x27;s own evaluations on zstd and Pandoc found that this advantage largely disappears at higher effort levels and that obscure dense languages like J perform poorly. Instead, the evidence suggests mainstream languages are a safer bet because their popularity correlates with better LLM results, likely due to more consistent training data and established patterns in the training corpus.
+**「Background」** This item examines which programming languages are most token-efficient for LLM-based coding agents, meaning how many tokens a model must consume to generate code in a given language. One common claim is that dynamically typed languages are more efficient because omitting explicit type declarations makes code more compact, but Dan Luu&\#x27;s analysis suggests that this conclusion may come from evaluations using trivially small tasks.
 
-**「Impact」** The most concrete takeaway for developers is that conventional languages such as Go tend to produce more predictable coding-agent behavior, while rare functional languages like Gleam can still succeed despite sparse training data.
+**「Impact」** For developers building or using LLM coding agents, the analysis suggests that selecting highly idiomatic languages like Go can lower token consumption, though the methodology&\#x27;s limitations mean the results should be treated as a heuristic rather than a definitive ranking.
 
-**「Community Discussion」** Commenters broadly agree Go is a strong LLM language because of its consistent idioms and training-data uniformity, but one participant disputes the accuracy of the &\#x27;nearly half of Clojure&\#x27; token comparison. Another reports excellent results with Gleam despite negligible training data, and several note that an agent&\#x27;s ability to search and download source code is a bigger factor than token counts.
+**「Community Discussion」** Commenters were skeptical of the analysis&\#x27;s wording and evaluation approach, with one questioning the &\#x27;nearly half of&\#x27; comparison and another doubting that replicating existing software provides a useful signal. Others shared practical experience that Go works well due to its consistency, while noting that LLMs can also excel at less common languages like Gleam and that search or tool access is a key part of effective agent coding.
 
 <details><summary>References</summary>
 <ul>
 <li><a href="http://danluu.com/pl-tokens/">What&#x27;s the best programming language for coding agents?</a></li>
-<li><a href="https://zeli.app/en/story/49245936">The &#x27;Dynamic Languages Are More Token-Efficient&#x27; Claim Falls ...</a></li>
+<li><a href="https://danluu.spicytakes.org/">Dan Luu - Performance, systems, and industry myths</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#programming-languages`, `#LLM`, `#coding-agents`, `#token-efficiency`, `#AI-tools`
+**Tags**: `#LLM`, `#coding agents`, `#token efficiency`, `#programming languages`, `#AI-assisted development`
 
 ---
 
 <a id="item-tech-news-12"></a>
-### [Anthropic examines Claude&\#x27;s math via Riemann zeta](https://www.anthropic.com/research/riemann-zeta) ⭐️ 7.0/10
+### [Bernie Sanders urges Meta, OpenAI, Anthropic to pause AI development](https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter) ⭐️ 7.0/10
 
-Anthropic published research into Claude&\#x27;s mathematical capabilities, focusing on the Riemann zeta function. The work reportedly shows AI-assisted progress on lower bounds for this known hard problem, a result that could be significant for both AI reasoning research and mathematics. The exact technical details and the validity of the claimed results are not fully confirmed in the available material, and the Hacker News discussion treats the achievement as surprising but in need of verification. Community members also drew attention to the unusual workflow of Claude receiving encouragement from a human operator during the process.
+Senator Bernie Sanders has sent a letter to the CEOs of Meta, OpenAI, and Anthropic urging them to halt development of artificial intelligence, warning that the U.S. Senate will step in with regulation if the companies keep deploying AI at their current pace. The letter argues that the capabilities of these AI models have reached a critical risk threshold and that the companies are losing control over the technology. Sanders is reported to have called on the companies to &\#x27;stop building machines that humans cannot control.&\#x27; This marks a notable escalation in political pressure on leading AI developers over safety concerns.
 
-hackernews · tosh · Aug 10, 17:41 · [Discussion](https://news.ycombinator.com/item?id=49247070)
+rss · The Guardian International · Aug 10, 17:44
 
-**「Background」** The Riemann hypothesis is one of mathematics&\#x27; oldest and most famous open problems, concerning where the nontrivial zeros of the Riemann zeta function lie. A related, well-defined quantity is the proven lower bound on the fraction of those zeros known to satisfy the hypothesis; for decades this bound stood at 41.6%, with human researchers moving it only 8 percentage points over 46 years. According to Anthropic&\#x27;s announcement, an unreleased research version of Claude improved the lower bound to 67.2% by recombining existing mathematical research, though the result has not yet completed peer review.
+**「Background」** Senator Bernie Sanders sent a letter to the CEOs of OpenAI, Anthropic, and Meta, urging them to pause AI development and warning that the US Senate may impose regulation if they continue at their current pace. The letter references the companies&\#x27; previous commitments to responsible AI development, with Sanders saying: &\#x27;In the interest of humanity, stand by your words. Pause AI development.&\#x27; These companies are among the leading developers of advanced AI models, and the request reflects growing political scrutiny over uncontrolled AI capabilities.
 
-**「Impact」** Anthropic&\#x27;s unreleased research version of Claude improved the proven lower bound on the fraction of nontrivial zeros of the Riemann zeta function that satisfy the Riemann hypothesis from 41.6% to 67.2%, marking a measurable advance on a well-defined mathematical quantity without solving the hypothesis itself. This result provides concrete evidence that LLM-guided reasoning can make progress on hard mathematical problems, affecting expectations for AI-assisted research in mathematics and related fields.
-
-**「Community Discussion」** Commenters reacted with a mix of amazement and humor: several highlighted the oddity of Claude needing &\#x27;keep going&\#x27; encouragement, with one recommending a PUA plugin that automatically harasss the AI when it tries to give up. Others shared related anecdotes, such as Claude quickly finding a known multiplicative complexity for Conway&\#x27;s Game of Life, while a commenter noted that an AI improving a Riemann zeta bound not making it to the front page itself reflects how quickly such achievements are being normalized.
+**「Impact」** The three named companies now face a prominent Senate threat of regulatory action unless they respond to the pause request, adding to existing political scrutiny of AI development.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/research/riemann-zeta">Learning more about Claude&#x27;s mathematical capabilities</a></li>
-<li><a href="https://www.metirai.com/blog/anthropic-claude-riemann-hypothesis-lower-bound-math-breakthrough-2026">Claude Raises Riemann Hypothesis Lower Bound to 67.2%</a></li>
-<li><a href="https://xenospectrum.com/en/claude-riemann-zeta-critical-line-lower-bound/">Anthropic&#x27;s Latest AI Breaks Through the &quot;41% Wall&quot; on the ...</a></li>
-<li><a href="https://www.metirai.com/blog/anthropic-claude-riemann-hypothesis-lower-bound-math-breakthrough-2026">Claude Raises Riemann Hypothesis Lower Bound to 67.2%</a></li>
-<li><a href="https://www.explainx.ai/blog/claude-riemann-zeta-lower-bound-67-percent-august-2026">Claude Riemann Result: 41.6% to 67.2% in 31M Tokens ...</a></li>
+<li><a href="https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter">Bernie Sanders calls on Silicon Valley to ‘ pause AI ... | The Guardian</a></li>
+<li><a href="https://wchstv.com/news/nation-world/senator-bernie-sanders-demands-ai-developers-meta-openai-anthropic-pause-work-on-models-stand-by-your-words">Bernie Sanders demands AI developers pause work on models...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai`, `#mathematics`, `#claude`, `#llm`, `#research`
+**Tags**: `#AI regulation`, `#artificial intelligence`, `#policy`, `#technology industry`, `#OpenAI`
 
 ---
 
 <a id="item-tech-news-13"></a>
-### [Sanders Urges Meta, OpenAI, Anthropic to Pause AI Development](https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter) ⭐️ 7.0/10
+### [Fru: Fast Rust Random Forest with Python and R Bindings](https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/) ⭐️ 7.0/10
 
-Senator Bernie Sanders has sent a letter to the CEOs of Meta, OpenAI, and Anthropic urging them to pause AI development, arguing that the capabilities of these models have reached a critical risk threshold and that companies are losing control over the technology. He also warned that the US Senate will implement regulation if the companies continue deploying AI at their current pace. The letter, reported by The Guardian on August 10, 2026, frames the request as a matter of protecting humanity and building machines that humans can control. The move adds political pressure on leading AI labs to voluntarily slow development before legislative action is taken.
-
-rss · The Guardian International · Aug 10, 17:44
-
-**「Background」** Leading AI companies, including Meta, OpenAI, and Anthropic, are developing and deploying increasingly capable models, which has sparked concerns about loss of human control. Senator Bernie Sanders&\#x27;s letter directly addresses these concerns, calling for a pause and warning that the Senate may step in with regulation. The letter represents a significant political challenge to the current pace of AI development.
-
-**「Impact」** If the companies ignore the pause request, they may face Senate regulation, which could force them to alter deployment plans.
-
-**Tags**: `#AI regulation`, `#artificial intelligence`, `#technology policy`, `#Silicon Valley`
-
----
-
-<a id="item-tech-news-14"></a>
-### [Fru: Rust-Based Random Forest with Fast Python and R Bindings](https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/) ⭐️ 7.0/10
-
-Fru is a Rust-based random forest implementation with Python and R bindings, published in Software X journal. It outperforms scikit-learn by several factors, with hundreds-fold speedups in some scenarios, and is typically a few dozen percent faster than R&\#x27;s ranger package, occasionally several times faster. The implementation includes a novel permutation importance approach that provides additional performance gains. Python bindings use Arrow PyCapsule, enabling seamless integration with pandas, polars, pyarrow, and other compatible libraries.
+Fru is a new, highly optimized random forest implementation written in Rust, with bindings for both Python and R, published in the Software X journal. The authors report that the Python version outperforms scikit-learn by several factors, sometimes by hundreds of times, while the R version is typically a few dozen percent faster than ranger and can be several times faster depending on the use case. Fru includes a novel permutation importance implementation that provides an additional performance boost and features a layered design that made the Python and R bindings straightforward to create. For Python, it integrates via Arrow PyCapsule, enabling seamless interoperability with libraries such as pandas, polars, and pyarrow. The project aims to offer competitive runtime performance and better scalability than popular platform-specific implementations.
 
 reddit · r/MachineLearning · /u/kpiwonski · Aug 10, 17:45
 
-**「Background」** Random forests are an ensemble learning method that fit many decision trees on bootstrap samples of the training data and then average the predictions of the individual trees to reduce overfitting and improve out-of-sample performance. Popular implementations include scikit-learn in Python and ranger in R. Rust is a compiled systems language that can offer performance advantages for numerical libraries, and a few Rust-based random forest implementations already exist, such as the rustlearn machine learning library and the randomforest crate.
+**「Background」** Random forests are an ensemble machine learning method that combines many decision trees to improve predictive accuracy and control overfitting, commonly used for classification and regression. Popular implementations include scikit-learn in Python and ranger in R, both of which are mature but can become performance bottlenecks on large datasets. A Rust-based implementation with bindings can bring memory safety and high concurrency to the familiar Python and R ecosystems.
 
-**「Impact」** Python and R users can substantially speed up random forest workloads by adopting Fru, especially on scikit-learn-based pipelines, while gaining interoperability with Arrow-compatible dataframes in Python.
+**「Impact」** Python and R users who rely on random forests could see meaningful speedups by adopting Fru, especially on large datasets, though the reported gains are the authors&\#x27; own benchmarks and may vary across workloads. The Arrow PyCapsule integration also lowers integration costs for teams already using pandas, polars, or pyarrow.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://maciejkula.github.io/rustlearn/doc/rustlearn/ensemble/random_forest/index.html">rustlearn::ensemble::random_forest - Rust</a></li>
-<li><a href="https://github.com/sile/randomforest">GitHub - sile/randomforest: A random forest implementation in Rust</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#random forest`, `#rust`, `#machine learning`, `#performance`, `#python`
+**Tags**: `#random forest`, `#rust`, `#machine learning`, `#performance`, `#open source`
 
 ---
 
 ## Financial News
 
 <a id="item-finance-news-1"></a>
-### [Nvidia and six Wall Street firms launch $500 billion AI chip financing push](https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html) ⭐️ 8.0/10
+### [Nvidia and Wall Street giants target $500 billion to finance AI compute](https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html) ⭐️ 8.0/10
 
-Nvidia said Monday it signed memorandums of understanding with six major asset managers to create financing platforms aiming to mobilize more than $500 billion in third-party capital for customers to build data centers and buy Nvidia hardware, and CEO Jensen Huang called the chips &\#x27;an investable asset class.&\#x27;
+Nvidia signed memorandums of understanding with Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR to build financing platforms for its customers, targeting more than $500 billion in third-party capital for data centers and Nvidia hardware; CEO Jensen Huang called the chips an &\#x27;investable asset class.&\#x27;
 
 rss · CNBC Finance · Aug 10, 22:09
 
-**「Background」** The plan treats GPUs as long-lived, revenue-generating infrastructure rather than rapidly depreciating hardware, and it comes as investors and rating agencies have begun questioning whether Big Tech&\#x27;s huge AI capital spending is straining balance sheets.
+**「Background」** The effort challenges the traditional view that GPUs quickly depreciate, positioning AI compute as long-lived, bankable infrastructure, and follows a July rout in which investors questioned Big Tech&\#x27;s hefty AI spending.
 
-**「Impact」** The program is designed to help hyperscalers, frontier AI labs and enterprises finance AI infrastructure without tapping their own balance sheets at a time when heavy capital spending is pressuring free cash flow.
+**「Impact」** If realized, the platforms could help hyperscalers, AI labs and enterprises fund data centers without tapping their own balance sheets, though skeptics question whether older chip generations will retain value as new ones arrive.
 
-**Tags**: `#Nvidia`, `#AI infrastructure`, `#financing`, `#asset management`, `#capital markets`
+**Tags**: `#Nvidia`, `#AI infrastructure`, `#asset financing`, `#private capital`, `#data centers`
 
 ---
 
 <a id="item-finance-news-2"></a>
-### [Premarket Movers: Intel’s $15B Stock Offering, Verisk Acquisition Ruling, GameStop Bid Report](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html) ⭐️ 8.0/10
+### [Stocks making midday moves: M&amp;A deals, Intel offering, Apple downgrade](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html) ⭐️ 7.0/10
 
-Intel fell 3% in premarket trading after announcing a $15 billion common-stock offering; Verisk dropped 6.5% after a Delaware court ordered it to complete its $2.35 billion acquisition of AccuLynx. Other big moves included HPE gaining more than 5% on a Morgan Stanley upgrade, GameStop rising more than 1.5% on a report it may abandon its $56 billion bid for eBay, and Berkshire Hathaway rising 0.5% after reporting 16% growth in second-quarter operating earnings.
+Several stocks made big midday moves after two cash takeovers, a $15 billion Intel stock offering and an Apple downgrade. MarineMax jumped 46% on a $1.5 billion sale, Varex Imaging climbed 48% on an $18.90-per-share deal, and Intel fell nearly 3%.
+
+rss · CNBC Finance · Aug 10, 19:19
+
+**「Background」** The Apple downgrade to underperform came from Jefferies&\#x27; supply-chain checks, not from any company announcement, and pointed to cancellation of a rumored all-glass iPhone.
+
+**Tags**: `#stock movers`, `#mergers and acquisitions`, `#analyst ratings`, `#earnings`, `#tech stocks`
+
+---
+
+<a id="item-finance-news-3"></a>
+### [Premarket Movers: Intel Offering, Verisk Ruling, Berkshire Earnings, Archer Deal](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html) ⭐️ 7.0/10
+
+Premarket, Intel fell 3% after announcing a $15 billion common stock offering, Verisk dropped 6.5% after a Delaware judge ordered it to complete its $2.35 billion AccuLynx acquisition, and Berkshire Hathaway rose 0.5% after reporting 16% second-quarter operating earnings growth. Archer Aviation surged after agreeing to buy three Boeing subsidiaries, with Boeing taking an undisclosed stake.
 
 rss · CNBC Finance · Aug 10, 13:52
 
-**「Background」** Verisk had terminated the AccuLynx deal in December after an FTC review was not completed by the deal’s termination date; eBay rejected GameStop’s unsolicited bid in May, calling it “neither credible nor attractive.”
+**「Background」** Verisk had terminated the AccuLynx deal in December because the Federal Trade Commission review was not completed by the transaction&\#x27;s termination date; Intel said the offering will support general corporate purposes, including capital expenditures and working capital.
 
-**Tags**: `#stock offerings`, `#earnings`, `#mergers and acquisitions`, `#premarket movers`, `#company news`
+**Tags**: `#Intel`, `#Berkshire Hathaway`, `#Verisk Analytics`, `#GameStop`, `#Archer Aviation`
 
 ---
