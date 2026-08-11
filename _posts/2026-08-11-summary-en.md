@@ -5,384 +5,362 @@ date: 2026-08-11
 lang: en
 ---
 
-> From 136 items, 16 important content pieces were selected
+> From 142 items, 16 important content pieces were selected
 
 ---
 
 **Technology News**
-1. [Claude makes progress on Riemann zeta lower bound](#item-tech-news-1) ⭐️ 9.0/10
-2. [CHICKEN Scheme 6.0 adds support for statically typed Crunch](#item-tech-news-2) ⭐️ 8.0/10
-3. [Zuckerberg attacks closed AI rivals as Meta returns to open models](#item-tech-news-3) ⭐️ 8.0/10
-4. [Meta Unveils Muse Glimmer 30B for Local Agent Workflows](#item-tech-news-4) ⭐️ 8.0/10
-5. [PoC Exploits System Management Mode via Extremely Long Interrupt](#item-tech-news-5) ⭐️ 8.0/10
-6. [Wall Street giants back Nvidia&\#x27;s $500bn AI infrastructure push](#item-tech-news-6) ⭐️ 8.0/10
-7. [Hand-set Phi-3 weights multiply with 100% accuracy after zero training](#item-tech-news-7) ⭐️ 8.0/10
-8. [As AI erodes search and the web&\#x27;s collective memory](#item-tech-news-8) ⭐️ 7.0/10
-9. [UK-style age verification and digital ID push reaches US](#item-tech-news-9) ⭐️ 7.0/10
-10. [Rust SIMD on GPUs: Portability and Nightly Tooling Debate](#item-tech-news-10) ⭐️ 7.0/10
-11. [Token Efficiency of Programming Languages for LLM Coding Agents](#item-tech-news-11) ⭐️ 7.0/10
-12. [Bernie Sanders urges Meta, OpenAI, Anthropic to pause AI development](#item-tech-news-12) ⭐️ 7.0/10
-13. [Fru: Fast Rust Random Forest with Python and R Bindings](#item-tech-news-13) ⭐️ 7.0/10
+1. [Nvidia details Nemotron 3.5 Lightning and NeMo Switchyard](#item-tech-news-1) ⭐️ 8.0/10
+2. [Stealing Reasoning Traces from Proprietary LLM APIs](#item-tech-news-2) ⭐️ 8.0/10
+3. [eBay harassment scandal documentary recounts stalking of journalist couple](#item-tech-news-3) ⭐️ 8.0/10
+4. [AI researchers warn of arms race danger](#item-tech-news-4) ⭐️ 8.0/10
+5. [Meta introduces Muse Glimmer, an Apache 2.0 30B open agentic model](#item-tech-news-5) ⭐️ 8.0/10
+6. [AMD Unveils Robot SoC with CPU, GPU, NPU and Unified Memory](#item-tech-news-6) ⭐️ 8.0/10
+7. [Compression Is Prediction: A Unifying Framework for ML](#item-tech-news-7) ⭐️ 7.0/10
+8. [Modular Releases Mojo 1.0, Python-Superset Language for AI](#item-tech-news-8) ⭐️ 7.0/10
+9. [Nvidia&\#x27;s Risky Business: AI Growth, Software Moat, and Demand Risks](#item-tech-news-9) ⭐️ 7.0/10
+10. [Decoupled Descent Uses AMP Onsager Corrections to Match Train and Test Errors](#item-tech-news-10) ⭐️ 7.0/10
+11. [HyperSAE: Decoupled Poincaré Geometry for Sparse Autoencoders](#item-tech-news-11) ⭐️ 7.0/10
+
+**Technology Blog**
+1. [Sega&\#x27;s 30-Year, Seven-Entity Journey into China](#item-tech-blog-1) ⭐️ 8.0/10
+2. [miHoYo&\#x27;s AI Companion BSide Shuts Down After 28 Days](#item-tech-blog-2) ⭐️ 4.0/10
 
 **Financial News**
-1. [Nvidia and Wall Street giants target $500 billion to finance AI compute](#item-finance-news-1) ⭐️ 8.0/10
-2. [Stocks making midday moves: M&amp;A deals, Intel offering, Apple downgrade](#item-finance-news-2) ⭐️ 7.0/10
-3. [Premarket Movers: Intel Offering, Verisk Ruling, Berkshire Earnings, Archer Deal](#item-finance-news-3) ⭐️ 7.0/10
+1. [Nvidia&\#x27;s $500 Billion AI Financing Plan Faces China Risk](#item-finance-news-1) ⭐️ 8.0/10
+2. [CME Group to launch AI compute futures contracts](#item-finance-news-2) ⭐️ 8.0/10
+3. [Super Micro, CoreWeave and H&amp;R Block jump after earnings and guidance](#item-finance-news-3) ⭐️ 7.0/10
 
 ---
 
 ## Technology News
 
 <a id="item-tech-news-1"></a>
-### [Claude makes progress on Riemann zeta lower bound](https://www.anthropic.com/research/riemann-zeta) ⭐️ 9.0/10
+### [Nvidia details Nemotron 3.5 Lightning and NeMo Switchyard](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) ⭐️ 8.0/10
 
-Anthropic has published research describing how its Claude model made meaningful progress on a lower bound related to the Riemann zeta function, a mathematical object connected to the Riemann hypothesis. The project is notable because the human researcher&\#x27;s role was mostly limited to sending Claude encouragement messages, such as “keep going” and “believe in yourself,” which reportedly helped the model overcome initial skepticism about its own progress. Anthropic presents this work as a demonstration of advanced AI mathematical reasoning and research capability. Community commentators treated the result as a significant milestone, with one noting that an AI improving a lower bound on the Riemann hypothesis did not even make the front page of Hacker News.
+NVIDIA has released Nemotron 3.5 Lightning, a family of small efficient models, together with NeMo Switchyard, an open-source library that routes each inference request to the most capable and suitable model. The release reflects a broader industry push toward smaller models as a response to the resource demands of multi-trillion-parameter systems. NeMo Switchyard aims to cut cost and improve quality by intelligently directing requests, though practical concerns remain about how routing interacts with prompt caching. A 30B Lightning variant is already being used by developers on Apple Silicon through MLX, with reports of slow but functional performance.
 
-hackernews · tosh · Aug 10, 17:41 · [Discussion](https://news.ycombinator.com/item?id=49247070)
+hackernews · droidjj · Aug 11, 19:35 · [Discussion](https://news.ycombinator.com/item?id=49263340)
 
-**「Background」** The Riemann hypothesis, a famous open problem in mathematics, concerns the zeros of the Riemann zeta function and states that all nontrivial zeros lie on the critical line where the real part equals 1/2. Mathematicians have long worked on proving what fraction of those zeros can be shown to lie on the critical line; this is a weaker but important question. Anthropic&\#x27;s research describes how an unreleased version of Claude improved the proven lower bound on that fraction from 41.6% to 67.2%, the largest single improvement, without solving the full hypothesis.
+**「Background」** NVIDIA&\#x27;s Nemotron 3.5 Lightning is a 30-billion-parameter mixture-of-experts model built for specialized tasks within larger multi-agent systems, designed to make agentic applications faster and more efficient. NeMo Switchyard is an accompanying open-source routing library that can intelligently direct each request to the most suitable model when deployed, allowing systems to combine multiple models without rewriting the agent stack. These releases reflect a broader industry shift toward smaller, purpose-built models that can be routed dynamically rather than relying solely on very large general-purpose models.
 
-**「Community Discussion」** Commenters expressed amusement and amazement at the encouragement-only prompting approach, with one jokingly suggesting a PUA plugin that detects when an AI is about to give up and automatically harasses it with encouragement until it reaches a solution. Another commenter recalled a prior anecdote where Claude independently worked out the multiplicative complexity k=7 for Conway&\#x27;s Game of Life, and others noted how bizarre the current timeline feels when AI makes mathematical headway.
+**「Impact」** Developers deploying Nemotron 3.5 Lightning gain an open-source routing layer that can direct requests to the most suitable model, but adopting it requires solving prompt-cache management; Apple Silicon users can already run a 30B variant locally via MLX, albeit slowly.
+
+**「Community Discussion」** Commenters largely welcome the shift to small efficient models and one reports the 30B Lightning model working on Apple Silicon via MLX, albeit slowly. Others question how NeMo Switchyard preserves prompt caching when routing requests, and one criticizes the benchmark graph for omitting Qwen models except the Max variant.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.anthropic.com/research/riemann-zeta">Learning more about Claude &#x27;s mathematical capabilities \ Anthropic</a></li>
-<li><a href="https://runtimewire.com/article/anthropic-claude-riemann-hypothesis-zeta-zero-bound">Anthropic says unreleased Claude raised a Riemann -related lower ...</a></li>
-<li><a href="https://cryptobriefing.com/claude-riemann-zeta-lower-bound-67-percent/">Claude advances lower bound for Riemann zeta function to 67%</a></li>
+<li><a href="https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/">NVIDIA Nemotron 3 . 5 Lightning and NeMo Switchyard Deliver...</a></li>
+<li><a href="https://cobusgreyling.medium.com/nvidia-nemotron-3-5-lightning-5c38fbeacc0b">NVIDIA Nemotron 3 . 5 Lightning . The Execution Engine for... | Medium</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#AI research`, `#mathematical reasoning`, `#Claude`, `#Riemann hypothesis`, `#machine learning`
+**Tags**: `#NVIDIA`, `#AI models`, `#open-source`, `#model routing`, `#efficient AI`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [CHICKEN Scheme 6.0 adds support for statically typed Crunch](https://code.call-cc.org/releases/6.0.0/NEWS) ⭐️ 8.0/10
+### [Stealing Reasoning Traces from Proprietary LLM APIs](https://stolen-thoughts.com/) ⭐️ 8.0/10
 
-CHICKEN Scheme 6.0 has been released, adding support for Crunch, a compiler for a statically typed subset of Scheme R7RS, although Crunch itself remains at version 0.993 rather than 1.0. CHICKEN is a Scheme-to-C compiler that can produce standalone executables via a C compiler, and it also provides an interpreter for scripting and testing. The release is part of the project&\#x27;s evolution as a mature Scheme implementation with an active ecosystem. Users have been anticipating the transition from version 5 to version 6 while experimenting with the current release.
+A technical exposé posted at stolen-thoughts.com details how hidden reasoning traces can be extracted from proprietary LLM APIs. The article describes taking a trace produced by a frontier model, replaying it into a weaker sibling model, and jailbreaking that weaker model to reveal chain-of-thought output that the API normally hides. It also reports that API summaries can distort the original reasoning, for example when Opus 4.8 states an answer before deriving it but the summary makes the derivation look clean. Community tests found a related leak with Codex&\#x27;s encrypted compaction, where a two-sentence developer prompt auto-injected before and after compaction made all models output the encrypted data in plaintext. The work matters because it weakens the assumption that proprietary reasoning traces are private and renews the debate over who owns model outputs and whether training on other models&\#x27; outputs is legitimate.
 
-hackernews · eatonphil · Aug 11, 00:24 · [Discussion](https://news.ycombinator.com/item?id=49251702)
+hackernews · quantumgarbage · Aug 11, 13:22 · [Discussion](https://news.ycombinator.com/item?id=49257876)
 
-**「Background」** CHICKEN is a Scheme compiler that translates Scheme source code into C, which can then be compiled into a standalone executable; it also offers an interpreter for scripting and testing. Crunch is a compiler targeting a statically typed subset of Scheme R7RS and can be used as a batch compiler from Scheme to standalone C programs or to compile embedded Scheme fragments with generated glue code for use from CHICKEN.
+**「Background」** Proprietary LLM APIs often expose only final answers and not the internal chain-of-thought reasoning used to generate them, a design choice motivated by safety, competitive advantage, and terms-of-service restrictions. Vendors have increasingly tried to hide or encrypt these reasoning traces. This article demonstrates that such protections can be bypassed with replay and jailbreak techniques.
 
-**「Impact」** CHICKEN developers now have a new option in the 6.0 toolchain to compile statically typed R7RS Scheme code through Crunch, though Crunch has not yet been declared stable.
+**「Impact」** For developers and security practitioners, the demonstration weakens the confidentiality assumptions of proprietary LLM APIs and shows that recorded reasoning traces may be recoverable even when hidden or encrypted. It also provides concrete evidence for the ongoing debate over whether training on another model&\#x27;s outputs should be considered theft.
 
-**「Community Discussion」** Commenters welcomed Crunch support and shared practical uses, including building a CHICKEN wrapper around makemkvcon for DVD ripping with TVDB-based naming. Others asked how CHICKEN compares with Gambit, citing its egg ecosystem as a possible reason for choosing it.
+**「Community Discussion」** Commenters disagreed over framing: some called &\#x27;stealing&\#x27; misleading because users already paid for tokens and outputs should be fair game, while others were more interested in the hack and wondered if it was intentionally allowed. One commenter reproduced a related leak with Codex&\#x27;s encrypted compaction using only a two-sentence developer prompt, and another noted that disabling thinking and providing a &\#x27;deep\_think&\#x27; tool can expose the same internal reasoning format.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.more-magic.net/posts/crunch.html">Let&#x27;s CRUNCH ! | More magic</a></li>
-<li><a href="https://www.youtube.com/watch?v=NESX4B1BemE">200+ BLOCKS MASS CRUSHES | nothing but crunch - YouTube</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#Scheme`, `#Chicken Scheme`, `#compiler`, `#Lisp`, `#open source`
+**Tags**: `#LLM security`, `#reasoning traces`, `#jailbreak`, `#model extraction`, `#AI APIs`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [Zuckerberg attacks closed AI rivals as Meta returns to open models](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) ⭐️ 8.0/10
+### [eBay harassment scandal documentary recounts stalking of journalist couple](https://www.theguardian.com/film/2026/aug/11/whatever-it-takes-documentary-ebay-harassment-scandal) ⭐️ 8.0/10
 
-Mark Zuckerberg is publicly attacking &\#x27;closed&\#x27; AI rivals and reaffirming Meta&\#x27;s commitment to open-source AI, arguing that open development is safer and more beneficial. His commentary, published on Meta&\#x27;s &\#x27;thefutureisforeveryone&\#x27; page, frames open models as the antidote to concentrated AI power. Community members point out that Meta&\#x27;s 2023 release of LLaMA helped start the open-weight AI race, though the company has also shipped closed endpoints in the past. This stance matters because Meta is one of the largest players developing foundation models, and its open-release strategy directly affects developers&\#x27; access to alternatives.
+A Guardian article reviews the documentary Whatever It Takes, which recounts the aggressive stalking campaign eBay directed at Massachusetts journalists Ina and David Steiner. The Steiners founded EcommerceBytes, an e-zine covering Silicon Valley and eBay for a community of small online sellers that now has more than 600,000 readers. Their reporting criticized the tech company, prompting retaliation that the article describes as a shocking harassment scandal. The piece highlights how the early, personal tech beat gave way to corporate misconduct, and it positions the documentary as a key account of that abuse.
 
-hackernews · root-parent · Aug 10, 14:06 · [Discussion](https://news.ycombinator.com/item?id=49243880)
+rss · The Guardian International · Aug 11, 09:00
 
-**「Background」** Open-source AI models make their weights publicly available for anyone to use, modify, and build on, in contrast to closed models sold through APIs. Meta helped ignite the current open-source race in 2023 with its Llama models, and in August 2026 it launched a new open-source family called Muse Glimmer alongside a lengthy Zuckerberg essay arguing that U.S. open-source AI is needed to counter fast-moving Chinese rivals and avoid centralized control. This renewed push comes after criticism that Meta sometimes releases models as open only after failing to sell closed access.
+**「Background」** Ina and David Steiner ran EcommerceBytes, a highly popular newsletter and website for eBay sellers. In 2019, after the Steiners published reporting critical of eBay, senior eBay security executives allegedly orchestrated an aggressive cyberstalking and harassment campaign against the couple. The scandal led to federal criminal charges and convictions, and the story is told in the 2024 documentary &\#x27;Whatever It Takes: Inside the eBay Scandal,&\#x27; directed by Jenny Carchman.
 
-**「Impact」** For developers and organizations, Meta&\#x27;s renewed open-model commitment strengthens the availability of open-weight AI alternatives to closed API platforms, though skepticism about the company&\#x27;s motivations remains.
-
-**「Community discussion」** Some commenters praise the move as a net good, crediting Meta with kickstarting the open-weight race through LLaMA in 2023. Others are skeptical, alleging Meta only &\#x27;open sourced&\#x27; a model after its closed endpoint failed to sell, and see the stance as a losing player trying to change the rules.
+**「Impact」** The documentary brings renewed public attention to eBay&\#x27;s mistreatment of journalists and underscores the risks faced by independent tech reporters who criticize powerful platforms.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://fortune.com/2026/08/10/meta-brandishes-open-source-ai-models-again-as-zuckerberg-media-blitz-emphasizes-battle-against-chinese-rivals/">Mark Zuckerberg makes his case for American open - source AI over...</a></li>
-<li><a href="https://news.ycombinator.com/item?id=49243880">Mark Zuckerberg attacks &#x27; closed &#x27; AI rivals as Meta returns to open ...</a></li>
-<li><a href="https://invezz.com/news/2026/08/10/zuckerberg-wants-more-open-source-ai-heres-how-closed-models-differ-from-open-ones/">Zuckerberg wants more open - source AI : here&#x27;s how closed models...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EBay_stalking_scandal">eBay stalking scandal - Wikipedia</a></li>
+<li><a href="https://www.primevideo.com/detail/0JIXX8JL25WD8603EEB8JLNRDI/">Whatever It Takes: Inside the eBay Scandal - Prime Video</a></li>
+<li><a href="https://www.theguardian.com/film/2026/aug/11/whatever-it-takes-documentary-ebay-harassment-scandal">‘A horrible nightmare’: the shocking story of the eBay ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#open-source`, `#AI`, `#Meta`, `#LLaMA`, `#industry-politics`
+**Tags**: `#eBay`, `#harassment`, `#tech ethics`, `#journalism`, `#documentary`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Meta Unveils Muse Glimmer 30B for Local Agent Workflows](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) ⭐️ 8.0/10
+### [AI researchers warn of arms race danger](https://www.theguardian.com/commentisfree/2026/aug/11/openai-anthropic-google-deepmind-letter) ⭐️ 8.0/10
 
-Meta has introduced Muse Glimmer, a 30B-parameter model optimized for always-on local agent workflows, alongside plans to release open weights for its Muse Spark 1.2 foundation model. The release pushes toward efficient, on-device AI and self-hosted agent deployments, reducing reliance on large server infrastructure. Community members have already run Muse Glimmer locally via Ollama on a 32GB Mac mini, though with slow performance, and Unsloth has published quantized GGUF versions. The move is seen as strategically significant for open-weight AI, with comparisons expected against other dense 30B-class models such as the upcoming Qwen3.8 27B.
+An open letter signed by 1,367 researchers and engineers at frontier AI labs, mainly OpenAI, Anthropic, and Google DeepMind, warns that the AI arms race is putting humanity at risk. In a Guardian opinion piece, AI expert Stuart Russell cites the letter as direct evidence that everyday AI practitioners are seriously concerned about catastrophic risks, countering claims that such worries are fringe or science fiction. The letter, published at pacingthefrontier.com, appears to mark a dangerous moment in the development of advanced AI systems. The piece frames the signatories&\#x27; collective warning as a call to take existential AI risks seriously.
 
-hackernews · riordan · Aug 10, 10:10 · [Discussion](https://news.ycombinator.com/item?id=49241679)
+rss · The Guardian International · Aug 11, 10:00
 
-**「Background」** Muse Glimmer is a 30-billion-parameter open-agentic AI model released by Meta Superintelligence Labs, with weights available under the Apache 2.0 license. It is designed for always-on local agent workflows, running directly on PCs, and uses speculative decoding — a smaller drafter model proposes tokens that the main model verifies in parallel — to accelerate generation without sacrificing output quality. The release continues Meta&\#x27;s pattern of publishing open-weight models, following earlier models like Muse Spark 1.2.
+**「Background」** An open letter from researchers and engineers at frontier AI labs warns about catastrophic AI risks and urges policy action. The Guardian article cites 1,367 signatories, while external coverage reports more than 1,100 signatories from OpenAI, Anthropic, Meta, and Google DeepMind, including chief scientists and CEOs, asking US policymakers to slow AI development. The letter is supported by nonprofits Guidelight AI Standards and Encode AI.
 
-**「Impact」** The Apache 2.0 release lets self-hosting developers run Meta&\#x27;s 30B agentic model on a single GPU, enabling local agent, code-assistant, and tool-use workloads without a data-center back end, while Meta&\#x27;s planned Muse Spark 1.2 weights further consolidate its open-weights position.
-
-**「Community Discussion」** Commenters are broadly enthusiastic about the open-weights releases and local deployment, with some viewing the Muse Spark 1.2 weight release as even more significant than Muse Glimmer itself and strategically beneficial for Meta as the leading American open-weights model provider. Hands-on reports describe Muse Glimmer giving good results on local hardware but running slowly, while others anticipate head-to-head comparisons with Qwen3.8 27B and question the long-term need for massive data-center buildouts.
+**「Impact」** The open letter from 1,367 researchers and engineers at frontier AI labs, mainly OpenAI, Anthropic, and Google DeepMind, provides concrete evidence that many frontline AI professionals are seriously concerned about catastrophic risks, directly countering the claim that such worries are fringe or held only by outsiders. Because the signatories work at the organizations developing these systems, the letter adds insider credibility to calls for caution and could intensify pressure on labs and policymakers to address AI safety and governance.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.phoronix.com/news/Meta-Muse-Glimmer">Meta Publishes Muse Glimmer As 30B Open Agentic Model - Phoronix</a></li>
-<li><a href="https://www.neowin.net/news/meta-releases-muse-glimmer-a-30b-open-agentic-ai-model-that-runs-locally-on-pcs/">Meta releases Muse Glimmer, a 30B open agentic AI model that runs locally on PCs - Neowin</a></li>
-<li><a href="https://huggingface.co/meta-models/Muse-Glimmer-30B">meta-models/Muse-Glimmer-30B · Hugging Face</a></li>
-<li><a href="https://explainx.ai/blog/meta-muse-glimmer-open-weight-30b-agentic-model-2026">Muse Glimmer : Meta&#x27;s 30B Open Model Runs on 24GB... | explainx. ai</a></li>
-<li><a href="https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666">Zuck rekindles open weights Llama drama with Muse Glimmer</a></li>
-<li><a href="https://www.poniaktimes.com/meta-muse-glimmer-open-weight-ai/">Meta Launches Muse Glimmer as It Returns to Open - Weight AI</a></li>
+<li><a href="https://www.tiktok.com/discover/openai-anthropic-google-meta-urge-us-to-slow-ai">Openai Anthropic Google Meta Urge Us to Slow Ai | TikTok</a></li>
+<li><a href="https://www.trendingtopics.eu/1100-employees-at-openai-anthropic-meta-and-google-call-for-ai-slowdown/">1,100 Employees at OpenAI , Anthropic , Meta, and Google Call For...</a></li>
+<li><a href="https://www.thebridgechronicle.com/tech/ai-researchers-openai-anthropic-google-meta-us-ai-development-mp99">Over 1,100 AI Researchers From OpenAI , Anthropic , Google &amp; Meta...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Stuart_J._Russell">Stuart J. Russell - Wikipedia</a></li>
+<li><a href="https://www.theguardian.com/commentisfree/2026/aug/11/openai-anthropic-google-deepmind-letter">Experts are warning: our AI arms race is putting... | The Guardian</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Meta`, `#local AI`, `#agent workflows`, `#open weights`, `#efficient inference`
+**Tags**: `#AI safety`, `#open letter`, `#frontier AI`, `#risk`, `#policy`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [PoC Exploits System Management Mode via Extremely Long Interrupt](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) ⭐️ 8.0/10
+### [Meta introduces Muse Glimmer, an Apache 2.0 30B open agentic model](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything) ⭐️ 8.0/10
 
-Security researcher xoreaxeaxeax published a GitHub proof-of-concept that exploits System Management Mode \(SMM\) by triggering a system management interrupt with an unusually long instruction, allowing code to execute at the CPU&\#x27;s most privileged level. The technique requires root access and targets the SMM timeout mechanism that expects every instruction to complete between interrupts. Because SMM memory and execution are hidden from the operating system, the PoC demonstrates a path from ring 0 to persistent, firmware-level code execution. The repository includes a long-form readme and is associated with the author&\#x27;s related &\#x27;asm-hall-of-shame&\#x27; work on instruction latency.
+Meta has released Muse Glimmer, a new 30B open-weights model under a clean Apache 2.0 license, replacing the more restrictive Llama licenses. The company says it is optimized for end-to-end agentic task completion, reliable tool use, and multi-step reasoning, citing benchmarks such as DeepSearch QA, MCP-Atlas, τ-Bench, and SWE-Bench. Simon Willison tested it locally using LM Studio&\#x27;s 18.16 GB version and his llm-coding-agent plugin, and also confirmed it is a vision model by asking it to describe an image. With 32 GB or more of RAM, the model leaves room for other applications, making it an attractive option for local agentic workflows.
 
-hackernews · WhiteDawn · Aug 10, 16:03 · [Discussion](https://news.ycombinator.com/item?id=49245491)
+rss · Simon Willison · Aug 10, 23:56
 
-**「Background」** System Management Mode \(SMM\) is an x86 CPU execution mode used by firmware for low-level platform management; it is an ultra-privileged, largely invisible environment entered through a System Management Interrupt \(SMI\). This GitHub proof-of-concept from security researcher xoreaxeaxeax demonstrates that an unusually long interrupt or long-running instruction can break SMM, violating the timeout assumptions that SMM handlers rely on and exposing the secure firmware environment. The repository presents the technique as an exploit demonstration rather than a vendor-disclosed vulnerability, highlighting SMM&\#x27;s lack of user control and inspection.
+**「Background」** Open-weights models are distributed with publicly available parameters, but licenses vary in what users can do with them; Meta&\#x27;s previous Llama releases had extra terms that many developers found annoying. Agentic models are designed to complete multi-step tasks by calling tools and reasoning over long workflows, rather than just answering prompts. Apache 2.0 is a permissive license that allows broad use, modification, and redistribution.
 
-**「Impact」** For security researchers and system programmers, the PoC provides a practical demonstration that a root adversary can break out of the OS into SMM, potentially enabling firmware-level implants that survive OS reinstallation and evade security tools.
+**「Impact」** Developers with at least 32 GB of RAM can now run a 30B permissively licensed, vision-capable agentic model locally, and integrate it with existing tools such as LM Studio and llm-coding-agent, without Llama-style license restrictions.
 
-**「Community Discussion」** Commenters note that the attack requires root, with one arguing it is better described as &\#x27;taking back control of your hardware&\#x27; than as a vulnerability. Others discuss the SMM timeout mechanism, point to the related asm-hall-of-shame repository, and express amusement at the readme&\#x27;s deliberate use of a very long code block.
-
-<details><summary>References</summary>
-<ul>
-<li><a href="https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii?ref=upstract.com">GitHub - xoreaxeaxeax / smiiiiiiiiiiiiiiii at upstract.com · GitHub</a></li>
-<li><a href="https://upstract.com/x/8f17aec87a9747c0">Exploiting System Management Mode with a very long interrupt</a></li>
-<li><a href="https://eucloudservers.com/security-encryption/exploiting-system-management-mode-with-a-very-long-interrupt/">Exploiting System Management Mode With A Very Long Interrupt</a></li>
-
-</ul>
-</details>
-
-**Tags**: `#system management mode`, `#security`, `#exploit`, `#hardware`, `#privileged mode`
+**Tags**: `#open weights`, `#Meta`, `#AI`, `#machine learning`, `#agentic`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [Wall Street giants back Nvidia&\#x27;s $500bn AI infrastructure push](https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
+### [AMD Unveils Robot SoC with CPU, GPU, NPU and Unified Memory](https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/) ⭐️ 8.0/10
 
-Nvidia has partnered with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to raise more than $500bn \(£370bn\) for AI infrastructure, marking the first time major investors are treating AI hardware and data-centre capacity, aka &\#x27;compute&\#x27;, as an asset class. The financing will support Nvidia&\#x27;s own projects and those of partners, including new data centres and chip factories. Nvidia can optionally backstop up to $125bn, or 25%, of potential deals, according to CEO Jensen Huang. Huang said &\#x27;In AI, compute is revenue,&\#x27; and KKR&\#x27;s co-CEOs noted that &\#x27;delivery, not ambition, is the hard part.&\#x27; Major tech firms such as Google, Meta, Amazon, Microsoft, OpenAI and Anthropic rely on Nvidia GPUs, and have collectively spent over $1tn on AI in just three years.
+AMD has announced a new system-on-chip for robots that integrates a CPU, GPU, and NPU on a single die with unified memory. The design challenges Nvidia&\#x27;s GPU-centric approach by balancing general processing, graphics, and AI acceleration in one architecture. AMD is positioning the SoC as a direct competitor in the growing robotics market, targeting systems that need efficient AI inference and real-time control. Details such as specific SKUs, performance figures, and availability have not yet been disclosed.
 
-rss · BBC World · Aug 10, 22:31
+rss · EE Times · Aug 11, 14:09
 
-**「Background」** Nvidia designs graphics processing units \(GPUs\) that have become the dominant hardware for training and running AI models. AI data centres stack thousands of these chips, requiring huge capital for construction, power and cooling. Until now, such infrastructure was mainly funded by tech companies themselves; this partnership introduces large financial institutions as long-term investors in &\#x27;compute&\#x27; as an independent asset class.
+**「Background」** Robotics and other physical AI applications require real-time control, sensor processing, and AI inference, often demanding heterogeneous compute that combines CPUs, GPUs, and NPUs. AMD&\#x27;s new Robotics SoC builds on its Kria AI and Ryzen AI Embedded platforms by integrating up to 16 Zen 5 CPU cores, an RDNA 3.5 GPU, and an XDNA 2 NPU with unified memory on a single chip, aiming to provide low-latency, deterministic operation. This challenges Nvidia&\#x27;s GPU-centric approach to robotics hardware by offering a more balanced, unified-memory architecture.
 
-**「Impact」** The $500bn pool gives Nvidia and its partners a substantial new source of capital to expand data-centre and chip-manufacturing capacity, potentially easing compute shortages and reinforcing Nvidia&\#x27;s central role in the AI boom.
+**「Impact」** Robotics system designers now have a new AMD option that combines CPU, GPU, and NPU with unified memory, which may strengthen AMD&\#x27;s position against Nvidia in the robotics silicon market.
 
-**Tags**: `#Nvidia`, `#AI infrastructure`, `#data centers`, `#finance`, `#hardware`
+<details><summary>References</summary>
+<ul>
+<li><a href="https://www.amd.com/en/products/system-on-modules/kria/ai.html">AMD Kria AI Solutions</a></li>
+<li><a href="https://newsroom.amd.com/news/aai-2026-ryzen-ai-embedded-x100/">AAI 2026: AMD Delivers Leadership Heterogeneous Compute for Physical AI</a></li>
+<li><a href="https://www.techpowerup.com/351008/amd-advancing-ai-2026-ryzen-ai-embedded-x100-kria-ai-robotics-platform-and-robotics-partner-network">AMD Advancing AI 2026: Ryzen AI Embedded X100, Kria AI Robotics ...</a></li>
+
+</ul>
+</details>
+
+**Tags**: `#AMD`, `#robotics`, `#SoC`, `#NPU`, `#unified memory`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [Hand-set Phi-3 weights multiply with 100% accuracy after zero training](https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/) ⭐️ 8.0/10
+### [Compression Is Prediction: A Unifying Framework for ML](https://ngrok.com/blog/compression-is-prediction) ⭐️ 7.0/10
 
-A developer manually compiled grade-school multiplication into the weights of a stock Phi-3 transformer using a custom compiler called Torchwright, achieving 100% accuracy on all 3,000,000 supported three-digit expressions and publishing checkpoints that handle up to 12-digit by 12-digit multiplication. This contrasts with frontier models, which scored 0/500 at seven digits in the author&\#x27;s tests. Four versions \(grade-school, hardware-style, scratchpad, brute-force memorization\) compute the same function with different tradeoffs in layers, width, generated tokens, and parameters. The work demonstrates that exact arithmetic can be embedded into a standard transformer architecture without training, offering a concrete resource for interpretability and algorithmic weight compilation research.
+The ngrok article &\#x27;Compression is prediction&\#x27; argues that compression and prediction are two sides of the same coin: an effective compressor must infer the underlying structure of data, which is equivalent to predicting unseen or future data. The piece presents this as a foundational idea in machine learning and information theory, showing how neural networks learn representations by compressing training data. Community discussion highlights an important nuance: the equivalence holds best when training data exactly represents future problems, while generalization to different test distributions can break the link, especially with lossy compression that ignores rare edge cases.
 
-reddit · r/MachineLearning · /u/notforrob · Aug 10, 17:37
+hackernews · nikolay · Aug 11, 19:49 · [Discussion](https://news.ycombinator.com/item?id=49263497)
 
-**「Background」** Transformers normally acquire mathematical abilities through training, with their weights adjusted via backpropagation. In this project, the author uses a compiler called Torchwright to directly set the weights of a Phi-3 transformer to implement multiplication, skipping training entirely. This contrasts with standard approaches where transformer weights are learned from data rather than manually constructed.
+**「Background」** Data compression algorithms exploit regularities in data by predicting upcoming symbols from context, and the more accurate the prediction, the fewer bits are needed to encode the data. Large language models \(LLMs\) are trained to predict the next token in text, which is why the ngrok article argues they are fundamentally solving the same problem as compression. This connection has earlier roots in David MacKay&\#x27;s Cambridge course and textbook Information Theory, Inference, and Learning Algorithms, which treats information theory and machine learning as two sides of the same coin.
 
-**「Impact」** Researchers and developers working on transformer interpretability and algorithmic reasoning can use the public checkpoints and open-source Torchwright compiler to embed exact arithmetic directly into stock models without training. However, these models do not generalize beyond the compiled digit range, so they are not replacements for learned arithmetic in general-purpose systems.
+**「Community Discussion」** Commenters connected the thesis to David MacKay&\#x27;s Cambridge course &\#x27;Information Theory, Inference, and Learning Algorithms,&\#x27; Grant Sanderson&\#x27;s video series &\#x27;Compression is Intelligence,&\#x27; and Ted Chiang&\#x27;s essay &\#x27;ChatGPT is a blurry JPEG of the web.&\#x27; A key debate centered on whether compression is truly equivalent to prediction, with ssivark arguing that lossy compression can discard rare edge cases and therefore fails to guarantee generalization when test distributions differ.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://data-today.net/transformer-compiler-no-training/">A compiler that skips training and writes transformer weights</a></li>
+<li><a href="https://ngrok.com/blog/compression-is-prediction">Compression is prediction | ngrok blog</a></li>
+<li><a href="https://assets.cambridge.org/97805216/42989/frontmatter/9780521642989_frontmatter.pdf">Information Theory, Inference, and Learning Algorithms David J.C. MacKay</a></li>
+<li><a href="https://www.cambridge.org/gb/universitypress/subjects/computer-science/pattern-recognition-and-machine-learning/information-theory-inference-and-learning-algorithms">Information Theory, Inference and Learning Algorithms | Cambridge University Press &amp; Assessment</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#transformers`, `#interpretability`, `#arithmetic`, `#weight compilation`, `#machine learning`
+**Tags**: `#compression`, `#prediction`, `#machine learning`, `#information theory`, `#AI`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [As AI erodes search and the web&\#x27;s collective memory](https://thewalrus.ca/google-search-is-dying/) ⭐️ 7.0/10
+### [Modular Releases Mojo 1.0, Python-Superset Language for AI](https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here) ⭐️ 7.0/10
 
-An essay in The Walrus argues that AI-generated content and declining search quality are eroding the internet&\#x27;s collective memory, with Google search increasingly exhibiting &\#x27;amnesia&\#x27; and losing recent history, especially on non-US sites. The piece examines how intermediaries shape what survives online, advocates for better-protected preservation institutions, and notes legal constraints such as the Internet Archive lending lawsuit. User responses largely corroborate a drop in search reliability, though one commenter stresses that the Internet Archive case ended with a court finding of unauthorized copying, not just an allegation. The essay frames digital preservation as a collective problem as AI reshapes the web.
+Modular has released Mojo 1.0, a milestone for the Python-superset language designed for high-performance AI development. The release aims to combine Python usability with C-level performance for AI workloads. Modular reiterated its plan to progressively open-source more of the language and to open-source the Mojo compiler and toolchain in 2026. The milestone is significant for the AI tooling landscape, though community members are watching the open-source timeline and the language&\#x27;s evolving Python-superset roadmap.
 
-hackernews · awnird · Aug 10, 22:36 · [Discussion](https://news.ycombinator.com/item?id=49250836)
+hackernews · dayanruben · Aug 11, 16:56 · [Discussion](https://news.ycombinator.com/item?id=49261128)
 
-**「Background」** Search engines have long acted as intermediaries that decide what content gets indexed, ranked, and preserved, shaping what people can find and remember online. The Walrus article argues that as AI-generated summaries and chatbot answers replace conventional search result pages, traffic and ad revenue flow away from original publishers, weakening the incentives to maintain and archive the web. It also references disputes such as the Internet Archive&\#x27;s legal defeat over digital lending, which illustrates how copyright litigation further limits what can be preserved.
+**「Background」** Mojo is a programming language created by Modular, first released in 2023, designed to combine Python-like usability with high performance for AI workloads. It was originally intended to be a superset of Python, but the project later stated it may not evolve into a full superset. The standard library was open-sourced in 2024, and in May 2026 Modular released the first beta of Mojo 1.0, with the official 1.0 release following shortly thereafter; the company has committed to open-sourcing the Mojo compiler and toolchain in 2026.
 
-**「Impact」** The most immediate consequence is that users—especially those seeking recent or non-US information—already struggle to find it through Google, and the essay argues this will worsen as AI-generated content proliferates.
+**「Impact」** The Mojo 1.0 release gives AI developers a stable, high-performance Python-compatible language option, with reported speedups for performance-critical workloads, but the decision to keep the compiler closed-source until the promised 2026 open-sourcing may make some teams hesitant to adopt it as a core infrastructure dependency.
 
-**「Community Discussion」** Commenters broadly agreed that Google&\#x27;s search quality has declined, with one reporting recent history &\#x27;just gone&\#x27; on non-US sites and another noting Gemini can usefully aggregate documentation without ads, though its AI answers feel aggressive. Others pushed back on the article&\#x27;s framing: one wished it explored alternatives to gatekeepers, and another corrected the Internet Archive lawsuit depiction, noting the court found unauthorized copying and major writers&\#x27; groups opposed the archive.
+**「Community Discussion」** Commenters expressed mixed reactions: some questioned the value of a closed-source compiler and the language&\#x27;s positioning compared to Rust-backed Python libraries, while others asked for a clearer one-page overview of Mojo&\#x27;s purpose. A commenter also noted the roadmap says Mojo may or may not evolve into a full Python superset, and several questioned why open-sourcing the compiler is not happening sooner than 2026. Another commenter voiced skepticism about AI-generated visuals in the announcement but remained hopeful for the project.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://thewalrus.ca/google-search-is-dying/">Google Search Is Dying. What Comes Next Is Worse | The Walrus</a></li>
-<li><a href="https://thewalrus.ca/">The Walrus | Canada&#x27;s Conversation</a></li>
-<li><a href="https://medium.com/@anandvlinkedin/the-memory-web-how-ai-will-remember-the-internet-so-you-dont-have-to-7d7c77daf6e2">The Memory Web: How AI Will Remember the Internet So You Don’t Have To | by Tech Horizon With Anand Vemula | Medium</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mojo_%28programming_language%29">Mojo (programming language) - Wikipedia</a></li>
+<li><a href="https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here">Modular: Modular 26.5: Mojo 1.0 is here!</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mojo_%28programming_language%29">Mojo (programming language) - Wikipedia</a></li>
+<li><a href="https://cubettech.com/resources/blog/mojo-v-s-python-in-performance-critical-ai-applications/">Mojo v/s Python In Performance-Critical AI Applications | Blog | Cubet</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#ai`, `#web-search`, `#internet-history`, `#google`, `#digital-preservation`
+**Tags**: `#Mojo`, `#programming-language`, `#AI`, `#Python`, `#Modular`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [UK-style age verification and digital ID push reaches US](https://www.effort.news/uk-lobby) ⭐️ 7.0/10
+### [Nvidia&\#x27;s Risky Business: AI Growth, Software Moat, and Demand Risks](https://stratechery.com/2026/nvidias-risky-business/) ⭐️ 7.0/10
 
-The article reports that the UK&\#x27;s push for digital identity and age verification is being imported into US legislation under the guise of child safety, potentially restricting anonymous internet use for adults. It cites a joint statement by Buffy Wicks and Jordan Cunningham, authors of California&\#x27;s AB 2273, and the 5Rights Foundation, which explicitly draws on the UK&\#x27;s Age Appropriate Design Code. The piece also highlights Wicks&\#x27; related bills, AB 1043 and AB 1856, which were intended to protect children online but critics say could unintentionally criminalize open source software. The central claim is that NGOs and lawmakers have converged on a strategy of using child-safety rhetoric to advocate for digital ID laws that would end anonymous online activity.
+Stratechery published an analysis of Nvidia&\#x27;s strategic position, focusing on the sustainability of its AI-driven growth and the risks embedded in its business model. The piece highlights that Nvidia demand for compute will keep rising is likely correct, but second-order assumptions about the growth rate may be exaggerated. It also notes that Nvidia&\#x27;s competitive advantage depends heavily on how entrenched its software is in ML research, even though the CUDA C/C++ ecosystem is criticized as difficult to use. The analysis suggests that while demand for chips and data centers remains strong, expectations for continued exponential growth carry real risk. Overall, the article frames Nvidia&\#x27;s future as promising but increasingly uncertain due to software lock-in, competitive alternatives, and changing demand dynamics.
 
-hackernews · slowin · Aug 10, 23:45 · [Discussion](https://news.ycombinator.com/item?id=49251411)
+hackernews · jonbaer · Aug 11, 10:02 · [Discussion](https://news.ycombinator.com/item?id=49255710)
 
-**「Background」** The UK&\#x27;s Age Appropriate Design Code \(AADC\), introduced in 2020, set out data protection standards for online services likely to be accessed by children, and it has become a template for legislation in other countries. California&\#x27;s Age-Appropriate Design Code Act \(AB 2273\), authored by Assemblymember Buffy Wicks and introduced in 2021, explicitly drew on the UK AADC and was the first U.S. law of its kind to focus on children&\#x27;s privacy and safety by design. Subsequent California proposals such as the Digital Age Assurance Act \(AB 1856\) have aimed to extend similar protections, sometimes by requiring age assurance, which critics argue could have unintended consequences for open-source software and anonymous online activity.
+**「Background」** Nvidia has become the dominant supplier of AI accelerators, with its GPUs and CUDA software stack forming the de facto platform for training and running large machine-learning models. As the cost of AI data centers has skyrocketed, Nvidia has moved beyond selling chips to helping customers finance infrastructure, reportedly partnering with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to unlock over $500 billion in third-party capital by reframing GPUs as income-producing infrastructure assets. This financial engineering shifts and expands the risk of the AI buildout, raising questions about whether demand growth will justify the massive capital commitments.
 
-**「Impact」** California&\#x27;s Digital Age Assurance Act \(AB 1043\), a UK-style age-assurance measure, takes effect July 1, 2026, requiring operating system providers to collect age information and transmit age-bracket signals to application developers, and the follow-up AB 1856—while exempting open source—expands age-gating in ways that civil-liberties groups say threaten anonymity and lawful speech.
+**「Impact」** For investors and the broader AI infrastructure market, the article underscores that Nvidia&\#x27;s valuation and strategy depend not just on rising compute demand but on the durability of its software ecosystem and the accuracy of growth expectations.
 
-**「Community Discussion」** Commenters are broadly skeptical: one alleges hidden political agendas and dark money sponsorship behind the legislation, another dismisses child-safety rhetoric as manipulation, and one argues that parents and guardians, not the state, are the right people to protect children. A counterpoint notes that a large constituency genuinely wants to protect children and that tech companies polluting the commons have fueled this push, so dismissing those concerns outright may be counterproductive.
+**「Community Discussion」** Commenters agreed that Nvidia&\#x27;s moat lies in software entrenchment rather than hardware alone, but they debated whether CUDA&\#x27;s developer experience is sustainable and whether demand growth assumptions are overblown. Some noted Nvidia&\#x27;s moves into robotics and China-specific competition as potential offsets to AI/LLM saturation risks.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.etcentric.org/tag/buffy-wicks/">Buffy Wicks Archives - ETCentric</a></li>
-<li><a href="https://twitter.com/BuffyWicks/status/1494162229012287491">&quot;The California Age Appropriate Design Code that we introduced...&quot;</a></li>
-<li><a href="https://wicks.asmdc.org/press-releases/20250325-assemblymember-buffy-wicks-and-senator-tom-umberg-join-forces-digital-age">Assemblymember Buffy Wicks and Senator Tom Umberg Join Forces...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/California_Digital_Age_Assurance_Act">California Digital Age Assurance Act - Wikipedia</a></li>
-<li><a href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">One Step Forward, Two Steps Back: CA&#x27;s AB 1856 Exempts Open Source But Expands Age-Gating | Electronic Frontier Foundation</a></li>
-<li><a href="https://www.techdirt.com/2026/06/02/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-but-expands-age-gating/">One Step Forward, Two Steps Back: CA’s AB 1856 Exempts Open Source But Expands Age-Gating | Techdirt</a></li>
+<li><a href="https://stratechery.com/2026/nvidias-risky-business/">Nvidia’s Risky Business</a></li>
+<li><a href="https://www.teahose.com/newsletter/Stratechery/Nvidia%E2%80%99s+Risky+Business+%28Stratechery+Article+8-11-2026%29">Nvidia&#x27;s Risky Business (Stratechery Article 8-11-2026)</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#privacy`, `#anonymity`, `#digital-id`, `#child-safety`, `#legislation`
+**Tags**: `#Nvidia`, `#AI hardware`, `#business strategy`, `#GPU`, `#semiconductor industry`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [Rust SIMD on GPUs: Portability and Nightly Tooling Debate](https://www.vectorware.com/blog/simd-on-gpu/) ⭐️ 7.0/10
+### [Decoupled Descent Uses AMP Onsager Corrections to Match Train and Test Errors](https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/) ⭐️ 7.0/10
 
-A Vectorware blog post, &quot;SIMD on the GPU,&quot; discusses applying Rust&\#x27;s SIMD abstractions to GPU programming. The full article text is not available, but the surrounding discussion indicates it focuses on Rust&\#x27;s portable SIMD library, std::simd, which is currently only available on nightly Rust. One commenter reported that their FFT crate had to switch to the stable-compatible fearless\_simd crate because of this limitation. Commenters also challenged the portability of portable SIMD because examples typically specify a constant SIMD width, and they asked for complex GPU algorithms with competitive performance, such as radix sort.
+The Reddit post announces a new theory paper, &\#x27;Decoupled Descent: Enforcing Exact Train-Test Error Tracking Via AMP Onsager Corrections&\#x27; \(arXiv:2604.27883\), which proposes a gradient-descent-based training method called Decoupled Descent \(DD\). DD applies approximate message passing \(AMP\) Onsager corrections to full-batch gradient descent on stylized Gaussian mixture models, yielding a certificate that training error asymptotically equals test error at every parameter iterate. The author reports simulations on a simple high-dimensional XOR model with a two-layer network across 100 runs, showing DD avoids the common pattern where training error collapses while test error stagnates or increases. The work frames overfitting as data reuse bias and suggests future directions toward SGD and more general models, but the author stresses it is a theory paper far from large-scale practical networks.
 
-hackernews · sagacity · Aug 10, 18:12 · [Discussion](https://news.ycombinator.com/item?id=49247477)
+reddit · r/MachineLearning · /u/mlovik1 · Aug 11, 21:06
 
-**「Background」** Rust&\#x27;s portable SIMD library \(core::simd\) lets developers write a single Simd type that the compiler lowers to vector instructions for the target CPU, but until now it did not run on GPUs. VectorWare has demonstrated compiling the same portable SIMD function unchanged to both CPU instructions \(e.g., vpaddw\) and GPU warp instructions \(e.g., add.s16 on PTX\), treating the GPU as another piece of vector hardware. The approach requires nightly Rust for core::simd, though community members have noted that stable alternatives like fearless\_simd exist, and the technique may face portability challenges because SIMD widths are typically fixed.
+**「Background」** Approximate message passing \(AMP\) is a high-dimensional statistical technique that tracks the evolution of iterative algorithms using scalar state evolution equations, adding so-called Onsager correction terms to account for dependencies introduced by data reuse. In supervised learning, standard gradient descent on a fixed training set gradually overfits because the same examples are used repeatedly, causing training error to drop while test error plateaus or rises. Decoupled Descent builds on AMP theory to cancel these data-reuse biases, enabling a training trajectory whose training error is guaranteed to track the population \(test\) error at each iterate, at least in stylized Gaussian mixture settings.
 
-**「Impact」** Rust developers exploring SIMD on GPUs face a tooling split: they must either rely on nightly-only std::simd or adopt stable alternatives like fearless\_simd, while performance portability remains uncertain when SIMD width is fixed rather than adaptive.
-
-**「Community Discussion」** Commenters highlighted that std::simd is nightly-only, prompting one FFT crate maintainer to move to fearless\_simd for stable support; another argued that constant-width SIMD examples are not actually performance portable. Others expressed surprise that SIMD could apply to GPUs, wished for an open-source Rust library with the maturity of Google Highway, and requested concrete GPU benchmarks like radix sort.
+**「Impact」** The concrete consequence is that researchers working on generalization theory and optimal stopping now have a provable method, at least for stylized Gaussian mixture models, to keep training and test errors aligned during optimization; practical impact on real neural-network training remains uncertain until the approach is extended and validated beyond these toy settings.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.vectorware.com/blog/simd-on-gpu/">Rust SIMD on the GPU - VectorWare</a></li>
-<li><a href="https://elsolitario.org/en/2026/08/10/vectorware-portable-simd-gpu-rust/">SIMD on GPU : Rust &#x27;s core:: simd Runs on Warps Unchanged</a></li>
-<li><a href="https://dev.to/trismegistus/rust-simd-just-came-to-the-gpu-and-it-changes-how-we-think-about-parallel-programming-44n">Rust SIMD Just Came to the GPU — and It... - DEV Community</a></li>
+<li><a href="https://arxiv.org/abs/2604.27883v1">[2604.27883v1] Decoupled Descent: Exact Test Error Tracking ...</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#Rust`, `#SIMD`, `#GPU`, `#parallel computing`, `#programming languages`
+**Tags**: `#machine learning`, `#approximate message passing`, `#generalization`, `#optimization`, `#theory`
 
 ---
 
 <a id="item-tech-news-11"></a>
-### [Token Efficiency of Programming Languages for LLM Coding Agents](http://danluu.com/pl-tokens/) ⭐️ 7.0/10
+### [HyperSAE: Decoupled Poincaré Geometry for Sparse Autoencoders](https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/) ⭐️ 7.0/10
 
-Dan Luu&\#x27;s technical analysis evaluates which programming languages are most token-efficient for LLM-based coding agents, finding that Go averages around 70 tokens compared to Clojure&\#x27;s 109 and concluding that token efficiency varies significantly by language. The analysis suggests that choosing a language with consistent idioms, such as Go, can reduce token usage and improve cost-efficiency for AI-assisted development. The Hacker News discussion challenges the methodology&\#x27;s trustworthiness, with commenters noting that replicating well-known software may not be a reliable signal and that factors like training data consistency and tool access are also important. Despite disagreements, the analysis highlights how language choice can affect agent performance and cost in practical AI coding workflows.
+HyperSAE is a new PyTorch library that applies decoupled Poincaré hyperbolic geometry to sparse autoencoders \(SAEs\) for mechanistic interpretability. Its dual-speed design keeps the forward pass and causal steering Euclidean—zero inference overhead—while projecting dictionary weights into the Poincaré ball during training and adding an entailment cone loss to organize parent/child concepts. On Gemma-2-2B Layer 13 with 20M tokens of FineWeb-Edu on an NVIDIA L4, HyperSAE reports a 9.8% reconstruction MSE reduction \(4.5724 to 4.1232\), a 3.4 percentage-point increase in CE loss recovery, and a drop in dead latents from 3.8% to 0.2% versus a flat SAE. MMLU-Pro accuracy rose 0.15pp to 16.26%, with GPQA Diamond unchanged at 100%. The project is available on GitHub, a paper site, and via pip install hypersae; results remain preprint/self-reported and need independent verification.
 
-hackernews · chaychoong · Aug 10, 16:28 · [Discussion](https://news.ycombinator.com/item?id=49245936)
+reddit · r/MachineLearning · /u/visha1v · Aug 11, 18:37 · [Discussion](https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/)
 
-**「Background」** This item examines which programming languages are most token-efficient for LLM-based coding agents, meaning how many tokens a model must consume to generate code in a given language. One common claim is that dynamically typed languages are more efficient because omitting explicit type declarations makes code more compact, but Dan Luu&\#x27;s analysis suggests that this conclusion may come from evaluations using trivially small tasks.
+**「Background」** Sparse autoencoders \(SAEs\) are interpretability tools that reconstruct a model&\#x27;s internal activations using a sparse set of learned dictionary features, typically by adding an L1 sparsity penalty to a reconstruction loss. Standard SAEs embed these features in Euclidean space, where volume grows polynomially, but the hierarchical concepts learned by large language models are thought to expand roughly exponentially—causing feature collisions and dead latents at large dictionary sizes. HyperSAE addresses this by projecting dictionary weights into the Poincaré ball during training and adding an entailment cone loss, while keeping the forward pass Euclidean; it is available as a PyTorch library.
 
-**「Impact」** For developers building or using LLM coding agents, the analysis suggests that selecting highly idiomatic languages like Go can lower token consumption, though the methodology&\#x27;s limitations mean the results should be treated as a heuristic rather than a definitive ranking.
-
-**「Community Discussion」** Commenters were skeptical of the analysis&\#x27;s wording and evaluation approach, with one questioning the &\#x27;nearly half of&\#x27; comparison and another doubting that replicating existing software provides a useful signal. Others shared practical experience that Go works well due to its consistency, while noting that LLMs can also excel at less common languages like Gleam and that search or tool access is a key part of effective agent coding.
+**「Impact」** For SAE researchers and interpretability practitioners, HyperSAE offers a plausible route to reduce feature collisions and dead latents at 16K+ dictionary sizes without changing inference behavior, but the gains are based on a single-layer benchmark from a preprint and should be replicated before adoption.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="http://danluu.com/pl-tokens/">What&#x27;s the best programming language for coding agents?</a></li>
-<li><a href="https://danluu.spicytakes.org/">Dan Luu - Performance, systems, and industry myths</a></li>
+<li><a href="https://github.com/vishal-dehurdle/hypersae">vishal-dehurdle/ hypersae : High-Performance Hyperbolic Sparse ...</a></li>
+<li><a href="https://pypi.org/project/hypersae/">High-Performance Hyperbolic Sparse Autoencoders for Mechanistic...</a></li>
+<li><a href="https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html">An Intuitive Explanation of Sparse Autoencoders for... | Adam Karvonen</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#LLM`, `#coding agents`, `#token efficiency`, `#programming languages`, `#AI-assisted development`
+**Tags**: `#sparse autoencoders`, `#mechanistic interpretability`, `#hyperbolic geometry`, `#PyTorch`, `#LLM interpretability`
 
 ---
 
-<a id="item-tech-news-12"></a>
-### [Bernie Sanders urges Meta, OpenAI, Anthropic to pause AI development](https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter) ⭐️ 7.0/10
+## Technology Blog
 
-Senator Bernie Sanders has sent a letter to the CEOs of Meta, OpenAI, and Anthropic urging them to halt development of artificial intelligence, warning that the U.S. Senate will step in with regulation if the companies keep deploying AI at their current pace. The letter argues that the capabilities of these AI models have reached a critical risk threshold and that the companies are losing control over the technology. Sanders is reported to have called on the companies to &\#x27;stop building machines that humans cannot control.&\#x27; This marks a notable escalation in political pressure on leading AI developers over safety concerns.
+<a id="item-tech-blog-1"></a>
+### [Sega&\#x27;s 30-Year, Seven-Entity Journey into China](https://www.yystv.cn/p/14276) ⭐️ 8.0/10
 
-rss · The Guardian International · Aug 10, 17:44
+rss · 游研社 · Aug 11, 16:00
 
-**「Background」** Senator Bernie Sanders sent a letter to the CEOs of OpenAI, Anthropic, and Meta, urging them to pause AI development and warning that the US Senate may impose regulation if they continue at their current pace. The letter references the companies&\#x27; previous commitments to responsible AI development, with Sanders saying: &\#x27;In the interest of humanity, stand by your words. Pause AI development.&\#x27; These companies are among the leading developers of advanced AI models, and the request reflects growing political scrutiny over uncontrolled AI capabilities.
+**「Background」** Sega&\#x27;s efforts to enter China from 1994 onward were a long series of collisions with a market that had no established console-software economy: piracy, gray imports, and high prices made conventional console selling almost impossible. The article uses seven Chinese legal entities, founded and wound down between 1994 and 2024, to trace every route Sega tried.
 
-**「Impact」** The three named companies now face a prominent Senate threat of regulatory action unless they respond to the pause request, adding to existing political scrutiny of AI development.
+**「Solution」** The author narrates each attempt as a distinct strategy. Early arcade stores imported Japanese service standards but high costs and the 2000 ban killed them. A mainstream console push through 四通 failed against cheap water goods; a VCD-player hybrid with 新天利 bundled hundreds of MD games but lost its identity to clones. PC localization worked best when priced low: Sakura Wars at 50 yuan sold about 100,000 copies, but the partnership broke after a server-side-save dispute. The online-games push collapsed within three years. The lasting thread was the Shanghai software studio: from 2002 to 2024 it worked in core development, visible from Altered Beast to Sonic Frontiers across roughly 44 titles. After a 2025 pop-up, Sega reopened in 2026 as an IP-marketing entity and official stores, betting on fans, merchandise, and face-to-face consumption instead of hardware or mass consumer channels.
 
-<details><summary>References</summary>
-<ul>
-<li><a href="https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter">Bernie Sanders calls on Silicon Valley to ‘ pause AI ... | The Guardian</a></li>
-<li><a href="https://wchstv.com/news/nation-world/senator-bernie-sanders-demands-ai-developers-meta-openai-anthropic-pause-work-on-models-stand-by-your-words">Bernie Sanders demands AI developers pause work on models...</a></li>
+**「Takeaway」** The author concludes that Sega&\#x27;s most durable China relationships came not from selling products directly but from long-term development work and, later, IP-driven retail, which matches how Chinese consumers now buy game brands. After thirty years, the question is no longer how to enter China but how to stay connected to a maturing market that finally supports such ties.
 
-</ul>
-</details>
-
-**Tags**: `#AI regulation`, `#artificial intelligence`, `#policy`, `#technology industry`, `#OpenAI`
+**Tags**: `#Sega`, `#China gaming market`, `#game industry history`, `#market entry strategy`, `#IP localization`
 
 ---
 
-<a id="item-tech-news-13"></a>
-### [Fru: Fast Rust Random Forest with Python and R Bindings](https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/) ⭐️ 7.0/10
+<a id="item-tech-blog-2"></a>
+### [miHoYo&\#x27;s AI Companion BSide Shuts Down After 28 Days](https://www.yystv.cn/p/14278) ⭐️ 4.0/10
 
-Fru is a new, highly optimized random forest implementation written in Rust, with bindings for both Python and R, published in the Software X journal. The authors report that the Python version outperforms scikit-learn by several factors, sometimes by hundreds of times, while the R version is typically a few dozen percent faster than ranger and can be several times faster depending on the use case. Fru includes a novel permutation importance implementation that provides an additional performance boost and features a layered design that made the Python and R bindings straightforward to create. For Python, it integrates via Arrow PyCapsule, enabling seamless interoperability with libraries such as pandas, polars, and pyarrow. The project aims to offer competitive runtime performance and better scalability than popular platform-specific implementations.
+rss · 游研社 · Aug 11, 16:00
 
-reddit · r/MachineLearning · /u/kpiwonski · Aug 10, 17:45
+**「Background」** On August 11, miHoYo announced the shutdown of BSide: Olivia Lin, a free Steam early-access virtual companion game that had launched only 28 days earlier. Despite attracting more than 1,500 user reviews and a &quot;Very Positive&quot; rating, with a peak of about 7,289 concurrent players, the product was abruptly taken offline, leaving its future in question.
 
-**「Background」** Random forests are an ensemble machine learning method that combines many decision trees to improve predictive accuracy and control overfitting, commonly used for classification and regression. Popular implementations include scikit-learn in Python and ranger in R, both of which are mature but can become performance bottlenecks on large datasets. A Rust-based implementation with bindings can bring memory safety and high concurrency to the familiar Python and R ecosystems.
+**「Solution」** The author describes BSide as more of a dynamic desktop wallpaper than a game: players watch virtual pianist Lin Li in a room, cannot click or drag to control her, and interact mainly by having her play built-in tracks, uploading single-track piano MIDI files for her to perform, or exchanging letters that occasionally trigger video replies. Development updates during the month focused on stability rather than new features, while basic companion tools like mouse interaction, pomodoro timers, or to-do lists were missing. The MIDI feature also required technical familiarity, excluding casual users, and once online services ended after August 31, the local offline version would retain only playback and wallpaper functions. The author notes this was not miHoYo&\#x27;s first desktop virtual character—2020&\#x27;s Artificial Desktop featured Lumi—but BSide leaned more heavily on online services and was planned as an early-access title until 2026, making the shutdown feel premature even as the product appeared unfinished.
 
-**「Impact」** Python and R users who rely on random forests could see meaningful speedups by adopting Fru, especially on large datasets, though the reported gains are the authors&\#x27; own benchmarks and may vary across workloads. The Arrow PyCapsule integration also lowers integration costs for teams already using pandas, polars, or pyarrow.
+**「Takeaway」** The author concludes that BSide was likely an experimental, non-commercial project from the start, so its early shutdown is less surprising than it seems. The episode illustrates the gap between the appeal of AI virtual companions and the maturity—especially basic interactivity and polished online features—needed to sustain them.
 
-**Tags**: `#random forest`, `#rust`, `#machine learning`, `#performance`, `#open source`
+**Tags**: `#miHoYo`, `#BSide Olivia Lin`, `#game shutdown`, `#AI virtual character`, `#Steam`
 
 ---
 
 ## Financial News
 
 <a id="item-finance-news-1"></a>
-### [Nvidia and Wall Street giants target $500 billion to finance AI compute](https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html) ⭐️ 8.0/10
+### [Nvidia&\#x27;s $500 Billion AI Financing Plan Faces China Risk](https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html) ⭐️ 8.0/10
 
-Nvidia signed memorandums of understanding with Apollo, Blackstone, BlackRock, Brookfield, Goldman Sachs and KKR to build financing platforms for its customers, targeting more than $500 billion in third-party capital for data centers and Nvidia hardware; CEO Jensen Huang called the chips an &\#x27;investable asset class.&\#x27;
+Nvidia announced agreements with six large asset managers to create a $500 billion financing pipeline for AI data centers and GPU clusters, betting that the chips hold their resale value like infrastructure. Analysts warn that depreciation and potential Chinese chip competition could erode that collateral.
 
-rss · CNBC Finance · Aug 10, 22:09
+rss · CNBC Finance · Aug 11, 21:01
 
-**「Background」** The effort challenges the traditional view that GPUs quickly depreciate, positioning AI compute as long-lived, bankable infrastructure, and follows a July rout in which investors questioned Big Tech&\#x27;s hefty AI spending.
+**「Background」** The plan treats graphics processing units \(GPUs\), which power AI, as long-term assets that can back loans, but unlike buildings or ships, GPUs have an uncertain productive lifespan.
 
-**「Impact」** If realized, the platforms could help hyperscalers, AI labs and enterprises fund data centers without tapping their own balance sheets, though skeptics question whether older chip generations will retain value as new ones arrive.
+**「Impact」** Investors in these loans could face losses if used-chip prices fall, and the likely borrowers — non-investment-grade AI startups and &quot;neoclouds&quot; — may have to pay high-yield returns of 11% to 17%.
 
-**Tags**: `#Nvidia`, `#AI infrastructure`, `#asset financing`, `#private capital`, `#data centers`
+**Tags**: `#Nvidia`, `#AI infrastructure financing`, `#China risk`, `#data centers`, `#asset-backed finance`
 
 ---
 
 <a id="item-finance-news-2"></a>
-### [Stocks making midday moves: M&amp;A deals, Intel offering, Apple downgrade](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html) ⭐️ 7.0/10
+### [CME Group to launch AI compute futures contracts](https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html) ⭐️ 8.0/10
 
-Several stocks made big midday moves after two cash takeovers, a $15 billion Intel stock offering and an Apple downgrade. MarineMax jumped 46% on a $1.5 billion sale, Varex Imaging climbed 48% on an $18.90-per-share deal, and Intel fell nearly 3%.
+CME Group plans to launch the first futures contracts tied to AI computing power on Oct. 5, pending regulatory approval, giving companies and investors a way to trade and hedge the rental cost of Nvidia GPUs; each contract represents one month&\#x27;s rent for an Nvidia H100.
 
-rss · CNBC Finance · Aug 10, 19:19
+rss · CNBC Finance · Aug 11, 18:09
 
-**「Background」** The Apple downgrade to underperform came from Jefferies&\#x27; supply-chain checks, not from any company announcement, and pointed to cancellation of a rumored all-glass iPhone.
+**「Background」** The launch adds to Wall Street&\#x27;s push to finance AI infrastructure, including Nvidia&\#x27;s work with large asset managers on an effort that could channel as much as $500 billion into AI infrastructure.
 
-**Tags**: `#stock movers`, `#mergers and acquisitions`, `#analyst ratings`, `#earnings`, `#tech stocks`
+**「Impact」** The contracts could give AI developers and data-center operators a public benchmark for GPU rental prices and a way to hedge costs, while letting investors gain exposure to computing capacity without owning hardware.
+
+**Tags**: `#AI compute`, `#futures contracts`, `#CME Group`, `#GPU pricing`, `#financial innovation`
 
 ---
 
 <a id="item-finance-news-3"></a>
-### [Premarket Movers: Intel Offering, Verisk Ruling, Berkshire Earnings, Archer Deal](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html) ⭐️ 7.0/10
+### [Super Micro, CoreWeave and H&amp;R Block jump after earnings and guidance](https://www.cnbc.com/2026/08/11/stocks-making-the-biggest-moves-after-hours-smci-crwv-hrb.html) ⭐️ 7.0/10
 
-Premarket, Intel fell 3% after announcing a $15 billion common stock offering, Verisk dropped 6.5% after a Delaware judge ordered it to complete its $2.35 billion AccuLynx acquisition, and Berkshire Hathaway rose 0.5% after reporting 16% second-quarter operating earnings growth. Archer Aviation surged after agreeing to buy three Boeing subsidiaries, with Boeing taking an undisclosed stake.
+Several stocks moved sharply after hours on August 11, 2026, after earnings and outlooks. Super Micro Computer rose more than 8% after guiding first-quarter revenue to $14.5B-$15.5B, far above the $11.68B consensus, with adjusted EPS of $1.01-$1.10 versus the 76-cent estimate; CoreWeave gained 14% after a stronger-than-expected margin, and H&amp;R Block surged 15% on an upbeat 2027 forecast.
 
-rss · CNBC Finance · Aug 10, 13:52
+rss · CNBC Finance · Aug 11, 21:18
 
-**「Background」** Verisk had terminated the AccuLynx deal in December because the Federal Trade Commission review was not completed by the transaction&\#x27;s termination date; Intel said the offering will support general corporate purposes, including capital expenditures and working capital.
+**「Background」** The after-hours moves follow the companies&\#x27; latest quarterly reports and forward guidance; Super Micro and CoreWeave are data center and AI cloud providers, while H&amp;R Block is a tax preparation company.
 
-**Tags**: `#Intel`, `#Berkshire Hathaway`, `#Verisk Analytics`, `#GameStop`, `#Archer Aviation`
+**Tags**: `#earnings`, `#guidance`, `#artificial intelligence`, `#cloud computing`, `#stock movers`
 
 ---

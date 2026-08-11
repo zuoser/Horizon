@@ -5,382 +5,360 @@ date: 2026-08-11
 lang: zh
 ---
 
-> 从 136 条内容中筛选出 16 条重要资讯。
+> 从 142 条内容中筛选出 16 条重要资讯。
 
 ---
 
 **科技新闻**
-1. [Claude 在黎曼ζ函数下界研究上取得进展](#item-tech-news-1) ⭐️ 9.0/10
-2. [Chicken Scheme 6.0 发布，增加 Crunch 支持](#item-tech-news-2) ⭐️ 8.0/10
-3. [扎克伯格抨击封闭 AI 对手，Meta 回归开源模型路线](#item-tech-news-3) ⭐️ 8.0/10
-4. [Meta 发布面向本地 Agent 工作流的 30B 开放模型 Muse Glimmer](#item-tech-news-4) ⭐️ 8.0/10
-5. [利用超长指令触发系统管理模式的 PoC](#item-tech-news-5) ⭐️ 8.0/10
-6. [英伟达联合华尔街筹资 5000 亿美元建设 AI 基础设施](#item-tech-news-6) ⭐️ 8.0/10
-7. [手动设置权重让 Transformer 以 100% 精度做乘法，无需训练](#item-tech-news-7) ⭐️ 8.0/10
-8. [AI 侵蚀网络，互联网的集体记忆正在消失](#item-tech-news-8) ⭐️ 7.0/10
-9. [英国对匿名的战争已蔓延至美国](#item-tech-news-9) ⭐️ 7.0/10
-10. [Rust SIMD 应用于 GPU 引发可移植性讨论](#item-tech-news-10) ⭐️ 7.0/10
-11. [编程语言的 token 效率：编码代理该选哪种？](#item-tech-news-11) ⭐️ 7.0/10
-12. [桑德斯呼吁科技巨头暂停 AI 开发](#item-tech-news-12) ⭐️ 7.0/10
-13. [Fru：基于 Rust 的高性能随机森林实现](#item-tech-news-13) ⭐️ 7.0/10
+1. [NVIDIA 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard 路由库](#item-tech-news-1) ⭐️ 8.0/10
+2. [从专有 LLM API 中提取推理痕迹的新方法](#item-tech-news-2) ⭐️ 8.0/10
+3. [纪录片《Whatever It Takes》重揭 eBay 骚扰丑闻](#item-tech-news-3) ⭐️ 8.0/10
+4. [专家警告：AI 军备竞赛危及人类](#item-tech-news-4) ⭐️ 8.0/10
+5. [Meta 发布 Muse Glimmer：30B 开源权重智能体模型](#item-tech-news-5) ⭐️ 8.0/10
+6. [AMD 发布机器人 SoC，挑战 Nvidia 的 GPU 中心架构](#item-tech-news-6) ⭐️ 8.0/10
+7. [压缩即预测：理解智能的一种视角](#item-tech-news-7) ⭐️ 7.0/10
+8. [Mojo 1.0 发布：面向 AI 的 Python 超集语言](#item-tech-news-8) ⭐️ 7.0/10
+9. [英伟达的冒险赌注：增长预期与软件护城河](#item-tech-news-9) ⭐️ 7.0/10
+10. [解耦下降：借助 AMP Onsager 校正实现训练—测试误差的精确跟踪](#item-tech-news-10) ⭐️ 7.0/10
+11. [HyperSAE：将双曲几何用于稀疏自编码器，降低 MSE 和死隐单元](#item-tech-news-11) ⭐️ 7.0/10
+
+**科技博客**
+1. [世嘉在华三十年：七家公司与一次新的归来](#item-tech-blog-1) ⭐️ 8.0/10
+2. [AI 互动新作《BSide》上线 28 天停服](#item-tech-blog-2) ⭐️ 4.0/10
 
 **财经新闻**
-1. [英伟达拟融资 5000 亿美元，把 AI 芯片打造成可投资资产](#item-finance-news-1) ⭐️ 8.0/10
-2. [美股午盘异动：多起收购、英特尔增发与苹果遭降级](#item-finance-news-2) ⭐️ 7.0/10
-3. [美股盘前：英特尔增发、Verisk 并购裁决等推动个股大幅波动](#item-finance-news-3) ⭐️ 7.0/10
+1. [英伟达 5000 亿美元 AI 融资计划面临中国芯片竞争风险](#item-finance-news-1) ⭐️ 8.0/10
+2. [CME 拟推出首批 AI 算力期货，GPU 租赁价格将变成可交易资产](#item-finance-news-2) ⭐️ 8.0/10
+3. [超微电脑、CoreWeave、H&amp;R Block 等盘后因财报指引大涨](#item-finance-news-3) ⭐️ 7.0/10
 
 ---
 
 ## 科技新闻
 
 <a id="item-tech-news-1"></a>
-### [Claude 在黎曼ζ函数下界研究上取得进展](https://www.anthropic.com/research/riemann-zeta) ⭐️ 9.0/10
+### [NVIDIA 发布 Nemotron 3.5 Lightning 与 NeMo Switchyard 路由库](https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/) ⭐️ 8.0/10
 
-Anthropic 发布研究，展示 Claude 在黎曼ζ函数相关问题中取得了有意义的进展：通过研究者 Jarred 发送的“继续努力”“相信你自己”等鼓励信息，模型在黎曼ζ函数的相关下界上做出了改进。这表明大语言模型能够参与开放式的数学推理，而不只是处理已有证明中的局部步骤。不过，当前公开信息尚未给出具体的下界数值或正式论文细节，因此该结果的数学价值仍需谨慎看待。社区评论将其视为 AI 数学能力的重要里程碑，同时也注意到过程中包含大量人工引导和反复试验。
+NVIDIA 发布了 Nemotron 3.5 Lightning 模型系列和 NeMo Switchyard——一个开源智能请求路由库。这一组合让开发者可以把请求动态转发到最合适的模型，从而在保持质量的同时降低计算开销和延迟。NeMo Switchyard 被描述为部署时能够智能地选择“最有能力且最合适”的模型处理每个请求。本次发布还体现了对高效小模型的持续关注，社区成员甚至已尝试在 Apple Silicon 上通过 MLX 运行 nemotron-3.5-lightning:30b-mlx。不过，所提供的内容中没有具体的模型参数量、基准数据或兼容性限制等细节。
 
-hackernews · tosh · 8月10日 17:41 · [社区讨论](https://news.ycombinator.com/item?id=49247070)
+hackernews · droidjj · 8月11日 19:35 · [社区讨论](https://news.ycombinator.com/item?id=49263340)
 
-**「背景」** 黎曼猜想（Riemann hypothesis）是数论中最著名的未解问题之一，它断言黎曼ζ函数的所有非平凡零点都位于复平面实部为 1/2 的“临界线”上。数学家们虽无法证明全部零点，但可以证明其中一部分落在临界线上；所谓下界就是指能被严格证明位于临界线上的零点所占比例。此前已知的下界为 41.6%，而 Anthropic 的一篇研究显示，一个未发布的 Claude 研究版本将这个下界提升到 67.2%，这是该下界历史上最大幅度的单次改进。该结果并未解决黎曼猜想本身，而是对与猜想相关的零点比例给出了更强的证据。
+**「背景」** NVIDIA 发布了一款名为 Nemotron 3.5 Lightning 的 300 亿参数混合专家（MoE）模型，专为大型多智能体系统中的专业任务而设计，旨在让代理应用更高效。同时，NVIDIA 还推出了 NeMo Switchyard，这是一个开源路由库，可以在部署时将每个请求智能地引导到最合适的模型，从而无需重写现有智能体堆栈即可集成不同模型。
 
-**「影响」** 对数学研究者和 AI 开发者而言，此次演示提供了一个大模型参与探索性数学问题的新案例，可能促使更多人探索“人与模型协作”的数学研究模式；但目前尚不能确定该下界改进在正式发表前的影响范围。
+**「影响」** 对正在构建推理管道的开发者和企业而言，这个开源路由器与高效小模型的组合提供了一条可能降低推理成本与延迟的实用路径。
 
-**「社区讨论」** 评论者一边对“全程只发鼓励消息”的研究流程感到好笑，一边分享了各自让 Claude 解决未见于文献的数学或电路问题的经历；还有人调侃提示工程正在从“专家式提示”变成“我相信你”，并感叹这项进展甚至没上 Hacker News 头条。
+**「社区讨论」** 评论者普遍看好小模型浪潮，有人实际在 Apple Silicon 上通过 MLX 运行 30B 变体，体验尚可但速度偏慢；另一些人则对路由机制的实际处理（如提示缓存和会话粘性）提出疑问，并批评基准对比图未包含 Qwen 系列。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.anthropic.com/research/riemann-zeta">Learning more about Claude &#x27;s mathematical capabilities \ Anthropic</a></li>
-<li><a href="https://runtimewire.com/article/anthropic-claude-riemann-hypothesis-zeta-zero-bound">Anthropic says unreleased Claude raised a Riemann -related lower ...</a></li>
-<li><a href="https://cryptobriefing.com/claude-riemann-zeta-lower-bound-67-percent/">Claude advances lower bound for Riemann zeta function to 67%</a></li>
+<li><a href="https://blogs.nvidia.com/blog/nemotron-lightning-switchyard-rtx-dgx/">NVIDIA Nemotron 3 . 5 Lightning and NeMo Switchyard Deliver...</a></li>
+<li><a href="https://cobusgreyling.medium.com/nvidia-nemotron-3-5-lightning-5c38fbeacc0b">NVIDIA Nemotron 3 . 5 Lightning . The Execution Engine for... | Medium</a></li>
 
 </ul>
 </details>
 
-**标签**: `#AI research`, `#mathematical reasoning`, `#Claude`, `#Riemann hypothesis`, `#machine learning`
+**标签**: `#NVIDIA`, `#AI models`, `#open-source`, `#model routing`, `#efficient AI`
 
 ---
 
 <a id="item-tech-news-2"></a>
-### [Chicken Scheme 6.0 发布，增加 Crunch 支持](https://code.call-cc.org/releases/6.0.0/NEWS) ⭐️ 8.0/10
+### [从专有 LLM API 中提取推理痕迹的新方法](https://stolen-thoughts.com/) ⭐️ 8.0/10
 
-Chicken Scheme 6.0 已正式发布，这是一次主要版本更新，新增对 Crunch 编译器的支持。Crunch 是 Scheme R7RS 的静态类型子集的编译器，目前版本为 0.993，尚未达到 1.0。Chicken Scheme 将 Scheme 源码翻译为 C 语言，并可交给 C 编译器生成独立可执行文件，同时还提供解释器。这个版本对 Scheme/Lisp 社区及关注函数式编程的开发者具有重要意义。
+一项技术曝光展示了如何通过重放（replay）和越狱（jailbreak）技巧，从商业 LLM API 获取本应隐藏的私人推理痕迹。该页面描述的方法将前沿模型产生的轨迹重放到较弱的同源模型中，再对较弱模型实施越狱，从而提取内部推理过程。这一发现引发了对模型输出所有权的新辩论，部分评论者质疑“窃取”一词是否恰当，因为用户已为 token 付费。另有业界人士报告了类似经验，例如通过注入开发者提示让模型以明文输出加密的压缩数据，说明该问题可能影响多个主流 API。此事对 AI 安全实践与模型输出保护机制具有直接参考价值。
 
-hackernews · eatonphil · 8月11日 00:24 · [社区讨论](https://news.ycombinator.com/item?id=49251702)
+hackernews · quantumgarbage · 8月11日 13:22 · [社区讨论](https://news.ycombinator.com/item?id=49257876)
 
-**「背景」** CHICKEN 是一个将 Scheme 源代码转换为 C 语言、进而可生成独立可执行文件的编译器，同时提供解释器用于脚本或测试。Crunch 是 Scheme R7RS 的一个静态类型子集的编译器，可将 Scheme 代码批量编译为独立的 C 程序，也可在编译期嵌入片段并自动生成与 CHICKEN 配合所需的胶水代码；它还有翻译成 C++ 的变体，生成代码只依赖一个头文件。
+**「背景」** 商业大语言模型 API 通常会隐藏模型的“思维链”或推理中间步骤，将输出限制为最终答案或简洁摘要，以保护内部推理方法和专有后训练数据。近期研究表明，通过对模型输出进行巧妙的重放注入或利用更弱的模型进行越狱，可以绕开这一保护，使隐藏的推理痕迹暴露出来。
 
-**「影响」** 现有 Chicken Scheme 用户现在可以使用 Crunch 这一面向 Scheme R7RS 静态类型子集的编译器，但 Crunch 仍处于预发布阶段（0.993），使用时需注意其尚未达到 1.0 稳定性。
+**「影响」** 该技术为开发者和安全研究者提供了一条从黑箱专有推理模型中提取本应隐藏的中间推理轨迹的可行路径，可能促使厂商重新评估其输出过滤机制、访问控制以及模型输出的所有权主张。
 
-**「社区讨论」** 有评论者提到 Crunch 支持，并指出 Crunch 本身尚未达到 1.0（目前为 0.993）。另一位用户表示周末开始尝试 Chicken，喜欢它构建二进制文件和活跃生态的能力，并基于 makemkvcon 和 TVDB 编写了自动命名输出文件的包装脚本；还有人询问 Chicken 与 Gambit 的对比，提到其更大的 egg 系统和生态。
+**「社区讨论」** 社区对“窃取”一词存在分歧：有评论者认为既然用户已为 token 付费，将其用于训练本应是正常行为，不应使用带有道德审判的说法；另一些评论者则分享了实际越狱经验，例如用两句话的开发者提示让 Codex 的加密压缩数据以明文输出，或通过禁用思考并提供“deep\_think”工具直接获得内部思维链格式。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.more-magic.net/posts/crunch.html">Let&#x27;s CRUNCH ! | More magic</a></li>
-<li><a href="https://wiki.call-cc.org/eggref/3/crunch">Outdated egg! - The CHICKEN Scheme wiki</a></li>
-
-</ul>
-</details>
-
-**标签**: `#Scheme`, `#Chicken Scheme`, `#compiler`, `#Lisp`, `#open source`
+**标签**: `#LLM security`, `#reasoning traces`, `#jailbreak`, `#model extraction`, `#AI APIs`
 
 ---
 
 <a id="item-tech-news-3"></a>
-### [扎克伯格抨击封闭 AI 对手，Meta 回归开源模型路线](https://www.ft.com/content/4e3957f8-ea7c-4c46-a3de-cdce8e526878) ⭐️ 8.0/10
+### [纪录片《Whatever It Takes》重揭 eBay 骚扰丑闻](https://www.theguardian.com/film/2026/aug/11/whatever-it-takes-documentary-ebay-harassment-scandal) ⭐️ 8.0/10
 
-马克·扎克伯格公开抨击封闭式 AI 竞争对手，并重申 Meta 回归开源模型路线，强调开放开发是未来方向。Meta 在官方页面“The Future Is for Everyone”发布相关论述，分析称这是继 2023 年发布 Llama、开启开源 AI 竞赛后，Meta 再次明确押注开放权重模型。扎克伯格同时质疑“AI 危险论”，认为若 AI 会消灭多数工作与人类意义，就不应急于建设这种未来；集中权力的安全叙事本身有问题。Hacker News 社区讨论热烈（439 条评论），有评论者肯定 Meta 开启开源竞赛的贡献，也有人怀疑此举是“输了才改规则”或先封闭发布无人购买后再“开源”。
+《卫报》报道，一部名为《Whatever It Takes》的新纪录片详细讲述了 eBay 骚扰丑闻：马萨诸塞州夫妇 Ina 和 David Steiner 因创办批评 eBay 的电子杂志 EcommerceBytes 而遭到该公司发起的激进跟踪骚扰。EcommerceBytes 如今拥有超过 60 万读者，专注于服务小型卖家群体。这起事件凸显了科技巨头对批评性报道的报复行为，并引发对记者安全与企业问责的严肃讨论。
 
-hackernews · root-parent · 8月10日 14:06 · [社区讨论](https://news.ycombinator.com/item?id=49243880)
+rss · The Guardian International · 8月11日 09:00
 
-**「背景」** Meta 在 2026 年 8 月推出了新一代开源模型系列 Muse Glimmer，这些模型设计为可在笔记本电脑上运行；与此同时，扎克伯格发表长文，主张美国需要更开放的人工智能生态系统，以与中国对手竞争。此次表态标志着 Meta 重新强调开放模型路线，而争论的背景是开源与闭源 AI 在安全、监管和地缘竞争上的持续分歧。
-
-**「社区讨论」** 评论观点明显分歧：一些用户认为 Meta 发布 Llama 并推动开源 AI 是“净正面”的贡献，不应因不信任扎克伯格而全盘否定；另一些用户则质疑 Meta 是先闭源售卖未果才转向开源，或认为这只是“我输了所以想改规则”的竞争策略。
+**「背景」** Ebay 骚扰丑闻是指 2019 年 eBay 高管和安全人员对马萨诸塞州夫妇 Ina 和 David Steiner 实施的网络跟踪与骚扰事件。这对夫妇运营着拥有超过 60 万读者的电商新闻网站 EcommerceBytes，因报道批评 eBay 而遭到威胁、监视和恐吓。2024 年，导演 Jenny Carchman 推出了纪录片《Whatever It Takes: Inside the eBay Scandal》，讲述这一事件；2022 年 9 月，多名前 eBay 安全主管在波士顿联邦法院被量刑。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://fortune.com/2026/08/10/meta-brandishes-open-source-ai-models-again-as-zuckerberg-media-blitz-emphasizes-battle-against-chinese-rivals/">Mark Zuckerberg makes his case for American open - source AI over...</a></li>
-<li><a href="https://invezz.com/news/2026/08/10/zuckerberg-wants-more-open-source-ai-heres-how-closed-models-differ-from-open-ones/">Zuckerberg wants more open - source AI : here&#x27;s how closed models...</a></li>
+<li><a href="https://en.wikipedia.org/wiki/EBay_stalking_scandal">eBay stalking scandal - Wikipedia</a></li>
+<li><a href="https://www.primevideo.com/detail/0JIXX8JL25WD8603EEB8JLNRDI/">Whatever It Takes: Inside the eBay Scandal - Prime Video</a></li>
+<li><a href="https://www.theguardian.com/film/2026/aug/11/whatever-it-takes-documentary-ebay-harassment-scandal">‘A horrible nightmare’: the shocking story of the eBay ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#open-source`, `#AI`, `#Meta`, `#LLaMA`, `#industry-politics`
+**标签**: `#eBay`, `#harassment`, `#tech ethics`, `#journalism`, `#documentary`
 
 ---
 
 <a id="item-tech-news-4"></a>
-### [Meta 发布面向本地 Agent 工作流的 30B 开放模型 Muse Glimmer](https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model) ⭐️ 8.0/10
+### [专家警告：AI 军备竞赛危及人类](https://www.theguardian.com/commentisfree/2026/aug/11/openai-anthropic-google-deepmind-letter) ⭐️ 8.0/10
 
-Meta 发布了 Muse Glimmer，一个 30B 参数的开放模型，专门针对常驻本地 Agent 工作流进行优化，旨在推动高效、设备端 AI 部署。Meta 还计划后续发布相关基础模型 Muse Spark 1.2 的开放权重，这被视为对开源 AI 和自托管生态的战略性推进。该模型强调降低推理成本并支持始终在线场景，适合在本地环境中运行智能代理任务。由于权重开放，开发者可以在自己的硬件上部署，而不依赖大型数据中心。此次发布连同相关社区讨论，反映出人工智能领域正从大集群计算向更轻量、可本地运行的模型方向演进。
+斯图尔特·拉塞尔在《卫报》评论文章中强调，一封由 1367 名前沿 AI 实验室研究人员和工程师签署的公开信警告，AI 军备竞赛正将人类置于危险境地。签署者主要来自 OpenAI、Anthropic 和 Google DeepMind。拉塞尔指出，这封公开信表明日常从事 AI 技术工作的专家非常担忧灾难性风险，驳斥了“真正专家并不担心”的说法。文章发布于 2026 年 8 月 11 日，相关公开信已在 pacingthefrontier.com 发布。
 
-hackernews · riordan · 8月10日 10:10 · [社区讨论](https://news.ycombinator.com/item?id=49241679)
+rss · The Guardian International · 8月11日 10:00
 
-**「背景」** 智能体工作流（agent workflows）指模型自主规划、调用工具并执行多步任务；“始终在线本地运行”意味着这类模型需要低延迟和高效推理，以便在 PC 或边缘设备上持续使用。在此背景下，Meta Superintelligence Labs 发布了 30B 参数的 Muse Glimmer，采用 Apache 2.0 开放权重，并配量化版 drafter 模型以加快生成。与此同时，Meta 还计划发布其基础模型 Muse Spark 1.2 的权重，延续其在开放式权重模型上的布局。
+**「背景」** 斯图尔特·拉塞尔（Stuart Russell）是加州大学伯克利分校的计算机科学教授，长期关注人工智能安全。2026 年 8 月，一封由 OpenAI、Anthropic 和 Google DeepMind 等前沿实验室的 1367 名研究人员和工程师签署的公开信发布，呼吁美国政府放慢 AI 开发速度。相关报道显示，这封信的主要诉求指向监管机构，要求华盛顿方面采取措施。该公开信反映了业界内部对 AI 潜在灾难性风险的严重担忧。
 
-**「影响」** 对于自托管和本地 AI 用户，Meta 以 Apache 2.0 协议开源 Muse Glimmer（30B 参数）可直接在单块 24GB GPU 上运行，专为本地智能体、代码助手及多模态工具调用设计，显著降低了部署本地 agent 工作负载的硬件门槛；同时 Meta 还将发布 Muse Spark 1.2 权重，可能进一步增强开源美国模型的竞争力。
-
-**「社区讨论」** 有评论者期待与即将发布的 Qwen 27B 模型对比，认为稠密 30B 模型正在重新流行，并指出 Muse Spark 1.2 开放权重对自托管爱好者意义更大，可能加强 Meta 在开放权重美国模型中的领先地位。其他评论者表示已在 32GB Mac Mini 上通过 Ollama 实际运行 Muse Glimmer，结果不错但速度较慢，也有人上传了量化版本以便更多设备使用。
+**「影响」** 由 OpenAI、Anthropic 和 Google DeepMind 等前沿实验室的 1,367 名研究人员和工程师签署的这封公开信，直接削弱了“真正每天开发 AI 的专家并不担忧灾难性风险”的说法，并可能加大这些实验室及监管机构在 AI 安全与监管问题上面临的公众和政治压力。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.phoronix.com/news/Meta-Muse-Glimmer">Meta Publishes Muse Glimmer As 30B Open Agentic Model - Phoronix</a></li>
-<li><a href="https://www.neowin.net/news/meta-releases-muse-glimmer-a-30b-open-agentic-ai-model-that-runs-locally-on-pcs/">Meta releases Muse Glimmer, a 30B open agentic AI model that runs locally on PCs - Neowin</a></li>
-<li><a href="https://huggingface.co/meta-models/Muse-Glimmer-30B">meta-models/Muse-Glimmer-30B · Hugging Face</a></li>
-<li><a href="https://explainx.ai/blog/meta-muse-glimmer-open-weight-30b-agentic-model-2026">Muse Glimmer : Meta&#x27;s 30B Open Model Runs on 24GB... | explainx. ai</a></li>
-<li><a href="https://www.theregister.com/ai-and-ml/2026/08/10/zuck-rekindles-open-weights-llama-drama-with-muse-glimmer/5285666">Zuck rekindles open weights Llama drama with Muse Glimmer</a></li>
-<li><a href="https://www.poniaktimes.com/meta-muse-glimmer-open-weight-ai/">Meta Launches Muse Glimmer as It Returns to Open - Weight AI</a></li>
+<li><a href="https://www.tiktok.com/discover/openai-anthropic-google-meta-urge-us-to-slow-ai">Openai Anthropic Google Meta Urge Us to Slow Ai | TikTok</a></li>
+<li><a href="https://www.theguardian.com/commentisfree/2026/aug/11/openai-anthropic-google-deepmind-letter">Experts are warning: our AI arms race is putting... | The Guardian</a></li>
+<li><a href="https://politomix.com/the-guardian/2387397/experts-warning-our-ai-arms-race-putting-humanity-risk/">Experts are warning: our AI arms race is putting humanity at risk</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Meta`, `#local AI`, `#agent workflows`, `#open weights`, `#efficient inference`
+**标签**: `#AI safety`, `#open letter`, `#frontier AI`, `#risk`, `#policy`
 
 ---
 
 <a id="item-tech-news-5"></a>
-### [利用超长指令触发系统管理模式的 PoC](https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii) ⭐️ 8.0/10
+### [Meta 发布 Muse Glimmer：30B 开源权重智能体模型](https://simonwillison.net/2026/Aug/10/introducing-muse-glimmer/#atom-everything) ⭐️ 8.0/10
 
-GitHub 上的 PoC 项目“smiiiiiiiiiiiiiiii”由 xoreaxeaxeax 发布，演示了利用一条执行时间极长的指令来触发系统管理模式（SMM）的异常时序。CPU 通常在指令边界响应系统管理中断（SMI），而该技术使单条指令执行时间超过固件设定的 SMI 超时值，从而在最高特权模式下产生状态不一致。项目包含完整的演示代码，主要面向安全研究员与系统程序员；社区认为它是针对硬件/固件可信边界的高价值研究。触发该行为需要 root 级权限，因此不是面向普通用户的漏洞利用。
+Meta 发布了 Muse Glimmer，一个采用 Apache 2.0 许可的 30B 开放权重模型，重点优化端到端智能体任务完成、可靠工具调用与多步推理。官方称其在 DeepSearch QA、MCP-Atlas、τ-Bench 和 SWE-Bench 等完整任务基准上表现良好，可完成代码编写、调试和多轮请求。Simon Willison 使用 LM Studio 的 18.16 GB 量化版本本地运行该模型，并测试了其视觉能力，模型能够详细描述一张鹈鹕照片。若机器拥有 32 GB 或更多内存，这个尺寸的模型可留下充足空间运行其他应用。该模型可作为本地模型的开放许可替代方案，但独立基准测试尚未提供。
 
-hackernews · WhiteDawn · 8月10日 16:03 · [社区讨论](https://news.ycombinator.com/item?id=49245491)
+rss · Simon Willison · 8月10日 23:56
 
-**「背景」** 系统管理模式（SMM）是 x86 CPU 中一种极其特权的执行环境，运行在操作系统和虚拟机监视器之下，对用户和普通软件不可见，通常由固件（如 BIOS/UEFI）使用。它通过系统管理中断（SMI）触发，CPU 在完成当前指令后进入 SMM 并执行固件提供的处理程序。由于 SMM 的内存区域对操作系统和用户不可访问，且其权限高于系统内核，因此一旦被攻破，攻击者可以获得远超内核的控制权。本仓库展示的技术利用一条运行时间极长的指令，使 CPU 在指令执行期间陷入 SMM 处理逻辑，从而可能打破 SMM 对中断处理所依赖的时间假设，进而破坏这一安全边界。
+**「背景」** 开放权重模型指公开模型权重但常有使用限制，Meta 之前的 Llama 系列采用较复杂的自定义许可。Muse Glimmer 改用 Apache 2.0，更接近宽松开源许可，且针对智能体（agent）场景优化，即模型能在一个框架内自主调用工具、编写调试代码并完成多步骤任务。
 
-**「影响」** 对安全研究员和固件开发者而言，该 PoC 提供了在 SMM 这一最高特权模式中制造状态不一致的具体范例，也提醒平台厂商重新审计 SMI 超时值的选择；对普通用户影响有限，因为利用需要 root 权限和本地硬件访问。
+**「影响」** 对于希望本地运行强大模型并参与智能体工作流的开发者，Muse Glimmer 提供了一个许可宽松、可在 32 GB 内存机器上运行的选择，且保留视觉能力。
 
-**「社区讨论」** 评论者普遍认可 PoC 的技术趣味性，但对定性存在分歧：有人认为需要 root 且 SMM 不可控，这更像“回收硬件控制权”而非漏洞；也有人指出固件规范早已预料到超时问题，只是把超时值的选择推给了平台厂商。另有评论围绕超长指令如何与 SMM 操作交互展开讨论。
-
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://github.com/xoreaxeaxeax/smiiiiiiiiiiiiiiii?ref=upstract.com">GitHub - xoreaxeaxeax / smiiiiiiiiiiiiiiii at upstract.com · GitHub</a></li>
-<li><a href="https://upstract.com/x/8f17aec87a9747c0">Exploiting System Management Mode with a very long interrupt</a></li>
-
-</ul>
-</details>
-
-**标签**: `#system management mode`, `#security`, `#exploit`, `#hardware`, `#privileged mode`
+**标签**: `#open weights`, `#Meta`, `#AI`, `#machine learning`, `#agentic`
 
 ---
 
 <a id="item-tech-news-6"></a>
-### [英伟达联合华尔街筹资 5000 亿美元建设 AI 基础设施](https://www.bbc.co.uk/news/articles/c78gr0jv0mdo?at_medium=RSS&amp;at_campaign=rss) ⭐️ 8.0/10
+### [AMD 发布机器人 SoC，挑战 Nvidia 的 GPU 中心架构](https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/) ⭐️ 8.0/10
 
-英伟达与阿波罗、贝莱德、黑石、布鲁克菲尔德、高盛和 KKR 六家华尔街机构达成合作，筹集超过 5000 亿美元用于 AI 基础设施，包括数据中心和 AI 芯片工厂。英伟达称，这标志着长期资本首次把 AI 算力视为独立资产类别，并强调“算力即收入”；公司可选择对潜在交易提供至多 1250 亿美元（25%）的兜底支持。过去三年，谷歌、Meta、亚马逊、微软、OpenAI、Anthropic 等公司已在 AI 项目上合计支出逾 1 万亿美元，对英伟达 GPU 的需求使其市值三年增长约五倍。此次融资将投入英伟达自有项目及其合作伙伴项目，主要用于建设容纳、运营和冷却大量芯片的数据中心，以及提高 AI 芯片产能的新工厂。
+AMD 宣布推出一款面向机器人的新型 SoC，将 CPU、GPU 和 NPU 集成在单颗芯片上，并采用统一内存架构。这一设计直接挑战了 Nvidia 在机器人领域以 GPU 为中心的方案。该消息由 EE Times 报道，作者 Sally Ward-Foxton，但目前尚未披露具体产品型号、性能数据或上市时间。AMD 希望通过这种异构集成设计，在快速发展的机器人市场中与 Nvidia 展开竞争。
 
-rss · BBC World · 8月10日 22:31
+rss · EE Times · 8月11日 14:09
 
-**「背景」** 英伟达的 GPU 是当前绝大多数 AI 服务和聊天机器人训练与运行的核心算力，几乎所有大型科技和 AI 公司都依赖其芯片。此前 AI 基础设施多由科技公司自行投入，而此次安排让阿波罗、KKR 等长期资本机构以类似基础设施投资的方式独立承销 AI 项目，使“算力”从企业成本转变为可投资、可产生收入的资产类别。
+**「背景」** AMD 在机器人计算领域长期以 CPU 能力见长，但此次推出的新 SoC 是其在“物理 AI”方向上的重要布局。该芯片将 CPU、GPU 和 NPU 集成于单一嵌入式 SoC，例如 Ryzen AI Embedded X100 系列采用最多 16 个“Zen 5”核心、最多 40 个 RDNA 3.5 计算单元的集成 GPU，以及 XDNA 2 NPU，并通过统一内存架构实现低延迟、确定性操作，用于机器人和工业自动化。
 
-**「影响」** 这笔资金将直接推动英伟达及其合作伙伴的数据中心和芯片工厂建设，有望加快算力供给、缓解 AI 服务扩展时面临的芯片与数据中心瓶颈。同时，贝莱德已单独参与 Meta 的数据中心融资，Anthropic 也与麦格理和 GIC 达成类似安排，未来 AI 项目融资可能更多依托长期机构资本而非科技公司自有资金。
+**「影响」** 对机器人开发者和行业而言，AMD 的 CPU+GPU+NPU 统一内存 SoC 为当前由 Nvidia 主导的机器人芯片市场提供了新的替代选择。不过，由于具体参数和供货信息尚未公布，其实际竞争力仍需观察。
 
-**标签**: `#Nvidia`, `#AI infrastructure`, `#data centers`, `#finance`, `#hardware`
+<details><summary>参考链接</summary>
+<ul>
+<li><a href="https://www.amd.com/en/products/system-on-modules/kria/ai.html">AMD Kria AI Solutions</a></li>
+<li><a href="https://newsroom.amd.com/news/aai-2026-ryzen-ai-embedded-x100/">AAI 2026: AMD Delivers Leadership Heterogeneous Compute for Physical AI</a></li>
+<li><a href="https://www.techpowerup.com/351008/amd-advancing-ai-2026-ryzen-ai-embedded-x100-kria-ai-robotics-platform-and-robotics-partner-network">AMD Advancing AI 2026: Ryzen AI Embedded X100, Kria AI Robotics ...</a></li>
+
+</ul>
+</details>
+
+**标签**: `#AMD`, `#robotics`, `#SoC`, `#NPU`, `#unified memory`
 
 ---
 
 <a id="item-tech-news-7"></a>
-### [手动设置权重让 Transformer 以 100% 精度做乘法，无需训练](https://www.reddit.com/r/MachineLearning/comments/1vkrnb5/transformers_are_famously_bad_at_arithmetic_so_i/) ⭐️ 8.0/10
+### [压缩即预测：理解智能的一种视角](https://ngrok.com/blog/compression-is-prediction) ⭐️ 7.0/10
 
-一位开发者通过自研的 Torchwright 编译器，把小学乘法算法编译成普通 Phi-3 Hugging Face 检查点的权重，完全不需要训练，就实现了精确乘法。该三乘三计算器在全部 300 万个受支持表达式上达到 100% 准确率，并已发布支持最多 12 位乘 12 位的检查点。作为对比，禁用推理后测试的六个前沿模型在数字变长时准确率急剧下降，七位数时其中五个模型在 500 个题目中得到 0 分。作者还构建了四种版本（小学算法、硬件风格、草稿纸、暴力记忆），它们计算同一函数，但在层数、宽度、生成 token 数和参数量上开销差异很大。该工作表明，直接把算法编译进标准 Transformer 的权重可以做到精确算术，为可解释性和算法推理提供了具体工具与基准。
+这篇文章主张“压缩即预测”，认为信息论与机器学习本质上是同一枚硬币的两面，并由此把生成式模型视为对数据的一种高效压缩。社区讨论补充了关键限定：该等价关系只有在训练数据分布能精确代表所有未来问题时才成立；当目标是泛化时，测试分布可能与训练分布不同，甚至有损压缩可能丢弃训练数据中罕见但重要的边界情况。讨论还把它与 MacKay 的《Information Theory, Inference, and Learning Algorithms》、Grant Sanderson 的“Compression is Intelligence”视频以及 Ted Chiang 的“ChatGPT is a blurry JPEG of the web”联系起来。整体而言，这是一篇概念性文章，为 AI/ML 读者提供了理解智能与压缩关系的新视角，但并未提供新的实验证据。
 
-reddit · r/MachineLearning · /u/notforrob · 8月10日 17:37
+hackernews · nikolay · 8月11日 19:49 · [社区讨论](https://news.ycombinator.com/item?id=49263497)
 
-**「背景」** Transformer 本质上是根据上下文预测下一个 token 的序列模型，并非为精确符号算术设计；在长数乘法中需要逐位进位，因此现有模型常出错。通常要让模型学会运算需训练或微调大量数据。Torchwright 这类编译器则跳过训练，通过把算法写成计算图后直接生成权重，再加载到 Phi-3 等标准 Transformer 检查点中运行。
+**「背景」** ngrok 的博客文章《Compression is prediction》认为，数据压缩和大型语言模型（LLM）本质上在解决同一个问题：预测序列中下一个出现的内容；预测越准确，压缩率就越高。这一观点并非全新：David J.C. MacKay 在剑桥大学开设的《信息论、推断与学习算法》课程及相关著作，很早就把信息论与机器学习视为“同一枚硬币的两面”，并指出 1960 年代的控制论领域就曾让信息理论家、计算机科学家和神经科学家共同研究这些基础问题。
 
-**「影响」** 可解释性和机器学习研究者可以直接使用作者发布的 Torchwright 编译器与 Hugging Face 检查点，在标准 Phi-3 模型上验证“权重编译”方法并复现精确乘法。不过该能力仅限于固定位数的乘法，并不会改善通用语言模型在未受支持任务上的算术表现。
+**「社区讨论」** 评论普遍认同“压缩即预测”这一思路，并引述 MacKay 的教材和 Grant Sanderson 的视频作为支持。主要的反对意见来自 ssivark：一旦考虑泛化，测试分布可能和训练分布很不一样，有损压缩可能会忽略训练数据中罕见但重要的边界情况，因此压缩与预测并不总等价；也有人以 Ted Chiang 的“模糊 JPEG”类比来延展这一讨论。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://data-today.net/transformer-compiler-no-training/">A compiler that skips training and writes transformer weights</a></li>
+<li><a href="https://ngrok.com/blog/compression-is-prediction">Compression is prediction | ngrok blog</a></li>
+<li><a href="https://news.linxi.com.au/news/ngrok-argues-data-compression-and-llms-share-fundamental-prediction-mechanics">ngrok blog: Compression is prediction and the link to LLMs | Linxi News</a></li>
+<li><a href="https://assets.cambridge.org/97805216/42989/frontmatter/9780521642989_frontmatter.pdf">Information Theory, Inference, and Learning Algorithms David J.C. MacKay</a></li>
+<li><a href="https://www.cambridge.org/gb/universitypress/subjects/computer-science/pattern-recognition-and-machine-learning/information-theory-inference-and-learning-algorithms">Information Theory, Inference and Learning Algorithms | Cambridge University Press &amp; Assessment</a></li>
 
 </ul>
 </details>
 
-**标签**: `#transformers`, `#interpretability`, `#arithmetic`, `#weight compilation`, `#machine learning`
+**标签**: `#compression`, `#prediction`, `#machine learning`, `#information theory`, `#AI`
 
 ---
 
 <a id="item-tech-news-8"></a>
-### [AI 侵蚀网络，互联网的集体记忆正在消失](https://thewalrus.ca/google-search-is-dying/) ⭐️ 7.0/10
+### [Mojo 1.0 发布：面向 AI 的 Python 超集语言](https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here) ⭐️ 7.0/10
 
-《The Walrus》刊文探讨 AI 生成内容与搜索引擎质量下滑如何侵蚀互联网的集体记忆。文章认为，网络始终由各类中介组织塑造，决定哪些内容能留存、被谁看到，因此需要讨论如何改进、资助和保护这些中间层。随着搜索质量下降和 AI 内容泛滥，近期历史变得难以查找，数字保存面临新挑战。这一报道在技术行业引发了关于中介角色、记忆保存和网络档案馆价值的辩论。
+Modular 宣布 Mojo 1.0 正式发布。Mojo 是一种旨在结合 Python 易用性与 C 级性能的 Python 超集语言，主要面向高性能 AI 开发。不过官方路线图第三阶段表示，Mojo 可能不会演变为完整的 Python 超集。针对社区对闭源编译器的质疑，Modular 重申将在 2026 年开源 Mojo 编译器和工具链，同时继续逐步开源更多 Mojo 及 MAX 组件。此次发布被看作 AI 工具链的重要里程碑，但语言定位和开源时间线仍存在争议。
 
-hackernews · awnird · 8月10日 22:36 · [社区讨论](https://news.ycombinator.com/item?id=49250836)
+hackernews · dayanruben · 8月11日 16:56 · [社区讨论](https://news.ycombinator.com/item?id=49261128)
 
-**「背景」** 这篇文章题为《谷歌搜索正在消亡。接下来发生的事更糟》，由 Vass Bednar 发表于加拿大杂志《The Walrus》，讨论了人工智能生成内容大量涌入以及搜索质量下降如何侵蚀互联网的集体记忆。文章指出，网络一直由各种中介机构组织，这些机构决定了哪些内容能幸存、谁能看到它们；而随着 AI 技术的介入，这种中介角色和数字保存机制正面临新的挑战。此外，文章中提到了互联网档案馆（Internet Archive）因数字借阅计划被出版商起诉的案例，作为网络记忆保存受到限制的例证。
+**「背景」** Mojo 是由 Modular 公司开发的编程语言，旨在结合 Python 的易用性与 C 级别性能，最初定位为 Python 的超集，用于高性能 AI 开发。该语言于 2023 年首次发布，标准库在 2024 年开源，截至 2026 年已有近 200 名贡献者参与。Modular 原计划让 Mojo 成为 Python 的完全超集，但该目标已被放弃或无限期推迟；同时，Mojo 编译器与工具链计划于 2026 年秋季开源。
 
-**「影响」** 依赖网页搜索和数字档案的用户、开发者和内容创作者正更直接地感受到搜索结果覆盖不全、近期内容难以回溯，以及 AI 摘要逐渐替代原始链接的体验变化；这种集体记忆的流失可能随 AI 生成内容增多而加速。
+**「影响」** 对 AI 开发者而言，Mojo 1.0 的发布意味着一个由 LLVM/Swift 原作者主导、宣称可大幅加速 Python 工作负载的新选项已进入稳定阶段，但关于其未来是否保持 Python 超集地位的不确定性仍会影响团队的采用决策。
 
-**「社区讨论」** 社区评论中，有用户抱怨 Google 搜索“像失忆一样”，近期历史尤其非美国站点难以检索；也有用户称赞 Gemini 能聚合多份文档、省去反复搜索。另有评论批评文章未深入讨论中介组织是否必然存在，以及互联网档案馆诉讼中的具体法律定性。
+**「社区讨论」** HN 评论中，swiftcoder 反映官方站点缺少一页纸概述，难以快速理解语言定位；redlewel 质疑闭源编译器价值，认为 Python 已有 Pydantic 等通过 Rust 提升性能的方案；derbOac 注意到路线图已弱化 Python 超集承诺；minraws 则追问为何开源要等到 2026 年而不是现在。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://thewalrus.ca/google-search-is-dying/">Google Search Is Dying. What Comes Next Is Worse | The Walrus</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mojo_%28programming_language%29">Mojo (programming language) - Wikipedia</a></li>
+<li><a href="https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here">Modular: Modular 26.5: Mojo 1.0 is here!</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Mojo_%28programming_language%29">Mojo (programming language) - Wikipedia</a></li>
+<li><a href="https://forum.modular.com/t/mojo-as-a-python-superset/2490">Mojo as a Python superset - Mojo - Modular</a></li>
 
 </ul>
 </details>
 
-**标签**: `#ai`, `#web-search`, `#internet-history`, `#google`, `#digital-preservation`
+**标签**: `#Mojo`, `#programming-language`, `#AI`, `#Python`, `#Modular`
 
 ---
 
 <a id="item-tech-news-9"></a>
-### [英国对匿名的战争已蔓延至美国](https://www.effort.news/uk-lobby) ⭐️ 7.0/10
+### [英伟达的冒险赌注：增长预期与软件护城河](https://stratechery.com/2026/nvidias-risky-business/) ⭐️ 7.0/10
 
-英国推动数字身份与年龄验证的做法正扩展至美国立法议程，以保护儿童安全为名，可能限制成人在互联网上匿名使用。相关倡导团体通过强调社交媒体与色情内容风险，主张引入类似英国《适龄设计规范》的强制验证机制。若此类法案通过，开源软件维护者和普通用户都可能受连带影响，因为年龄验证要求往往难以在不收集身份信息的前提下实现。这项政策动向对科技社区的隐私、匿名性和自治构成关键挑战。
+Stratechery 发文分析英伟达的业务风险，考察其 AI 驱动增长能否持续。文章指出，真正的问题不是眼下对算力、芯片和数据中心的需求，而是市场对需求增速的预期可能过高。英伟达最重要的护城河不仅是硬件性能，还包括深度嵌入机器学习研究的软件生态，尽管有开发者认为 CUDA C/C++ 的开发体验并不理想。讨论还提到英伟达正布局机器人领域，且仍是西方市场的主要玩家，但中国的情况有所不同。
 
-hackernews · slowin · 8月10日 23:45 · [社区讨论](https://news.ycombinator.com/item?id=49251411)
+hackernews · jonbaer · 8月11日 10:02 · [社区讨论](https://news.ycombinator.com/item?id=49255710)
 
-**「背景」** 英国《适龄设计规范》（AADC）是全球较早以儿童安全为核心的互联网隐私准则，要求平台针对未成年用户进行年龄风险评估并设置默认保护。加州议员巴菲·威克斯等人曾明确表示以英国 AADC 为模板推出《加州适龄设计规范法》（AB 2273），并进一步联合提出《数字年龄保证法》（Digital Age Assurance Act），主张通过数字身份和年龄验证手段保护儿童上网安全，从而将英国式监管引入美国。
+**「背景」** 英伟达因人工智能算力需求激增而快速成长，但为维持其增长势头，正协助客户为采购 GPU 基础设施融资。据报道，英伟达与 Apollo、BlackRock、Blackstone、Brookfield、Goldman Sachs 和 KKR 等金融机构合作，目标是解锁超过 5000 亿美元的第三方资本，将 GPU 重新定义为可产生收益的基础设施资产。这一策略显著扩大了 AI 建设热潮中的金融风险。
 
-**「影响」** 加利福尼亚州《数字年龄保证法案》（AB 1043）及后续 AB 1856 已要求操作系统在设备账户设置时收集年龄信息并向应用开发者传送年龄段信号，扩大年龄门禁并豁免开源项目；这一以儿童安全为名的制度给匿名访问合法在线言论制造了障碍，并迫使在线服务收集更多个人数据，使加州用户、开源开发者和在线服务面临直接的合规压力与言论自由挑战，相关立法还可能外溢到其他州。
+**「影响」** 对关注英伟达投资逻辑的人而言，这项分析提示风险更多来自需求增速假设和软件生态的长期壁垒，而非当前的硬件需求；具体影响仍需结合原文数据和后续市场验证。
 
-**「社区讨论」** 评论区观点分歧明显：有人怀疑这类儿童安全立法背后有隐秘政治议程，并用自建工具绘制人物与资金关系网；另一些人则主张保护儿童应落在家长与监护人层面，而非强制数字身份。针对加州 AB 2273 等法案，有评论批评起草者“天真”，并担忧法案可能无意中把开源软件开发者定为犯罪。整体上，评论区普遍对以“保护儿童”为名的匿名限制持怀疑态度，也指出技术公司污染公共空间后公众愤怒的复杂背景。
+**「社区讨论」** 评论普遍认同英伟达的软件生态是重要优势，但对其开发体验评价不一；有观点认为需求增长预期可能被夸大，也有评论指出机器人领域和西方市场地位提供了额外支撑。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.etcentric.org/tag/buffy-wicks/">Buffy Wicks Archives - ETCentric</a></li>
-<li><a href="https://twitter.com/BuffyWicks/status/1494162229012287491">&quot;The California Age Appropriate Design Code that we introduced...&quot;</a></li>
-<li><a href="https://wicks.asmdc.org/press-releases/20250325-assemblymember-buffy-wicks-and-senator-tom-umberg-join-forces-digital-age">Assemblymember Buffy Wicks and Senator Tom Umberg Join Forces...</a></li>
-<li><a href="https://en.wikipedia.org/wiki/California_Digital_Age_Assurance_Act">California Digital Age Assurance Act - Wikipedia</a></li>
-<li><a href="https://www.eff.org/deeplinks/2026/05/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-expands-age-gating">One Step Forward, Two Steps Back: CA&#x27;s AB 1856 Exempts Open Source But Expands Age-Gating | Electronic Frontier Foundation</a></li>
-<li><a href="https://www.techdirt.com/2026/06/02/one-step-forward-two-steps-back-cas-ab-1856-exempts-open-source-but-expands-age-gating/">One Step Forward, Two Steps Back: CA’s AB 1856 Exempts Open Source But Expands Age-Gating | Techdirt</a></li>
+<li><a href="https://stratechery.com/2026/nvidias-risky-business/">Nvidia’s Risky Business</a></li>
+<li><a href="https://www.teahose.com/newsletter/Stratechery/Nvidia%E2%80%99s+Risky+Business+%28Stratechery+Article+8-11-2026%29">Nvidia&#x27;s Risky Business (Stratechery Article 8-11-2026)</a></li>
 
 </ul>
 </details>
 
-**标签**: `#privacy`, `#anonymity`, `#digital-id`, `#child-safety`, `#legislation`
+**标签**: `#Nvidia`, `#AI hardware`, `#business strategy`, `#GPU`, `#semiconductor industry`
 
 ---
 
 <a id="item-tech-news-10"></a>
-### [Rust SIMD 应用于 GPU 引发可移植性讨论](https://www.vectorware.com/blog/simd-on-gpu/) ⭐️ 7.0/10
+### [解耦下降：借助 AMP Onsager 校正实现训练—测试误差的精确跟踪](https://www.reddit.com/r/MachineLearning/comments/1vlu1se/decoupled_descent_enforcing_exact_traintest_error/) ⭐️ 7.0/10
 
-一篇博文提出将 Rust 的可移植 SIMD 抽象应用于 GPU 编程，引发社区围绕可移植性和工具链的讨论。评论指出 Rust 官方的 portable SIMD 库目前仅支持 nightly，有项目为了在 stable 上使用而改用 fearless\_simd；同时有开发者质疑固定 SIMD 宽度的示例并不真正可移植，并希望出现与 Google Highway 同等成熟的 Rust 开源 SIMD 库。该话题涉及系统编程与 GPU 计算，核心瓶颈仍是 Rust SIMD 工具链的稳定性和成熟度。
+该论文提出“解耦下降”（Decoupled Descent, DD），一种在全批量梯度下降中引入近似消息传递（AMP）Onsager 校正的训练方法，用于在风格化高斯混合模型上精确跟踪训练误差与测试误差。作者认为训练误差降到零而测试误差不改善甚至上升的现象源于数据复用偏差，并可通过高维统计工具加以隔离。方法可在每个参数迭代上生成保证：训练误差渐近等于测试误差；但这是理论论文，尚未在实用大规模模型上验证。作者计划未来发布兼容 PyTorch 的包，并考虑扩展至 SGD 或更一般模型。
 
-hackernews · sagacity · 8月10日 18:12 · [社区讨论](https://news.ycombinator.com/item?id=49247477)
+reddit · r/MachineLearning · /u/mlovik1 · 8月11日 21:06
 
-**「背景」** Rust 的便携式 SIMD（core::simd）允许开发者编写一次向量代码，编译器再根据目标硬件将其低层次化为对应的 CPU 指令。过去这种抽象仅面向 CPU，而 VectorWare 现在将其扩展到了 GPU：同样的函数可以不经过修改就编译为 GPU 的线程束（warp）指令，例如 32 个 i16 元素可填满整个线程束。这项进展把 GPU 视为又一类向量硬件，使得 Rust 的高层并行抽象能够直接用于图形处理器编程。
+**「背景」** 梯度下降训练神经网络时，训练误差可能降到零而测试误差却不下降甚至上升，这一泛化差距源于数据重用（在参数量或迭代中重复使用同一批数据）带来的系统性偏差。近似消息传递（AMP）理论通过 Onsager 校正项在迭代过程中修正这类偏差，使算法能在高维统计模型下精确刻画训练集与总体（测试）分布上的误差动态。Decoupled Descent（DD）正是利用这一理论，在训练集和总体分布上维护两条并行轨迹，并迭代抵消数据重用偏差，从而在论文所研究的风格化高斯混合模型与两层网络设置中给出训练误差渐近等于测试误差的保证。
 
-**「影响」** 对希望在稳定版 Rust 中为 GPU 场景使用可移植 SIMD 的开发者，当前需要依赖第三方 crate（如 fearless\_simd），且性能可移植性仍存疑。
-
-**「社区讨论」** 评论者指出 Rust 官方 portable SIMD 仅在 nightly 可用，有 FFT 项目因此从 std::simd 切换到 fearless\_simd；还有人认为固定 SIMD 宽度的示例并不真正可移植，并期待出现像 Google Highway 那样成熟的 Rust 开源 SIMD 库。
+**「影响」** 对研究过拟合、早停和超参数调优的理论与算法研究者而言，该方法提供了一种可验证的训练—测试误差一致性的新途径；但目前仅对风格化高斯混合模型与全批量梯度下降有理论保证，尚未在实用深度学习模型上验证。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="https://www.vectorware.com/blog/simd-on-gpu/">Rust SIMD on the GPU - VectorWare</a></li>
-<li><a href="https://elsolitario.org/en/2026/08/10/vectorware-portable-simd-gpu-rust/">SIMD on GPU : Rust &#x27;s core:: simd Runs on Warps Unchanged</a></li>
+<li><a href="https://arxiv.org/abs/2604.27883v1">[2604.27883v1] Decoupled Descent: Exact Test Error Tracking ...</a></li>
+<li><a href="https://arxiv.org/pdf/2604.27883">Decoupled Descent: Exact Test Error Tracking Via Approximate ...</a></li>
+<li><a href="https://engineersofai.com/docs/research/paper-breakdowns/2026-04-30-decoupled-descent-exact-test-error-tracking-via-approximate-message-passing">Decoupled Descent: Exact Test Error Tracking Via Approximate ...</a></li>
 
 </ul>
 </details>
 
-**标签**: `#Rust`, `#SIMD`, `#GPU`, `#parallel computing`, `#programming languages`
+**标签**: `#machine learning`, `#approximate message passing`, `#generalization`, `#optimization`, `#theory`
 
 ---
 
 <a id="item-tech-news-11"></a>
-### [编程语言的 token 效率：编码代理该选哪种？](http://danluu.com/pl-tokens/) ⭐️ 7.0/10
+### [HyperSAE：将双曲几何用于稀疏自编码器，降低 MSE 和死隐单元](https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/) ⭐️ 7.0/10
 
-Dan Luu 在 danluu.com/pl-tokens/ 发布分析，比较 LLM 编码代理在不同编程语言中完成任务所需的 token 数量，指出 token 效率会显著影响 AI 辅助开发的成本和上下文窗口使用。文中以平均 70 tokens 与 Clojure 的 109 tokens 对比，但读者指出“几乎只有一半”的表述并不准确（实际约为 64%）。讨论帖在 Hacker News 上引发 91 条评论，涉及 Go 这类风格一致的语言是否更受 LLM 欢迎，以及评估方法是否应允许代理联网搜索。
+HyperSAE 是一个将庞加莱双曲几何应用于稀疏自编码器（SAE）的 PyTorch 库，旨在缓解大规模字典下特征碰撞、死隐单元和重构退化。其前向传播保持欧几里得式，训练时仅将字典权重投影到庞加莱球，并使用蕴涵锥损失组织父/子概念，因此推理零开销、因果干预仍是单一向量加法。在 Gemma-2-2B 第 13 层、FineWeb-Edu 2000 万 token、NVIDIA L4 上，它为 FlatSAE 带来重构 MSE 从 4.5724 降至 4.1232（-9.8%），CE 损失恢复率从 75.5%升至 78.9%（+3.4pp），死隐单元从 3.8%降至 0.2%，MMLU-Pro 提升 0.15pp，GPQA Diamond 保持 100%。代码、论文和 pip install hypersae 均已提供；结果来自预印本，需独立验证。
 
-hackernews · chaychoong · 8月10日 16:28 · [社区讨论](https://news.ycombinator.com/item?id=49245936)
+reddit · r/MachineLearning · /u/visha1v · 8月11日 18:37 · [社区讨论](https://www.reddit.com/r/MachineLearning/comments/1vlpyh2/hypersae_decoupled_poincar%C3%A9_geometry_for_sparse/)
 
-**「背景」** 大型语言模型（LLM）驱动的编程代理按 token 消耗计费，因此哪种编程语言在代码生成中使用更少 token，成为 AI 辅助开发中的一个实际关注点。Dan Luu 分析了这项问题，指出动态类型语言通常比静态类型语言更节省 token，因为省略显式类型声明使代码更紧凑，大概能节省 1/2 到 1/3 的成本；但他也提醒，这类结论可能源于使用非常琐碎的小任务进行评估，并不一定适用于真实项目。
+**「背景」** 稀疏自编码器（SAE）是一种用于机制可解释性的工具，它通过将模型的内部表示分解为稀疏的、可解释的特征来工作。传统 SAE 在欧几里得空间中嵌入词典原子，但欧几里得空间体积随维度呈多项式增长，而概念层级结构可能呈指数增长，导致大字典下出现特征碰撞和死潜变量。HyperSAE 尝试利用庞加莱双曲几何来更好地匹配这种层级结构，在训练时将字典权重投影到庞加莱球中，并引入蕴含锥损失来组织概念。
 
-**「影响」** 对正在为 AI 辅助编码选择技术栈的团队而言，该分析提供了一个具体指标：不同语言在编码代理场景下的 token 消耗有明显差异，可能影响成本与上下文窗口。不过评论指出，若代理可以联网搜索或调用工具，结论可能不适用于真实工作流。
-
-**「社区讨论」** 评论者 michaelteter 质疑“近一半”的数据表述，但仍认为 Go 因“做事方式单一”且训练数据一致而尤其适合 LLM；MichaelNolan 则称 LLM 在没有足够训练数据的情况下也能写好 Gleam/Lustre，推断对人类友好的语言可能对 LLM 也友好。eterm 认为让代理联网搜索更接近真实编码，gr\_norm 则质疑用复现知名软件来评估的做法，因为 LLM 可能直接从训练语料中检索并迁移风格。
+**「影响」** 对从事机制可解释性的研究者而言，HyperSAE 表明解耦双曲几何可以同时降低 SAE 重构误差和死隐单元比例，且不增加推理开销；但作为预印本/自发布结果，实际收益仍需在更多模型和基准上复现。
 
 <details><summary>参考链接</summary>
 <ul>
-<li><a href="http://danluu.com/pl-tokens/">What&#x27;s the best programming language for coding agents?</a></li>
-<li><a href="https://danluu.spicytakes.org/">Dan Luu - Performance, systems, and industry myths</a></li>
+<li><a href="https://github.com/vishal-dehurdle/hypersae">vishal-dehurdle/ hypersae : High-Performance Hyperbolic Sparse ...</a></li>
+<li><a href="https://adamkarvonen.github.io/machine_learning/2024/06/11/sae-intuitions.html">An Intuitive Explanation of Sparse Autoencoders for... | Adam Karvonen</a></li>
 
 </ul>
 </details>
 
-**标签**: `#LLM`, `#coding agents`, `#token efficiency`, `#programming languages`, `#AI-assisted development`
+**标签**: `#sparse autoencoders`, `#mechanistic interpretability`, `#hyperbolic geometry`, `#PyTorch`, `#LLM interpretability`
 
 ---
 
-<a id="item-tech-news-12"></a>
-### [桑德斯呼吁科技巨头暂停 AI 开发](https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter) ⭐️ 7.0/10
+## 科技博客
 
-美国参议员伯尼·桑德斯致信 Meta、OpenAI 和 Anthropic 的首席执行官，呼吁他们暂停人工智能开发，并表示如果这些公司继续以当前速度部署 AI，美国参议院将出台监管措施。桑德斯在信中称，这些 AI 模型的能力已达到“关键风险阈值”，企业正在失去对技术的控制。这封公开信由《卫报》于 2026 年 8 月 10 日报道，代表美国政界对领先 AI 实验室施压的最新迹象。
+<a id="item-tech-blog-1"></a>
+### [世嘉在华三十年：七家公司与一次新的归来](https://www.yystv.cn/p/14276) ⭐️ 8.0/10
 
-rss · The Guardian International · 8月10日 17:44
+rss · 游研社 · 8月11日 16:00
 
-**「背景」** 近年来，Meta、OpenAI 和 Anthropic 等领先 AI 实验室持续快速迭代大模型，并多次公开承诺负责任地开发 AI。日前，参议员伯尼·桑德斯致信这三家公司的 CEO，认为 AI 能力已达到关键风险阈值，要求他们以人类利益为重暂停 AI 开发，并警告如果企业继续以当前速度部署 AI，美国参议院将实施监管。这一事件反映了美国政界对 AI 失控风险日益增长的担忧。
+**「背景」** 1994 年世嘉首次以合资方式进入中国街机市场时，面对的是盗版横行、渠道混乱、消费力有限的市场。作者回顾后发现，此后三十年里世嘉先后在上海、北京设立七家法人，几乎试遍了所有入华路径。
 
-**「影响」** 这封信增加了 Meta、OpenAI 和 Anthropic 面临的政治压力，并明确提示若 AI 部署速度不放缓，参议院可能启动立法监管，从而影响这些公司的技术发布计划。
+**「方案」** 它先在北京、上海直营标准化的街机店，却因客单价低、成本高而在 2000 年禁令后退场；随后借四通代理土星行货，用服务对抗水货，仍败给价格与渠道。授权新天利把 MD 装进 VCD、以家电外壳卖游戏，一度打开市场，却被仿冒和盗版冲淡。2001 年天人互动代理 PC 中文版《樱花大战》定价 50 元，两个月售出接近 10 万套，证明品牌认知能转化为正版销量，但之后因《梦幻之星 Online》存档方案分歧等原因合作破裂。2004 年世嘉高调押注网游与研发基地，三款网游均未站稳，2007 年网络公司解散；街机亦几经进退。真正存续最久的是 2002 年设立的上海软件公司，从 PS2《兽王记》到《索尼克 未知边境》参与大量主机开发，22 年后才注销。2025 年起世嘉在上海、北京开设官方周边店，2026 年又以同名法人回归，但新公司业务已转为 IP 与内容推广营销。
 
-<details><summary>参考链接</summary>
-<ul>
-<li><a href="https://www.theguardian.com/technology/2026/aug/10/bernie-sanders-ai-development-pause-letter">Bernie Sanders calls on Silicon Valley to ‘ pause AI ... | The Guardian</a></li>
-<li><a href="https://wchstv.com/news/nation-world/senator-bernie-sanders-demands-ai-developers-meta-openai-anthropic-pause-work-on-models-stand-by-your-words">Bernie Sanders demands AI developers pause work on models...</a></li>
-<li><a href="https://www.newsmax.com/newsfront/bernie-sanders-ai-development/2026/08/10/id/1265586/">Bernie Sanders Warns AI CEOs to Halt Development | Newsmax.com</a></li>
+**「启示」** 作者认为，这一次世嘉需要回答的不再是“如何进入中国”；三十年的尝试最终说明，真正能建立持久联结的是长期研发积淀与成熟 IP 消费市场，而非某一条短期渠道。世嘉如今第一次拥有了长久、稳定与中国市场联结的条件。
 
-</ul>
-</details>
-
-**标签**: `#AI regulation`, `#artificial intelligence`, `#policy`, `#technology industry`, `#OpenAI`
+**标签**: `#Sega`, `#China gaming market`, `#game industry history`, `#market entry strategy`, `#IP localization`
 
 ---
 
-<a id="item-tech-news-13"></a>
-### [Fru：基于 Rust 的高性能随机森林实现](https://www.reddit.com/r/MachineLearning/comments/1vkrvks/fru_fast_random_forest_implementation_p/) ⭐️ 7.0/10
+<a id="item-tech-blog-2"></a>
+### [AI 互动新作《BSide》上线 28 天停服](https://www.yystv.cn/p/14278) ⭐️ 4.0/10
 
-Fru 是一个基于 Rust 的随机森林实现，已发表在 Software X 期刊，并提供 Python 和 R 绑定。作者称它在 Python 上比 scikit-learn 快数倍，某些场景可达数百倍；在 R 中通常比 ranger 快几十个百分点，部分用例可达数倍。实现采用分层设计，并通过 Arrow PyCapsule 与 pandas、polars、pyarrow 等库无缝协作；还包含一种新颖的置换重要性实现，带来额外性能提升。该库旨在为常见的机器学习平台提供更具竞争力和可扩展性的随机森林方案。
+rss · 游研社 · 8月11日 16:00
 
-reddit · r/MachineLearning · /u/kpiwonski · 8月10日 17:45
+**「背景」** 米哈游 7 月 13 日在 Steam 免费抢先体验的 AI 互动桌面角色软件《BSide: Olivia Lin》，仅运行 28 天便宣布停服，且始终未对国区开放。尽管 Steam 页面已有超过 1500 篇评测、总体为“特别好评”，峰值在线约 7289 人，官方仍决定 8 月 27 日推出离线版、8 月 31 日从商店下架并关闭服务器。
 
-**「背景」** 随机森林是一种集成学习方法，通过构建多棵决策树并对结果进行聚合来提升预测精度和稳健性，但传统的 Python/R 实现（如 scikit-learn、ranger）在大数据和复杂场景下可能成为性能瓶颈。因此，用系统语言（如 Rust）重写并优化随机森林算法，同时保留主流语言绑定，成为提升可用性和计算效率的实际路径。
+**「方案」** 这款产品更像动态桌面壁纸：角色林离是上海学钢琴的虚拟人，玩家多数时间只能看，无法点击或拖动；核心功能是上传符合要求的单音轨钢琴 MIDI，让林离生成演奏视频，以及通过写信进行文字交互。相比 2020 年的《人工桌面》，本作在线服务比重增加，建模和动作也有进步，原计划抢先体验到 2026 年底。但作者指出，实际上线后的更新几乎只是改善稳定性；同时它缺少鼠标互动、番茄钟或待办等基础陪伴功能，MIDI 上传也有门槛，关闭服务器后写信与上传功能停用，可玩内容更加有限。作者认为它全程免费、没有商业化征兆，更像一款实验性质的作品，只是停服时刻出乎预料。
 
-**「影响」** 对于依赖 scikit-learn 或 ranger 的 Python/R 用户，Fru 提供了一条现成的更高性能迁移路径，可在多项任务中获得显著加速，尤其是在大数据集上；由于已发表并经基准测试支持，这些性能优势具备可验证性。
+**「启示」** 作者的核心结论是，《BSide》作为一款实验性质的 AI 互动产品，在技术打磨和基础功能完善前便以停服告终；其短暂生命周期说明，陪伴型桌面软件的竞争力不仅在于“AI”概念，更需要可用的日常互动和低门槛创作体验来支撑。
 
-**标签**: `#random forest`, `#rust`, `#machine learning`, `#performance`, `#open source`
+**标签**: `#miHoYo`, `#BSide Olivia Lin`, `#game shutdown`, `#AI virtual character`, `#Steam`
 
 ---
 
 ## 财经新闻
 
 <a id="item-finance-news-1"></a>
-### [英伟达拟融资 5000 亿美元，把 AI 芯片打造成可投资资产](https://www.cnbc.com/2026/08/10/nvidia-wall-street-asset-managers-500-billion-ai-push.html) ⭐️ 8.0/10
+### [英伟达 5000 亿美元 AI 融资计划面临中国芯片竞争风险](https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html) ⭐️ 8.0/10
 
-英伟达 8 月 10 日宣布与阿波罗、黑石、贝莱德、博枫、高盛和 KKR 签署谅解备忘录，目标是调动超过 5000 亿美元第三方资本，为超大规模云厂商、前沿 AI 实验室和企业建设数据中心、购买英伟达硬件提供融资。CEO 黄仁勋表示，芯片已成为“可投资资产类别”。
+英伟达本周宣布与贝莱德、黑石、阿波罗、KKR、布鲁克菲尔德和高盛等六家资产管理公司签署谅解备忘录，计划组建 5000 亿美元融资管道，为数据中心和 GPU 集群建设提供资金。分析师认为，该模式的关键风险是中国芯片竞争和 GPU 贬值可能侵蚀抵押品价值。
 
-rss · CNBC Finance · 8月10日 22:09
+rss · CNBC Finance · 8月11日 21:01
 
-**「背景」** 此前 7 月全球市场波动中，投资者开始质疑大型科技公司的 AI 投资回报；同时 GPU 历来被视为快速贬值的硬件，英伟达此次试图把 AI 算力变成像商业地产或收费公路一样可抵押融资的长期基础设施资产。
+**「背景」** 在资产支持融资中，贷款机构以设备作为抵押；英伟达认为其 GPU 是可产生收入、可长期使用的基础设施资产，并通过 CUDA 软件延长寿命，但芯片的折旧速度和二手市场尚未经过充分考验。
 
-**标签**: `#Nvidia`, `#AI infrastructure`, `#asset financing`, `#private capital`, `#data centers`
+**「影响」** 如果中国低价芯片引发价格战，抵押品价值可能比债务期限更快缩水，使持有这些贷款或证券化产品的投资者面临损失；借款方多为难以获得传统融资的 AI 初创企业和新型云服务商。
+
+**标签**: `#Nvidia`, `#AI infrastructure financing`, `#China risk`, `#data centers`, `#asset-backed finance`
 
 ---
 
 <a id="item-finance-news-2"></a>
-### [美股午盘异动：多起收购、英特尔增发与苹果遭降级](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-midday-ntap-intc-aapl-docs-vrsk.html) ⭐️ 7.0/10
+### [CME 拟推出首批 AI 算力期货，GPU 租赁价格将变成可交易资产](https://www.cnbc.com/2026/08/11/ai-computing-power-becomes-a-tradable-asset-class-as-cme-starts-futures.html) ⭐️ 8.0/10
 
-多只美股午盘大幅波动：MarineMax 与 Varex Imaging 分别被现金收购，股价大涨 46%和 48%；英特尔宣布 150 亿美元普通股增发，股价跌近 3%；苹果遭 Jefferies 下调评级，跌 2%。伯克希尔公布二季度经营利润增长 16%。
+CME 集团计划与 Silicon Data 合作，在 10 月 5 日推出首批 AI 算力期货合约（待监管批准），合约将参照英伟达 H100 和新款 Blackwell B200 GPU 的小时租赁价格指数，每份合约代表 H100 一个月的租金。
 
-rss · CNBC Finance · 8月10日 19:19
+rss · CNBC Finance · 8月11日 18:09
 
-**「背景」** MarineMax 收购方为黑石基础设施旗下 Safe Harbor Marinas，交易预计 2026 年底完成；Varex 收购方为 Teledyne，预计 2027 年初完成。英特尔称增发所得将用于一般公司用途，可能包括资本支出和营运资金；Jefferies 的供应链调查显示苹果未公开宣布的全玻璃 iPhone 似乎已被取消。
+**「背景」** 这相当于把 AI 算力价格变成像石油、电力一样可公开交易的大宗商品，为 AI 开发者和数据中心运营商提供对冲算力成本或收入的新工具。
 
-**「影响」** MarineMax 和 Varex 股东将分别获得每股 53 美元和 18.90 美元的现金；英特尔增发将稀释现有股东权益。苹果在面临内存成本上升的情况下，可能更难通过销售更昂贵设备来抵消成本压力。
+**「影响」** 投资者无需直接投资芯片或数据中心，即可通过合约获得 AI 算力价格的敞口；买卖双方也可借助公开基准减少同一 GPU 容量定价不透明的问题。
 
-**标签**: `#stock movers`, `#mergers and acquisitions`, `#analyst ratings`, `#earnings`, `#tech stocks`
+**标签**: `#AI compute`, `#futures contracts`, `#CME Group`, `#GPU pricing`, `#financial innovation`
 
 ---
 
 <a id="item-finance-news-3"></a>
-### [美股盘前：英特尔增发、Verisk 并购裁决等推动个股大幅波动](https://www.cnbc.com/2026/08/10/stocks-making-the-biggest-moves-premarket-aapl-hpe-rklb-and-more.html) ⭐️ 7.0/10
+### [超微电脑、CoreWeave、H&amp;R Block 等盘后因财报指引大涨](https://www.cnbc.com/2026/08/11/stocks-making-the-biggest-moves-after-hours-smci-crwv-hrb.html) ⭐️ 7.0/10
 
-盘前多只个股因企业行动和机构评级大幅波动：英特尔宣布发行 150 亿美元普通股，Verisk 被法院要求完成 23.5 亿美元收购 AccuLynx，伯克希尔二季度运营利润增长 16%，Archer Aviation 收购波音三家子公司。
+多家公司盘后公布财报或业绩指引，带动股价大涨。超微电脑预计新季度营收 145 亿至 155 亿美元，远高于市场预期的 116.8 亿美元，盘后上涨逾 8%；CoreWeave 和 H&amp;R Block 也分别因财报超预期和上调财年指引上涨 14%和 15%。
 
-rss · CNBC Finance · 8月10日 13:52
+rss · CNBC Finance · 8月11日 21:18
 
-**「背景」** 这些消息多属于公司层面的融资或并购动向；其中 Verisk 此前因 FTC 审查未完成而终止交易，法院此次裁定推翻其终止决定；GameStop 则正考虑放弃对 eBay 的 560 亿美元主动收购要约，该要约 5 月已被 eBay 拒绝。
+**「背景」** 超微电脑主营数据中心基础设施，CoreWeave 是 AI 云服务商，H&amp;R Block 是税务服务公司；财报季中盘后发布业绩和指引会直接影响次日股价预期。
 
-**「影响」** 英特尔增发可能稀释现有股东权益，Verisk 需准备 23.5 亿美元收购资金，相关公司投资者将直接面对股价波动与资金安排变化。
-
-**标签**: `#Intel`, `#Berkshire Hathaway`, `#Verisk Analytics`, `#GameStop`, `#Archer Aviation`
+**标签**: `#earnings`, `#guidance`, `#artificial intelligence`, `#cloud computing`, `#stock movers`
 
 ---
