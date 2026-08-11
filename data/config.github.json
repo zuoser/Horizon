@@ -235,11 +235,27 @@
       "ai-creator"
     ],
     "category_groups": {
-      "games": "游戏资讯",
-      "movies": "电影情报",
-      "zhejiang": "浙江/杭州",
-      "world": "时政国际",
-      "finance": "财经"
+      "games": {
+        "name": "游戏资讯",
+        "limit": 6,
+        "categories": [
+          "games"
+        ]
+      },
+      "movies": {
+        "name": "电影情报",
+        "limit": 6,
+        "categories": [
+          "movies"
+        ]
+      },
+      "zhejiang": {
+        "name": "浙江/杭州",
+        "limit": 6,
+        "categories": [
+          "zhejiang"
+        ]
+      }
     },
     "default_group": "其他",
     "default_group_limit": 8
